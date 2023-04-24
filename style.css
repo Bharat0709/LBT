@@ -1,0 +1,1942 @@
+/* GENERAL TAGS */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+a {
+  width: fit-content;
+  cursor: pointer;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+button {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+button:hover {
+  transform: translateY(-3px);
+}
+a:hover {
+  font-weight: bold;
+}
+
+.Reload {
+  text-align: center;
+  padding: 10px;
+  display: none;
+}
+
+.Reload {
+  text-align: center;
+  padding: 10px;
+  display: none;
+}
+
+/*  NAVIGATION BAR CSS  */
+
+.Navigation {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 20px 40px;
+}
+
+.Animated-logo {
+  height: 7vh;
+  /* animation-name: example; */
+  animation-duration: 5s;
+  margin-right: 180px;
+}
+
+.Nav-items {
+  font-size: 1.1rem;
+  display: flex;
+  gap: 30px;
+  /* animation-name: example2; */
+  animation-duration: 4s;
+  align-items: center;
+}
+
+#Contact-Us {
+  padding: 6px 12px 6px 12px;
+  border-radius: 6px;
+  background-color: #263238;
+  color: white;
+}
+
+.MagicSearch {
+  padding: 12px;
+  border: none;
+  background-color: #e5ff00;
+  border-radius: 6px;
+}
+.sidemenulinks {
+  animation-name: Down;
+  animation-duration: 1s;
+  flex-direction: column;
+  background-color: #263238;
+  color: white;
+  display: none;
+}
+
+.SideMenuItem {
+  color: white;
+  padding: 14px;
+  border-bottom: 1px solid white;
+  margin-left: 12px;
+}
+.arrowUP {
+  height: 30px;
+  position: absolute;
+  position: fixed;
+  top: 90vh;
+  left: 95vw;
+}
+.Team-link {
+  margin-top: 8px;
+}
+
+.arrowUPFloating {
+  animation-name: towardsup;
+  animation-duration: 5s;
+  animation: towardsup 5s infinite;
+  height: 30px;
+  position: absolute;
+  top: 90vh;
+  left: 95vw;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+label span {
+  background: rgb(0, 0, 0);
+  border-radius: 10px;
+  height: 3px;
+  margin: 2px 0;
+  transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+span:nth-of-type(1) {
+  width: 140%;
+}
+
+span:nth-of-type(2) {
+  width: 100%;
+}
+
+span:nth-of-type(3) {
+  width: 75%;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ span:nth-of-type(1) {
+  transform-origin: bottom;
+  transform: rotatez(45deg) translate(8px, 0px);
+  width: 50%;
+}
+
+input[type="checkbox"]:checked ~ span:nth-of-type(2) {
+  transform-origin: top;
+  transform: rotatez(-45deg);
+}
+
+input[type="checkbox"]:checked ~ span:nth-of-type(3) {
+  transform-origin: bottom;
+  width: 50%;
+  transform: translate(13px, -1px) rotatez(45deg);
+}
+
+.Searches {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  display: none;
+}
+.Member:nth-child(2n) {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 2px 18px 2px 12px;
+  background-color: #dbf1f9;
+  border-radius: 200px;
+  width: fit-content;
+}
+
+.Member:nth-child(odd) {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 2px 18px 2px 12px;
+  background-color: #dbf9e1;
+  border-radius: 200px;
+  width: fit-content;
+}
+
+.Member:hover {
+  border: 1px solid black;
+}
+/* HERO SECTION */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.CoursesHeading {
+  padding: 10px 0px 0px 0px;
+}
+.search-input,
+.image-input,
+.search-input2 {
+  padding: 6px;
+  width: auto;
+
+  border-radius: 6px;
+}
+
+.search-container,
+.search-container2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin: 30px 10px 0px 20px;
+}
+
+#search-again,
+#search-again2 {
+  display: none;
+  margin: 20px auto 0px auto;
+  padding: 12px;
+}
+.search,
+.search2 {
+  margin: 0px 0px 0px 4px;
+  border: none;
+  background-color: rgb(2, 2, 40);
+  color: white;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#str {
+  padding: 16px;
+  height: auto;
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+  margin: auto;
+}
+.caution-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.caution {
+  margin: 12px;
+}
+.answer {
+  padding: 10px;
+  margin: 20px;
+  background-color: #d8ebf9;
+  border-radius: 12px;
+  display: none;
+  text-align: center;
+}
+
+.numvisits {
+  text-align: center;
+}
+
+.Hero {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  justify-content: space-around;
+}
+
+.Tagline {
+  letter-spacing: 1px;
+  line-height: 55px;
+  font-size: 34px;
+}
+#event-contact-apply {
+  background-color: #ff0099;
+}
+
+#Ambassador-Image {
+  height: 120px;
+}
+
+.Ambassador-buttons,
+.Survey-links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Below_tagline {
+  font-size: 22px;
+}
+#Resources-section {
+  margin: 40px auto 20px 20px;
+}
+
+.Hero-Left-Section {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.Cta {
+  display: flex;
+  font-size: 20px;
+  gap: 20px;
+}
+
+.Community-CTA {
+  padding: 8px 12px 8px 12px;
+  border-radius: 6px;
+  background-color: #263238;
+  color: white;
+}
+
+#Discord-Button {
+  background-color: #e5ff00;
+  padding: 8px 12px 8px 12px;
+  border-radius: 6px;
+}
+
+.Students {
+  height: 70vh;
+}
+
+/* STATS SECTION */
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 80px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.stat1 {
+  height: 60px;
+  text-align: center;
+  padding: 20px 30px 40px 20px;
+  font-size: 22px;
+  box-shadow: 6px 6px 10px 2px rgb(244, 240, 240);
+  border-radius: 2px;
+  border-left: 6px solid #263238;
+  margin-left: -20px;
+}
+
+text {
+  font-size: 32px;
+}
+
+.CollegeLogos {
+  width: 100px;
+  height: 100px;
+}
+
+.statistics,
+.colleges {
+  display: flex;
+  gap: 60px;
+}
+.CollegeLogos-CP {
+  height: 80px;
+  width: 100px;
+}
+
+.Heading {
+  font-size: 38px;
+  border-left: 6px solid orange;
+  padding: 0px 0px 0px 20px;
+  margin: 30px auto 40px 50px;
+}
+
+.Arrow {
+  height: 30px;
+  display: none;
+}
+.Team-Contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.connect {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  padding: 12px 0px 24px 0px;
+}
+
+.Connect-with-team {
+  background-color: #ffc4e9;
+  padding: 20px 40px;
+  margin: 12px;
+  border-radius: 20px;
+}
+#Arrow-Id-Coding {
+  display: flex;
+}
+.Images img {
+  height: 400px;
+}
+
+#Hackathon,
+#Hackathons-Link-List {
+  display: none;
+}
+
+.Achievements {
+  margin: 20px 50px 50px 50px;
+}
+
+.Achievements {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Achievements-List {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+#me {
+  margin-right: 30px;
+}
+.members {
+  display: flex;
+  align-items: center;
+}
+.Arrow-Events {
+  height: 50px;
+}
+
+#Left-Arrow {
+  transform: rotate(180deg);
+}
+
+.Achievements-Images {
+  height: 440px;
+}
+.locationdiv {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+}
+.material-symbols-outlined {
+  width: 20px;
+}
+
+.CampusAmbassadors {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Events {
+  margin: 30px 0px 0px 0px;
+  background-color: #ffe0c690;
+  padding: 20px 0px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+#Events-Section {
+  padding: 10px 0px 10px 0px;
+}
+#Card-syllabus {
+  background-color: #263238;
+  color: white;
+}
+span:nth-of-type(1) {
+  width: 8%;
+}
+#SyllabusXVisit {
+  background-color: #e5ff00;
+  color: black;
+  box-shadow: 2px 2px 12px 2px rgb(53, 53, 53);
+}
+.UnderEvent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #ffe0c690;
+}
+.wholeTeamdiv {
+  display: flex;
+}
+
+.Socials {
+  height: 30px;
+}
+
+.Deseignation {
+  text-align: center;
+  color: black;
+  font-size: 18px;
+}
+.Free-paid {
+  padding: 1px 12px;
+  background-color: #d8ebf9;
+  border-radius: 20px;
+  border: 1px dotted black;
+  width: fit-content;
+}
+.Founder {
+  box-shadow: 3px 0px 8px 2px rgb(244, 240, 240);
+  border-left: 2px solid rgb(219, 219, 60);
+  display: flex;
+  color: white;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  padding: 18px;
+  border-radius: 6px;
+}
+.EventHeading {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.Name {
+  border-radius: 6px;
+  font-size: 18px;
+  background-color: #263238;
+  padding: 4px 22px 4px 22px;
+}
+
+.Team-List {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.Social-Links {
+  display: flex;
+  gap: 15px;
+  margin-top: 12px;
+  flex-direction: row;
+  border-radius: 200px;
+}
+
+.Socials {
+  border-radius: 2000px;
+}
+
+#Fixed-Team-Image {
+  width: 450px;
+  height: 400px;
+  margin-left: 60px;
+}
+
+.join-Us {
+  padding: 6px 22px 6px 22px;
+  background-color: #ff0099;
+  color: white;
+  border-radius: 6px;
+  margin: 30px;
+  margin-top: 60px;
+}
+
+#Contact-Us-On {
+  height: 400px;
+}
+
+.Contactus {
+  margin: 20px 50px 50px 50px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+/* #Survey{
+  height: 200px;
+} */
+
+.Contact-us-right {
+  border-radius: 21px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+  padding: 30px 50px 30px 50px;
+  font-size: 22px;
+  background-color: #c5f1fe89;
+}
+
+.suggestion {
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.Social {
+  height: 50px;
+}
+
+.Social-media {
+  padding: 0px 20px 0px 20px;
+}
+
+.feedback {
+  background-color: #263238;
+  padding: 6px 12px 4px 12px;
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+.join-community {
+  background-color: #263238;
+  padding: 6px 12px 6px 12px;
+  border-radius: 6px;
+  color: white;
+  font-size: 14px;
+}
+.rateus {
+  margin-top: 20px;
+}
+
+#Insta-CTA {
+  height: 50px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #f6fafd;
+  padding-bottom: 30px;
+}
+
+.footerlinks {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  gap: 10px;
+}
+
+.footerupper {
+  display: flex;
+  padding: 0px 50px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 520px;
+}
+
+.copyright {
+  font-size: 12px;
+}
+.Newsletter {
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
+}
+
+.Subscribe {
+  font-size: 18px;
+}
+.footer-lower {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.New {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.Subs {
+  padding: 10px;
+  background-color: rgb(191, 255, 72);
+  border: none;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 20px;
+  align-items: center;
+}
+
+.Footer-Logo {
+  padding: 50px;
+  height: 6vh;
+  width: fit-content;
+}
+
+.totop {
+  padding: 6px 12px;
+  text-align: center;
+  border-radius: 6px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 174, 0.269),
+    rgba(222, 212, 212, 0.421),
+    rgba(0, 255, 255, 0.562)
+  );
+}
+
+.Arrow-Icon {
+  transform: rotate(90deg);
+  height: 40px;
+  fill: #e5ff00;
+}
+
+#Right-Arrow {
+  transform: rotate(-90deg);
+}
+
+.Achievements-Slider {
+  display: flex;
+}
+
+.MagicSearch:hover {
+  font-weight: bold;
+}
+
+#Contactus-Social-Links {
+  padding: 2px 0px 10px 0px;
+}
+#Fest-sub-heading {
+  font-size: 14px;
+  font-weight: 100;
+}
+.contactuss {
+  display: flex;
+  gap: 10px;
+}
+.Fest-wensites-Heading {
+  font-size: 18px;
+}
+#Fest-sub-heading {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.Fest-wensites-Heading {
+  font-size: 18px;
+}
+#Fest-sub-heading {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.Fest-wensites-Heading {
+  font-size: 18px;
+}
+#Fest-sub-heading {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.Fest-wensites-Heading {
+  font-size: 18px;
+}
+
+.sections {
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#link-website {
+  width: 20px;
+  margin-left: 90px;
+}
+#link-website:hover {
+  border-radius: 20px;
+  padding: 12px;
+  background-color: #d8ebf966;
+}
+
+.Arrow-Icon {
+  transform: rotate(90deg);
+  height: 40px;
+}
+.PG-Image {
+  /* margin-top: 20px; */
+  height: 100px;
+}
+
+.FeatureImage {
+  margin-top: 20px;
+}
+.Image {
+  margin-bottom: 20px;
+}
+
+.Tech {
+  height: 120px;
+  margin-bottom: 0px;
+}
+
+#Payingguest {
+  background-image: linear-gradient(to left, #ffed00, #f4929078);
+}
+
+.Resources-Cards {
+  align-items: center;
+  margin: 10px;
+  width: 500px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  gap: 60px;
+  padding: 10px;
+  box-shadow: -2px 2px 20px 1px rgba(196, 239, 255, 0.664);
+  letter-spacing: 2px;
+}
+.Assistance {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.ResourcesStat,
+.EventHeading {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#Contest-Section {
+  padding: 0px;
+}
+.Contest-tag {
+  font-size: 12px;
+  color: black;
+}
+.Contest-register {
+  background-color: #ffffff;
+}
+
+.ContestTail {
+  padding: 12px;
+}
+
+#Register-To {
+  background-color: #ff0099;
+  border-radius: 200px;
+  /* color: black; */
+}
+
+.ContestTail-2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  justify-content: flex-start;
+  padding: 16px;
+  gap: 20px;
+  border-radius: 12px;
+  background-color: #b2f8f2a1;
+}
+
+.candidates {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.ContestHead {
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.ContestStat {
+  background-color: #b2e5f8;
+}
+.sponsor-logo {
+  height: 120px;
+}
+
+.sponsor-logo-2 {
+  height: 80px;
+}
+
+.Logo-div {
+  display: flex;
+  gap: 30px;
+  padding: 30px 20px 20px 0px;
+}
+
+.paisa {
+  font-size: 18px;
+  font-weight: bold;
+}
+.LBTsupport {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.GiveAway-Heading {
+  margin-top: 22px;
+}
+.buysellbuttons {
+  margin-top: 20px;
+}
+.sponsor-logo {
+  height: 50px;
+}
+
+#LaptopsAssistance {
+  background-image: linear-gradient(to left, #f4afe9, #d7ebeb);
+}
+#Buylaptops {
+  background-color: #263238;
+  margin-top: 20px;
+}
+
+#BuyPG {
+  margin-top: 20px;
+  background-color: #263238;
+}
+.Resource-Brief {
+  font-size: 12px;
+}
+
+.Event-Card {
+  box-shadow: none;
+}
+
+.ResourcesVisit:hover,
+.ResourcesVisit-Course:hover {
+  transform: translateY(2px);
+}
+#UnderCommunity {
+  background-color: #f6fafd;
+}
+.ResourcesStat {
+  display: flex;
+  gap: 20px;
+  /* align-items: center; */
+}
+
+.Members {
+  font-size: 14px;
+  font-weight: bold;
+  /* padding: 6px; */
+  justify-content: space-between;
+}
+
+.Resourcesheading {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.Resource-Link {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.ResourcesVisit {
+  padding: 8px 12px;
+  width: fit-content;
+  border: none;
+  margin: 12px 12px 0px 0px;
+  letter-spacing: 0.4px;
+  background-color: #263238;
+  color: white;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.ResourcesVisit-2 {
+  padding: 8px 12px;
+  width: fit-content;
+  border: none;
+  /* margin: 12px 12px 0px 0px ; */
+  letter-spacing: 0.4px;
+  background-color: #263238;
+  color: white;
+  border-radius: 6px;
+  font-size: 14px;
+}
+#Upcoming-Events {
+  margin-top: 0px;
+}
+.Resources-New {
+  background-color: #f6fafd;
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Resources-Cards:hover {
+  box-shadow: -2px 2px 10px 0px rgba(137, 224, 255, 0.664);
+}
+.Event-Card:hover {
+  box-shadow: none;
+}
+.Promote {
+  padding: 8px 12px;
+  width: fit-content;
+  border: none;
+  letter-spacing: 0.4px;
+  background-color: #ff0099;
+  color: white;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.viewall {
+  border-bottom: 1px solid black;
+}
+.Card-Image {
+  height: 175px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.ResourcesVisit-Course {
+  background-color: #e5ff00;
+  padding: 8px 12px;
+  width: fit-content;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
+#AI-Report {
+  height: fit-content;
+  /* padding: 22px; */
+  margin: 30px 0px 0px 0px;
+}
+
+.Drafters {
+  display: flex;
+  padding: 20px 10px;
+  margin: 15px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(to left, #f2c1ea, #e4e95d5e);
+  border-radius: 20px;
+}
+
+#Technology {
+  background-image: linear-gradient(to left, #00ff87, #60efff63);
+}
+#Aakash {
+  background-image: linear-gradient(to left, #b3f4e6, #b2e5f8, #f2f3e29f);
+}
+
+#GithubTemplate {
+  background-image: linear-gradient(to right, #f3f98a, #95ecb096);
+}
+
+#Resumetemplate {
+  background-image: linear-gradient(to right, #e763f94e, #f2c2ee);
+}
+
+#PortfolioTemplate {
+  background-image: linear-gradient(to right, #f0cdcd, #71c4f78f);
+}
+
+#Event-Management {
+  background-image: linear-gradient(to right, #95ecb096, #b2e5f8, #95ecb096);
+}
+#event-contact {
+  background-color: #263238;
+}
+
+#SurveySection {
+  background-image: linear-gradient(to right, #fffbaf, #ac2aed2d);
+}
+
+#AmbassadorSection {
+  background-image: linear-gradient(to left, #b3f4e6, #b2e5f8, #f2f3e29f);
+}
+
+.buyandsell {
+  color: #263238;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 6px;
+}
+
+.Buy {
+  background-color: #ff0099;
+  color: white;
+  letter-spacing: 1.4px;
+  border-radius: 6px;
+  padding: 8px 10px;
+  border: none;
+  font-size: 12px;
+}
+#Sell {
+  background-color: #263238;
+}
+#Event-Management {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+}
+
+.Event-image {
+  height: 40px;
+  padding: 12px;
+}
+
+.buysellbuttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+.href {
+  color: white;
+}
+.templates {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* .Books-image{
+  margin-bottom: 20px;
+} */
+
+#BuyGithub,
+#BuyPortfolio,
+#BuyResume {
+  background-color: #263238;
+  margin: 20px 0px 0px 0px;
+}
+
+.Temp {
+  width: 250px;
+}
+
+.LBTCourse {
+  display: flex;
+  padding: 20px 20px;
+  width: 500px;
+  text-align: left;
+  background-color: #263238;
+  border-radius: 20px;
+  align-items: center;
+  color: white;
+}
+
+.Courses {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+  gap: 30px;
+}
+
+#Design-Course {
+  background-color: #e5ff00;
+  color: black;
+  margin-left: 20px;
+  box-shadow: 2px 2px 12px 2px rgb(49, 48, 48);
+}
+
+#Course-Para {
+  color: white;
+  margin-left: 15px;
+}
+
+.Course-Anchor {
+  color: #263238;
+}
+
+.customers {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 66px;
+}
+.cust {
+  margin-top: 0px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.together {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.cutomts {
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  padding: 60px 0px 60px 100px;
+  background-color: #f0fefa;
+}
+
+#pareshan {
+  margin-top: 10px;
+  width: fit-content;
+}
+
+.customers-review {
+  line-height: 32px;
+}
+span {
+  color: #060e98;
+}
+.uiux {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.UI {
+  background-color: white;
+  padding: 24px 20px;
+  box-shadow: 9px 2px 12px 5px rgb(246, 239, 239);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+  align-items: flex-start;
+  height: fit-content;
+}
+
+.discription {
+  opacity: 0.6;
+  line-height: 24px;
+}
+
+.icon {
+  height: 40px;
+}
+
+.uidiv {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+.logo {
+  padding: 100px 0px 100px 0px;
+}
+
+.contactwithme {
+  padding: 12px 20px;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: #263238;
+  border: none;
+  border-radius: 200px;
+  color: white;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.loading-container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background-color: #fff;
+  transition: opacity 1s ease-in-out;
+  /* display: none; */
+}
+
+.loading-animation {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 5px solid #ccc;
+  border-top-color: #333;
+  animation: spin 3s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.quote-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#quote {
+  font-size: 24px;
+  padding: 10px;
+  margin: 12px;
+  font-style: italic;
+}
+
+.landing-page {
+  transition: opacity 1s ease-in-out;
+}
+
+@media only screen and (max-width: 1000px) {
+  .nav-item {
+    display: none;
+  }
+
+  .Hamburger {
+    display: flex;
+  }
+
+  .Hero {
+    flex-direction: column-reverse;
+    padding: 20px;
+    justify-content: space-around;
+  }
+
+  .MagicSearch {
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+
+  .Students {
+    height: 40vh;
+  }
+
+  .Tagline {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .Hero-Left-Section {
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .Navigation {
+    margin: auto;
+    padding: 20px;
+  }
+
+  .stat1 {
+    height: 40px;
+    text-align: center;
+    padding: 10px 30px 40px 20px;
+    font-size: 16px;
+    margin-left: 0px;
+  }
+
+  .statistics {
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .CollegeLogos,
+  .CollegeLogos-CP {
+    height: 60px;
+    width: 60px;
+  }
+
+  .colleges {
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .stats {
+    margin-top: 0px;
+    /* gap: 50px; */
+  }
+
+  .Heading {
+    font-size: 32px;
+    border-left: 4px solid orange;
+    padding: 0px 0px 0px 20px;
+    margin: 20px auto 40px 10px;
+  }
+
+  .Achievements-List {
+    padding: 10px;
+    gap: 30px;
+  }
+
+  .Achievements {
+    flex-direction: column;
+    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .Events-IImages {
+    height: 300px;
+  }
+  #Fixed-Achievements-Image,
+  #Fixed-Team-Image {
+    height: 380px;
+    width: 350px;
+  }
+  #Fixed-Team-Image {
+    margin-left: -20px;
+  }
+  .wholeTeamdiv {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .Team-List {
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+  }
+  #me {
+    margin: 0px 0px 40px 0px;
+  }
+
+  #Contact-Us-On {
+    height: 270px;
+  }
+  #Contactus-Social-Link {
+    display: none;
+  }
+
+  .footer {
+    margin-top: 40px;
+  }
+
+  .Contactus {
+    margin: auto;
+    padding: 10px;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .Contact-us-right {
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 0px;
+    font-size: 18px;
+  }
+  #SideMenuID {
+    display: none;
+  }
+
+  .SideMenuItem {
+    margin-left: 12px;
+  }
+  .arrowUPFloating {
+    display: none;
+  }
+  .Animated-logo {
+    height: 5vh;
+    animation-name: example;
+    animation-duration: 5s;
+    margin-right: 180px;
+  }
+}
+
+.g-signin2 {
+  /* display: inline-block; */
+  /* color: #fff; */
+  border-radius: 200px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  /* box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25); */
+}
+@media only screen and (max-width: 500px) and (min-width: 200px) {
+  .Temp {
+    width: 300px;
+  }
+  #quote {
+    font-size: 16px;
+    width: auto;
+  }
+  .stats {
+    gap: 0px;
+  }
+  .colleges {
+    margin-top: 10px;
+  }
+  .loading-animation {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 5px solid #ccc;
+    border-top-color: #333;
+    animation: spin 3s ease-in-out infinite;
+  }
+
+  .loading-container {
+    width: auto;
+    height: 100vh;
+    padding: 12px 16px;
+  }
+  .Navigation2 {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 16px 50px;
+  }
+  #Course-Para {
+    font-size: 14px;
+  }
+  span:nth-of-type(1) {
+    width: 12%;
+  }
+  .Navigation {
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .Animated-logo {
+    margin-right: 100px;
+    height: 5vh;
+  }
+  .Students {
+    height: 30vh;
+  }
+  .Hero {
+    width: fit-content;
+    justify-items: center;
+    padding: 20px;
+    margin: auto;
+  }
+
+  .Tagline {
+    line-height: 40px;
+  }
+
+  .Below_tagline {
+    font-size: 16px;
+  }
+
+  .Hero-Left-Section {
+    margin: 40px auto 0px auto;
+    width: auto;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .Cta {
+    margin-top: 20px;
+    flex-direction: column;
+    font-size: 20px;
+  }
+
+  #Discord-Button {
+    width: fit-content;
+    margin: 10px auto 0px auto;
+  }
+
+  .stat1 {
+    margin-top: 20px;
+  }
+
+  .statistics {
+    margin: 20px 0px 0px 12px;
+    flex-direction: column;
+  }
+
+  .CollegeLogos {
+    width: 60px;
+    height: 60px;
+  }
+
+  .colleges {
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: center;
+  }
+
+  .Achievements-List {
+    padding: 10px;
+    gap: 30px;
+  }
+
+  .Achievements {
+    flex-direction: column;
+    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #Fixed-Event-Image {
+    height: 200px;
+    width: 250px;
+  }
+
+  #Fixed-Achievements-Image {
+    height: 280px;
+    width: 250px;
+  }
+
+  .Heading {
+    font-size: 32px;
+    padding: 0px 0px 0px 20px;
+    margin: 20px auto 40px 10px;
+  }
+
+  .sections {
+    border-left: none;
+  }
+
+  .Arrow-Icon {
+    height: 25px;
+  }
+
+  .example::-webkit-scrollbar {
+    display: none;
+  }
+
+  #Hackathon,
+  #Hackathons-Link-List {
+    display: none;
+  }
+
+  .wholeTeamdiv {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .Team-List {
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+  }
+  #me {
+    margin: 0px 0px 40px 0px;
+  }
+
+  .members {
+    margin-top: -4 0px;
+    gap: 20px;
+  }
+
+  #Fixed-Team-Image {
+    width: 250px;
+    height: 200px;
+    margin: 30px 0px;
+  }
+
+  .join-Us {
+    margin-top: 20px;
+  }
+
+  .Founder {
+    scale: 0.9;
+  }
+
+  .Arrow-Events {
+    height: 40px;
+  }
+
+  #Contact-Us-On {
+    height: 220px;
+  }
+
+  .Contactus {
+    margin: auto;
+    padding: 10px;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .Contact-us-right {
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 0px;
+    font-size: 18px;
+  }
+
+  .Social-media {
+    padding: 0px 20px 0px 20px;
+  }
+
+  .footer {
+    margin-top: 40px;
+  }
+  .footerupper {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .footer-lower {
+    flex-direction: column-reverse;
+    padding: 50px;
+    justify-content: space-around;
+    gap: 50px;
+  }
+  .Footer-Logo {
+    height: 5vh;
+    padding: 30px 0px 20px 0px;
+  }
+
+  .footerlinks {
+    gap: 30px;
+  }
+
+  #To-top {
+    margin-left: -12px;
+  }
+
+  .Card-Image {
+    height: 180px;
+  }
+
+  .Resourcesheading {
+    font-size: 24px;
+  }
+
+  .ResourcesVisit {
+    font-size: 14px;
+  }
+
+  .Resources-Cards {
+    align-items: center;
+    justify-content: center;
+    margin: 10px 20px;
+    width: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    gap: 0px;
+    padding: 10px;
+    letter-spacing: 2px;
+  }
+
+  .Resourcesheading {
+    font-size: 18px;
+  }
+  .Events-Images {
+    height: 200px;
+  }
+
+  .Resources-New {
+    background-color: #f6fafd;
+    padding: 20px 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .Resources-New {
+    padding: 0px;
+    gap: 10px;
+  }
+
+  #Resources-section {
+    margin: 40px auto 40px 0px;
+  }
+
+  .Assistance {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #SideMenuID {
+    display: none;
+  }
+  .arrowUP {
+    height: 30px;
+    position: absolute;
+    position: fixed;
+    top: 90vh;
+    left: 91vw;
+  }
+  .arrowUPFloating {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 1000px) {
+  .nav-item {
+    font-size: 12px;
+  }
+
+  .MagicSearch {
+    padding: 8px 12px;
+  }
+
+  .Tagline {
+    font-size: 24px;
+  }
+
+  .Students {
+    height: 50vh;
+  }
+
+  .Hero-Left-Section {
+    width: 450px;
+  }
+
+  .Cta {
+    font-size: 18px;
+  }
+
+  #Fixed-Event-Image {
+    height: 250px;
+    width: 300px;
+  }
+
+  .Achievements-List {
+    padding: 10px;
+    gap: 30px;
+  }
+
+  .Achievements {
+    /* flex-direction: column; */
+    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .Events-Images {
+    height: 300px;
+  }
+  #Fixed-Achievements-Image,
+  #Fixed-Team-Image {
+    height: 380px;
+    width: 350px;
+  }
+  #Fixed-Team-Image {
+    margin-left: 20px;
+    height: 320px;
+    width: 320px;
+  }
+}
+
+@media only screen and (max-width: 1960px) and (min-width: 1300px) {
+  .Hero {
+    padding: 10px;
+  }
+
+  .Hero-Left-Section,
+  .Navigation {
+    transform: scale(1);
+  }
+
+
+  .Students {
+    height: 60vh;
+  }
+
+  .stats {
+    margin-top: 30px;
+    gap: 60px;
+  }
+}
+@media only screen and (max-width: 2560px) and (min-width: 1961px) {
+  .nav-item {
+    font-size: 36px;
+  }
+
+  .Hero {
+    margin-top: 100px;
+  }
+  .Nav-items {
+    gap: 50px;
+  }
+  .MagicSearch {
+    padding: 30px;
+    border-radius: 12px;
+  }
+
+  #Contact-Us {
+    padding: 26px;
+  }
+
+  .Animated-logo {
+    height: 7vh;
+  }
+
+  .Tagline {
+    font-size: 64px;
+    line-height: 100px;
+  }
+
+  .Below_tagline {
+    font-size: 50px;
+  }
+
+  .Community-CTA,
+  #Discord-Button {
+    font-size: 36px;
+    padding: 12px 20px;
+    margin-top: 20px;
+  }
+  .Hero-Left-Section {
+    width: 900px;
+  }
+
+  .Students {
+    height: 60vh;
+  }
+}

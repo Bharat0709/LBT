@@ -1,0 +1,63 @@
+@keyframes example {
+  0% {
+    transform: scale(5);
+  }
+
+  50% {
+    transform: rotate(-20deg);
+  }
+
+  80% {
+    transform: translateX(12px);
+  }
+}
+
+@keyframes example2 {
+  0% {
+    transform: translateX(11000px);
+  }
+
+  50% {
+    transform: rotate(-200);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes example3 {
+  0% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes Up-Down {
+  0% {
+    transform: translateY(50px);
+  }
+  80% {
+    transform: translateY(-50px);
+  }
+}
+
+@keyframes Down {
+  0% {
+    transform: translateY(-80px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes towardsup {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-500px);
+  }
+}

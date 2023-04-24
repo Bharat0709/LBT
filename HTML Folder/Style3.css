@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #f0fefa;
+}
+.Listitem {
+  width: 80vw;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: white;
+  padding: 12px;
+  border-radius: 8px;
+  justify-content: space-between;
+}
+.Source-Icon {
+  height: 25px;
+}
+
+.Source-Icon-URL , .link {
+  height: 20px;
+}
+
+.link:hover{
+transform: translate(2px,-2px);
+}
+
+.Resources-list:hover{
+  transform: scale(1.02);
+}
+.Source-Icon_Like {
+  height: 15px;
+  width: 15px;
+}
+
+.Link-Like {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.like-count {
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  font-size: 8px;
+  gap: 4px;
+  width: fit-content;
+}
+.Resources-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin: auto;
+  justify-content: center;
+}
+
+.Source {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.Discription-of-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.credits {
+  font-size: 14px;
+}
+.Discript {
+  font-size: 16px;
+  font-weight: 600;
+}
+.list-items-recourses {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.free-paid {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  background-image: linear-gradient(to left, rgb(184, 255, 255), rgb(126, 251, 144));
+}
+
+#paid{
+  background-image: linear-gradient(to left, rgb(255, 224, 123), rgb(225, 247, 83));
+}
+
+.Animated-logo3 {
+  height: 5vh;
+  animation-name: example;
+  animation-duration: 5s;
+  /* margin-right: 180px; */
+}
