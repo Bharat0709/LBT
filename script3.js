@@ -3,7 +3,6 @@ const courses = document.querySelectorAll('.Resources-list');
 
 courseFilter.addEventListener('change', () => {
   const selectedOption = courseFilter.value;
-
   courses.forEach(courses => {
     if (selectedOption === 'all') {
       courses.style.display = 'block';
