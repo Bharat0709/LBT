@@ -100,6 +100,10 @@ transform: translate(2px,-2px);
   background-image: linear-gradient(to left, rgb(255, 224, 123), rgb(225, 247, 83));
 }
 
+#free{
+  display: none;
+}
+
 .Animated-logo3 {
   height: 5vh;
   animation-name: example;
