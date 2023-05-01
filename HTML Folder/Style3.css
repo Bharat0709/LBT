@@ -75,7 +75,8 @@ transform: translate(2px,-2px);
   font-weight: 500;
 }
 .credits {
-  font-size: 14px;
+  font-size: 12px;
+  /* opacity: .8; */
 }
 .Discript {
   font-size: 16px;

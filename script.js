@@ -240,16 +240,3 @@ const scrollPosition = navLinks.forEach((link) => {
     window.scrollTo({ top: scrollPosition, behavior: "smooth" });
   });
 });
-
-function onSignIn(googleUser) {
-  var id_token = googleUser.getAuthResponse().id_token;
-  fetch("https://accounts.google.com/o/oauth2/auth", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({ id_token: id_token }),
-  }).then(function (response) {
-    console.log(response);
-  });
-}
