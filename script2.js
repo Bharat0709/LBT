@@ -39,7 +39,7 @@ function performSearch() {
       item.style.boxShadow = "";
     }
 
-    const scrollMargin = -30; 
+    const scrollMargin = -30;
     const scrollPosition =
       foundItem.getBoundingClientRect().top + window.pageYOffset + scrollMargin;
     window.scrollTo({ top: scrollPosition, behavior: "smooth" });
@@ -52,4 +52,3 @@ function performSearch() {
 function websiteVisits(response) {
   document.querySelector("#visits").textContent = response.value;
 }
-

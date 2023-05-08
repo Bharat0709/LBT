@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Resource Collection</title>
+    <title>Notes Collection</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,10 +17,6 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-    <script
-      async
-      src="https://api.countapi.xyz/hit/codefoxxNEW.com/1208b1d3-24f2-4f52-8c9c-bb0ab973b124?callback=websiteVisits"
-    ></script>
     <link rel="stylesheet" href="Style2.css" />
     <link rel="stylesheet" href="../style.css" />
   </head>
@@ -45,26 +41,30 @@
         >
       </div>
     </section>
+
     <div class="dropdown">
       <p class="filter">Filter:</p>
-      <select name="course-filter" id="course-filter">
-        <!-- <option value="all">All</option> -->
-        <option value="Free">Semester 3</option>
+      <select name="course-filter" id="semester-filter">
+        <option value="All">All</option>
+        <option value="Semester 2">Semester 2</option>
+        <option value="Semester 4">Semester 4</option>
+        <option value="Semester 6">Semester 6</option>
       </select>
     </div>
+
     <section class="Choice" id="itemList">
       <section class="ChooseTopic">
-        <div class="Topic">
+        <div class="Topic" id="sem4">
           <div class="Resources_Head_Left">
-            <!-- <p class="Last_Updated">Last Updated: 2 days Ago</p> -->
-            <p class="Topic_Name">DLCD</p>
+            <p class="Topic_Name">Circuit System</p>
           </div>
-          <img src="../Images/DLCD.png" alt="" class="Resource-Image" />
+          <img src="../Images/Circuit.png" alt="" class="Resource-Image" />
         </div>
 
         <p class="Topic_Discription">
-          No matter whatever career path you choose in the field of computer
-          science, data structures and algorithms lies at the root of it
+          Circuit System deals with the design and analysis of electrical
+          circuits, including topics such as network theorems and circuit design
+          using different components.
         </p>
         <div class="notes-download">
           <a href="" class="Visit_Resource"
@@ -73,17 +73,141 @@
         </div>
       </section>
       <section class="ChooseTopic">
-        <div class="Topic">
+        <div class="Topic" id="sem4">
           <div class="Resources_Head_Left">
-            <!-- <p class="Last_Updated">Last Updated: 2 days Ago</p> -->
-            <p class="Topic_Name">DSA in C++</p>
+            <p class="Topic_Name">Power System</p>
           </div>
-          <img src="../Images/C++.png" alt="" class="Resource-Image" />
+          <img
+            src="../Images/Power Systems.png"
+            alt=""
+            class="Resource-Image"
+          />
         </div>
 
         <p class="Topic_Discription">
-          No matter whatever career path you choose in the field of computer
-          science, data structures and algorithms lies at the root of it
+          Power System covers the generation, transmission, distribution, and
+          utilization of electrical power, including topics such as power
+          generation, power distribution etc.
+        </p>
+        <div class="Visit_Views">
+          <a href="" class="Visit_Resource"
+            ><button class="Visit_Button" id="my-button">Get Access</button></a
+          >
+        </div>
+      </section>
+      <section class="ChooseTopic">
+        <div class="Topic" id="sem4">
+          <div class="Resources_Head_Left">
+            <p class="Topic_Name">Electrical Machines</p>
+          </div>
+          <img src="../Images/Machines.png" alt="" class="Resource-Image" />
+        </div>
+
+        <p class="Topic_Discription">
+          It is a branch of electrical engineering that focuses on the design
+          and analysis of electric motors and generators, including topics such
+          as magnetic circuits.
+        </p>
+        <div class="Visit_Views">
+          <a href="" class="Visit_Resource"
+            ><button class="Visit_Button" id="my-button">Get Access</button></a
+          >
+        </div>
+      </section>
+      <section class="ChooseTopic">
+        <div class="Topic" id="sem4">
+          <div class="Resources_Head_Left">
+            <p class="Topic_Name">Analog Electronics</p>
+          </div>
+          <img src="../Images/Analog.png" alt="" class="Resource-Image" />
+        </div>
+
+        <p class="Topic_Discription">
+          Analog Electronics deals with electronic circuits that use continuous
+          signals, including topics such as amplifiers, filters, and
+          oscillators.
+        </p>
+        <div class="Visit_Views">
+          <a href="" class="Visit_Resource"
+            ><button class="Visit_Button" id="my-button">Get Access</button></a
+          >
+        </div>
+      </section>
+      <section class="ChooseTopic">
+        <div class="Topic" id="sem4">
+          <div class="Resources_Head_Left">
+            <p class="Topic_Name">Digital Communication</p>
+          </div>
+          <img
+            src="../Images/Digital Communication.png  "
+            alt=""
+            class="Resource-Image"
+          />
+        </div>
+
+        <p class="Topic_Discription">
+          It deals with the transmission of information using digital signals,
+          including topics such as modulation techniques, error control coding,
+          and digital signal processing.
+        </p>
+        <div class="Visit_Views">
+          <a href="" class="Visit_Resource"
+            ><button class="Visit_Button" id="my-button">Get Access</button></a
+          >
+        </div>
+      </section>
+      <section class="ChooseTopic">
+        <div class="Topic" id="sem4">
+          <div class="Resources_Head_Left">
+            <p class="Topic_Name">Network Analysis</p>
+          </div>
+          <img
+            src="../Images/network Anlysis.png"
+            alt=""
+            class="Resource-Image"
+          />
+        </div>
+
+        <p class="Topic_Discription">
+          Network Analysis is the study of electrical networks, including topics
+          such as network theorems, two-port networks, and signal analysis.
+        </p>
+        <div class="Visit_Views">
+          <a href="" class="Visit_Resource"
+            ><button class="Visit_Button" id="my-button">Get Access</button></a
+          >
+        </div>
+      </section>
+      <section class="ChooseTopic">
+        <div class="Topic" id="sem4">
+          <div class="Resources_Head_Left">
+            <p class="Topic_Name">Probablity (PSLP)</p>
+          </div>
+          <img src="../Images/Probablity.png" alt="" class="Resource-Image" />
+        </div>
+
+        <p class="Topic_Discription">
+          Probability is the study of random events and their likelihood of
+          occurrence, including topics such as probability distributions etc.
+        </p>
+        <div class="Visit_Views">
+          <a href="" class="Visit_Resource"
+            ><button class="Visit_Button" id="my-button">Get Access</button></a
+          >
+        </div>
+      </section>
+      <section class="ChooseTopic">
+        <div class="Topic" id="sem4">
+          <div class="Resources_Head_Left">
+            <p class="Topic_Name">Data Base Management System</p>
+          </div>
+          <img src="../Images/SQL.png" alt="" class="Resource-Image" />
+        </div>
+
+        <p class="Topic_Discription">
+          Database Management System deals with the design, development, and
+          management of databases, including topics such as data modeling,
+          database architecture etc.
         </p>
         <div class="Visit_Views">
           <a href="" class="Visit_Resource"
@@ -94,69 +218,314 @@
       <section class="ChooseTopic">
         <div class="Topic">
           <div class="Resources_Head_Left">
-            <!-- <p class="Last_Updated">Last Updated: 2 days Ago</p> -->
-            <p class="Topic_Name">Discrete Maths</p>
+            <p class="Topic_Name">Java</p>
+          </div>
+          <img src="../Images/Java.png" alt="" class="Resource-Image" />
+        </div>
+
+        <p class="Topic_Discription">
+          It is a programming language used to develop applications for desktop,
+          mobile, and web platforms, including topics such as object-oriented
+          programming , DSA etc.
+        </p>
+        <div class="Visit_Views">
+          <a href="" class="Visit_Resource"
+            ><button class="Visit_Button" id="my-button">Get Access</button></a
+          >
+        </div>
+      </section>
+      <section class="ChooseTopic">
+        <div class="Topic" id="sem2">
+          <div class="Resources_Head_Left">
+            <p class="Topic_Name">Applied Maths 2</p>
           </div>
           <img src="../Images/Maths.png" alt="" class="Resource-Image" />
         </div>
 
         <p class="Topic_Discription">
-          No matter whatever career path you choose in the field of computer
-          science, data structures and algorithms lies at the root of it
+          Applied Maths 2 covers mathematical concepts such as differential
+          equations, Laplace transforms, and Fourier series.
         </p>
         <div class="Visit_Views">
           <a href="" class="Visit_Resource"
             ><button class="Visit_Button" id="my-button">Get Access</button></a
           >
-          <!-- <p class="Views">3.6k Views</p> -->
         </div>
       </section>
       <section class="ChooseTopic">
-        <div class="Topic">
+        <div class="Topic" id="sem2">
           <div class="Resources_Head_Left">
-            <!-- <p class="Last_Updated">Last Updated: 2 days Ago</p> -->
-            <p class="Topic_Name">Computational Methods</p>
+            <p class="Topic_Name">Engineering Mechanics</p>
           </div>
-          <img src="../Images/CM.png  " alt="" class="Resource-Image" />
+          <img src="../Images/Mechanics.png" alt="" class="Resource-Image" />
         </div>
 
         <p class="Topic_Discription">
-          No matter whatever career path you choose in the field of computer
-          science, data structures and algorithms lies at the root of it
+          Engineering Mechanics deals with the behavior of physical bodies under
+          different types of forces and stresses, including topics such as
+          statics, dynamics etc.
         </p>
         <div class="Visit_Views">
           <a href="" class="Visit_Resource"
             ><button class="Visit_Button" id="my-button">Get Access</button></a
           >
-
-          <!-- <p class="Views">3.6k Views</p> -->
         </div>
       </section>
       <section class="ChooseTopic">
-        <div class="Topic">
+        <div class="Topic" id="sem2">
           <div class="Resources_Head_Left">
-            <!-- <p class="Last_Updated">Last Updated: 2 days Ago</p> -->
-            <p class="Topic_Name">OOPs</p>
+            <p class="Topic_Name">Programming in C</p>
           </div>
-          <img src="../Images/OOPs.png" alt="" class="Resource-Image" />
+          <img
+            src="../Images/Programming in C.png"
+            alt=""
+            class="Resource-Image"
+          />
         </div>
 
         <p class="Topic_Discription">
-          No matter whatever career path you choose in the field of computer
-          science, data structures and algorithms lies at the root of it
+          Programming in C is a programming language used for system-level
+          programming and application development, including topics such as data
+          types ,pointers etc.
         </p>
         <div class="Visit_Views">
           <a href="" class="Visit_Resource"
             ><button class="Visit_Button" id="my-button">Get Access</button></a
           >
-          <!-- <p class="Views">3.6k Views</p> -->
+        </div>
+      </section>
+      <section class="ChooseTopic">
+        <div class="Topic" id="sem2">
+          <div class="Resources_Head_Left">
+            <p class="Topic_Name">Indian Constitution</p>
+          </div>
+          <img
+            src="../Images/Indian Constitution.png"
+            alt=""
+            class="Resource-Image"
+          />
+        </div>
+
+        <p class="Topic_Discription">
+          Indian Constitution is the supreme law of India that governs the
+          structure, powers, and functions of the government.
+        </p>
+        <div class="Visit_Views">
+          <a href="" class="Visit_Resource"
+            ><button class="Visit_Button" id="my-button">Get Access</button></a
+          >
+        </div>
+      </section>
+      <section class="ChooseTopic">
+        <div class="Topic" id="sem2">
+          <div class="Resources_Head_Left">
+            <p class="Topic_Name">Electrical Science</p>
+          </div>
+          <img
+            src="../Images/Electrical Science.png"
+            alt=""
+            class="Resource-Image"
+          />
+        </div>
+
+        <p class="Topic_Discription">
+          Electrical Science covers fundamental concepts of electrical
+          engineering, including topics such as electric circuits,
+          electromagnetism, and electrical machines.
+        </p>
+        <div class="Visit_Views">
+          <a href="" class="Visit_Resource"
+            ><button class="Visit_Button" id="my-button">Get Access</button></a
+          >
+        </div>
+      </section>
+      <section class="ChooseTopic">
+        <div class="Topic" id="sem2">
+          <div class="Resources_Head_Left">
+            <p class="Topic_Name">Environmental Studies</p>
+          </div>
+          <img
+            src="../Images/Environmental Studies.png"
+            alt=""
+            class="Resource-Image"
+          />
+        </div>
+
+        <p class="Topic_Discription">
+          Environmental Studies covers the study of the natural world and human
+          interactions with it, including topics such as biodiversity,
+          pollution, and climate change.
+        </p>
+        <div class="Visit_Views">
+          <a href="" class="Visit_Resource"
+            ><button class="Visit_Button" id="my-button">Get Access</button></a
+          >
+        </div>
+      </section>
+      <section class="ChooseTopic">
+        <div class="Topic" id="sem2">
+          <div class="Resources_Head_Left">
+            <!-- <p class="Last_Updated">Last Updated: 2 days Ago</p> -->
+            <p class="Topic_Name">Applied Physics 2</p>
+          </div>
+          <img
+            src="../Images/Applied Physics.png"
+            alt=""
+            class="Resource-Image"
+          />
+        </div>
+
+        <p class="Topic_Discription">
+          Applied Physics 2 covers the applications of physics in engineering
+          and technology, including topics such as optics, acoustics, and
+          electromagnetism.
+        </p>
+        <div class="Visit_Views">
+          <a href="" class="Visit_Resource"
+            ><button class="Visit_Button" id="my-button">Get Access</button></a
+          >
+        </div>
+      </section>
+      <section class="ChooseTopic">
+        <div class="Topic" id="sem6">
+          <div class="Resources_Head_Left">
+            <!-- <p class="Last_Updated">Last Updated: 2 days Ago</p> -->
+            <p class="Topic_Name">Computer Networks</p>
+          </div>
+          <img
+            src="../Images/Computer Networks.png"
+            alt=""
+            class="Resource-Image"
+          />
+        </div>
+
+        <p class="Topic_Discription">
+          Computer Networks covers the study of communication protocols and
+          technologies used to connect computers and other devices.
+        </p>
+        <div class="Visit_Views">
+          <a href="" class="Visit_Resource"
+            ><button class="Visit_Button" id="my-button">Get Access</button></a
+          >
+        </div>
+      </section>
+      <section class="ChooseTopic">
+        <div class="Topic" id="sem6">
+          <div class="Resources_Head_Left">
+            <!-- <p class="Last_Updated">Last Updated: 2 days Ago</p> -->
+            <p class="Topic_Name">Web Technology</p>
+          </div>
+          <img
+            src="../Images/Web technology.png"
+            alt=""
+            class="Resource-Image"
+          />
+        </div>
+
+        <p class="Topic_Discription">
+          Web Technology deals with the development and design of websites and
+          web applications, including topics such as HTML, CSS, JavaScript, and
+          server-side programming.
+        </p>
+        <div class="Visit_Views">
+          <a href="" class="Visit_Resource"
+            ><button class="Visit_Button" id="my-button">Get Access</button></a
+          >
+        </div>
+      </section>
+      <section class="ChooseTopic">
+        <div class="Topic" id="sem6">
+          <div class="Resources_Head_Left">
+            <!-- <p class="Last_Updated">Last Updated: 2 days Ago</p> -->
+            <p class="Topic_Name">Artificial Intelligance</p>
+          </div>
+          <img src="../Images/AIML.png" alt="" class="Resource-Image" />
+        </div>
+
+        <p class="Topic_Discription">
+          Artificial Intelligence is the study of intelligent agents and their
+          ability to perceive the environment and take actions to achieve
+          specific goals.
+        </p>
+        <div class="Visit_Views">
+          <a href="" class="Visit_Resource"
+            ><button class="Visit_Button" id="my-button">Get Access</button></a
+          >
+        </div>
+      </section>
+      <section class="ChooseTopic">
+        <div class="Topic" id="sem6">
+          <div class="Resources_Head_Left">
+            <!-- <p class="Last_Updated">Last Updated: 2 days Ago</p> -->
+            <p class="Topic_Name">MPMC - Microprocessors and Microntrollers</p>
+          </div>
+          <img
+            src="../Images/Microprocessors.png"
+            alt=""
+            class="Resource-Image"
+          />
+        </div>
+
+        <p class="Topic_Discription">
+          MPMC deals with the study of microprocessors and microcontrollers,
+          including topics such as assembly language programming, interfacing
+          etc.
+        </p>
+        <div class="Visit_Views">
+          <a href="" class="Visit_Resource"
+            ><button class="Visit_Button" id="my-button">Get Access</button></a
+          >
+        </div>
+      </section>
+      <section class="ChooseTopic">
+        <div class="Topic" id="sem6">
+          <div class="Resources_Head_Left">
+            <!-- <p class="Last_Updated">Last Updated: 2 days Ago</p> -->
+            <p class="Topic_Name">Operating System</p>
+          </div>
+          <img
+            src="../Images/Operating System.png"
+            alt=""
+            class="Resource-Image"
+          />
+        </div>
+
+        <p class="Topic_Discription">
+          Operating System is a software program that manages computer hardware
+          and software resources and provides services to application software.
+        </p>
+        <div class="Visit_Views">
+          <a href="" class="Visit_Resource"
+            ><button class="Visit_Button" id="my-button">Get Access</button></a
+          >
+        </div>
+      </section>
+      <section class="ChooseTopic">
+        <div class="Topic" id="sem6">
+          <div class="Resources_Head_Left">
+            <!-- <p class="Last_Updated">Last Updated: 2 days Ago</p> -->
+            <p class="Topic_Name">Compiler Design</p>
+          </div>
+          <img
+            src="../Images/Compiler Design.png"
+            alt=""
+            class="Resource-Image"
+          />
+        </div>
+
+        <p class="Topic_Discription">
+          It includes topics such as lexical analysis, syntax analysis, code
+          generation, and optimization techniques to ensure that the resulting
+          code is efficient and error-free.
+        </p>
+        <div class="Visit_Views">
+          <a href="" class="Visit_Resource"
+            ><button class="Visit_Button" id="my-button">Get Access</button></a
+          >
         </div>
       </section>
     </section>
-    <div class="COUNTS">
-      <p class="prac-ount">Page Views:</p>
-      <p class="Views numvisits" id="visits"></p>
-    </div>
-    <script src="Script2.js" async defer></script>
+
+    <script src="../script4.js" async defer></script>
   </body>
 </html>
