@@ -409,6 +409,9 @@ text {
   margin: 12px;
   border-radius: 20px;
 }
+#Community-Managers{
+background-color: #b2e5f8;
+}
 #Arrow-Id-Coding {
   display: flex;
 }
@@ -596,10 +599,6 @@ span:nth-of-type(1) {
   gap: 30px;
 }
 
-/* #Survey{
-  height: 200px;
-} */
-
 .Contact-us-right {
   border-radius: 21px;
   display: flex;
@@ -752,6 +751,7 @@ span:nth-of-type(1) {
 
 #Contactus-Social-Links {
   padding: 2px 0px 10px 0px;
+  margin: 0px;
 }
 #Fest-sub-heading {
   font-size: 14px;
@@ -1099,6 +1099,7 @@ span:nth-of-type(1) {
 }
 
 #SurveySection {
+  margin-top: 0px;
   background-image: linear-gradient(to right, #fffbaf, #ac2aed2d);
 }
 
@@ -1130,6 +1131,7 @@ span:nth-of-type(1) {
   flex-direction: column;
   padding: 20px 30px;
 }
+
 
 .Event-image {
   height: 40px;
