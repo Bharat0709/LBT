@@ -1,6 +1,5 @@
 "use strict";
-const Scroll = document.querySelector("#Events-Section");
-const ScrollEvents = document.querySelector("#Events");
+
 // const MagicSearch = document.querySelector(".MagicSearch");
 const Answer = document.querySelector(".answer");
 const Reload = document.querySelector(".Reload");
@@ -18,7 +17,37 @@ const Hamburger = document.querySelector(".Hamburger");
 const SideMenu = document.querySelector("#SideMenuID");
 const sideMenuItems = document.querySelector(".SideMenuItem");
 const CheckBox = document.querySelector("#check");
-// const MagicSearchNav = document.querySelector("#MagicSearchSide-Menu");
+const visitButtons = document.querySelectorAll(".Visit_Button");
+const Collections = document.querySelector("#CollectionServices");
+const Contests = document.querySelector("#ContestEvents");
+const Collabs = document.querySelector("#Collaboration");
+const Contactus = document.querySelector("#Contact-Us");
+const CollectionSection = document.querySelector("#Templates-Section");
+const ContestsSection = document.querySelector("#Events-Section");
+const CollabsSection = document.querySelector("#Resources-section");
+const OurTeam = document.querySelector("#OurTeam");
+console.log(OurTeam);
+const TeamsSection = document.querySelector("#Team-Members");
+console.log(TeamsSection);
+const ContactUsSection = document.querySelector("#Contactus-Section");
+
+Collections.addEventListener("click", function () {
+  CollectionSection.scrollIntoView({ behavior: "smooth" });
+});
+OurTeam.addEventListener("click", function () {
+  TeamsSection.scrollIntoView({ behavior: "smooth" });
+});
+
+Collabs.addEventListener("click", function () {
+  CollabsSection.scrollIntoView({ behavior: "smooth" });
+});
+
+Contests.addEventListener("click", function () {
+  ContestsSection.scrollIntoView({ behavior: "smooth" });
+});
+Contactus.addEventListener("click", function () {
+  ContactUsSection.scrollIntoView({ behavior: "smooth" });
+});
 
 const quotes = [
   "The only way to do great work is to love what you do. - Steve Jobs",
@@ -44,7 +73,7 @@ const quotes = [
   "Success is not how high you have climbed, but how you make a positive difference to the world.",
   "I'm not just here for the degree, I'm here for the experience.",
   "The only way to do great work is to love what you do.",
-  "The only limit to our realization of tomorrow will be our dou,bts of today.",
+  "The only limit to our realization of tomorrow will be our doubts of today.",
   "The best way to predict the future is to create it.",
   "Believe you can and you're halfway there.",
   "Your only limit is the amount of doubt you have in yourself.",
@@ -227,16 +256,4 @@ SearchButton2.addEventListener("click", function () {
   SearchAgain2.style.display = "flex";
   SearchButton2.style.display = "none";
   SearchInput2.value = "";
-});
-
-const navLinks = document.querySelectorAll(".nav-item");
-console.log(navLinks);
-const scrollMargin = -30;
-const scrollPosition = navLinks.forEach((link) => {
-  link.addEventListener("click", () => {
-    const section = document.querySelector(link.getAttribute("href"));
-    section.getBoundingClientRect().top + window.pageYOffset + scrollMargin;
-    console.log(section);
-    window.scrollTo({ top: scrollPosition, behavior: "smooth" });
-  });
 });
