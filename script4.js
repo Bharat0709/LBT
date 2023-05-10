@@ -1,5 +1,6 @@
 const SemesterFilter = document.querySelector("#semester-filter");
 const courses = document.querySelectorAll(".ChooseTopic");
+const visitButtons = document.querySelectorAll(".Visit_Button");
 
 SemesterFilter.addEventListener("change", () => {
   const selectedOption = SemesterFilter.value;
@@ -27,5 +28,10 @@ SemesterFilter.addEventListener("change", () => {
     } else {
       courses.style.display = "none";
     }
+  });
+});
+visitButtons.forEach((button) => {
+  button.addEventListener("click", function () {
+    alert("Use Code LBT35 To get 35% off on all courses");
   });
 });
