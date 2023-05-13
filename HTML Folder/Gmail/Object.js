@@ -176,10 +176,10 @@ GmailArray.forEach((link) => {
           <a
             href="${link.url}"
             class="linked"
-            ><img src="../Images/URL.png" alt="" class="link"
+            ><img src="/Images/URL.png" alt="" class="link"
           /></a>
           <p class="Discript">${link.description}</p>
-          <p class="free-paid" id="free">Free</p>
+          <p class="free-paid" id="Free">Free</p>
         </div>
         <div class="Discription-of-list">
           <p class="credits">${link.credits}</p>
