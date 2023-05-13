@@ -61,7 +61,3 @@ function performSearch() {
     alert(`Sorry, we couldn't find any items that match your search query`);
   }
 }
-
-function websiteVisits(response) {
-  document.querySelector("#visits").textContent = response.value;
-}
