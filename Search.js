@@ -2,6 +2,19 @@ const searchForm = document.getElementById("searchForm");
 const searchInput = document.getElementById("searchInput");
 const searchButton = document.getElementById("searchButton");
 const itemList = document.getElementById("itemList");
+const ComingSoon = document.querySelector(".ComingSoon");
+const ComingSoon1 = document.querySelector(".ComingSoon1");
+const ComingSoon2 = document.querySelector(".ComingSoon2");
+
+ComingSoon.addEventListener("click", function () {
+  alert(`Coming Soon Stay Tuned!!`);
+});
+ComingSoon2.addEventListener("click", function () {
+  alert(`Coming Soon Stay Tuned!!`);
+});
+ComingSoon1.addEventListener("click", function () {
+  alert(`Coming Soon Stay Tuned!!`);
+});
 
 searchForm.addEventListener("submit", function (event) {
   event.preventDefault();
