@@ -233,13 +233,18 @@ select {
 }
 
 .Note{
-  margin: 0rem 5rem 5rem 5rem ;
+  margin: 1rem 5rem 1rem 5rem ;
   text-align: center;
   font-size: 18px;
   padding:2rem;
   background-color: rgb(154, 255, 255);
-  font-weight: 900;
+  font-weight: 600;
   border-radius: 12px;
+}
+
+#Unicorn-Discription{
+  padding: 1rem;
+  margin:1.5rem 5rem 1.5rem 5rem ;
 }
 
 .LearningFolks{
