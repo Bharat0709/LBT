@@ -329,7 +329,6 @@ RoadmapsArray.forEach((link) => {
     .replace(/\${Credits}/g, Credits);
   containerRoadmaps.insertAdjacentHTML("beforeend", Replaced);
 });
-
 VideoTutorials.forEach((link) => {
   const html = InsertHtml;
   const Url = link.Url;
@@ -344,7 +343,6 @@ VideoTutorials.forEach((link) => {
     .replace(/\${Credits}/g, Credits);
   containerVideoLectures.insertAdjacentHTML("beforeend", Replaced);
 });
-
 InterviewExperience.forEach((link) => {
   const html = InsertHtml;
   const Url = link.Url;

@@ -124,22 +124,26 @@ window.onload = function () {
   }, 3000);
 };
 
-const animationPlayed = sessionStorage.getItem("animationPlayed");
-if (!animationPlayed) {
-  // if the animation has not played, show the loading animation and call the showQuote() function after a delay
-  document.getElementById("loading").style.display = "block";
-  setTimeout(showQuote, 5000);
-}
-
-sessionStorage.setItem("key", "value");
-const value = sessionStorage.getItem("key");
-console.log(value);
+// Hamburger.addEventListener("click", function () {
+//   if (CheckBox.checked) {
+//   } else {
+//   }
+// });
+let firstClick = true;
 
 Hamburger.addEventListener("click", function () {
   if (CheckBox.checked) {
+    SideMenu.classList.add("show");
     SideMenu.style.display = "flex";
   } else {
+    SideMenu.classList.remove("show");
     SideMenu.style.display = "none";
+    if (firstClick && !SideMenu.classList.contains("show")) {
+      firstClick = false;
+      alert(
+        "Relationships and this side menu if this does work just reload and try again"
+      );
+    }
   }
 });
 
