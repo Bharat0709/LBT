@@ -302,7 +302,7 @@ const InsertHtml = `
         <a
           href="$\{Url}"
           class="linked"
-          ><img src="/Images/URL.png" alt="" class="link"
+          ><img src="../../Images/URL.png" alt="" class="link"
         /></a>
         <p class="Discript">$\{Description}</p>
         <p class="free-paid" id="\${Cost}">\${Costp}</p>
@@ -329,7 +329,6 @@ RoadmapsArray.forEach((link) => {
     .replace(/\${Credits}/g, Credits);
   containerRoadmaps.insertAdjacentHTML("beforeend", Replaced);
 });
-
 VideoTutorials.forEach((link) => {
   const html = InsertHtml;
   const Url = link.Url;
@@ -344,7 +343,6 @@ VideoTutorials.forEach((link) => {
     .replace(/\${Credits}/g, Credits);
   containerVideoLectures.insertAdjacentHTML("beforeend", Replaced);
 });
-
 InterviewExperience.forEach((link) => {
   const html = InsertHtml;
   const Url = link.Url;

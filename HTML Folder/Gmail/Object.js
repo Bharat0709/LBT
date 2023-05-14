@@ -179,7 +179,7 @@ GmailArray.forEach((link) => {
             ><img src="/Images/URL.png" alt="" class="link"
           /></a>
           <p class="Discript">${link.description}</p>
-          <p class="free-paid" id="Free">Free</p>
+          <p class="free-paid" id="free">Free</p>
         </div>
         <div class="Discription-of-list">
           <p class="credits">${link.credits}</p>
