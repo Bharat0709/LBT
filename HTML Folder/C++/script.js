@@ -302,7 +302,7 @@ const InsertHtml = `
         <a
           href="$\{Url}"
           class="linked"
-          ><img src="/Images/URL.png" alt="" class="link"
+          ><img src="../../Images/URL.png" alt="" class="link"
         /></a>
         <p class="Discript">$\{Description}</p>
         <p class="free-paid" id="\${Cost}">\${Costp}</p>
