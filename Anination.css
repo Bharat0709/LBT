@@ -61,3 +61,19 @@
     transform: translateY(-500px);
   }
 }
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 180px;
+  }
+}
+
+.btn-shine span {
+  display: inline-block;
+  animation: shine 3s infinite linear;
+}
