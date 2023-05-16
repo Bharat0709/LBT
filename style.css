@@ -9,6 +9,11 @@ body {
   font-family: "Hind Siliguri", sans-serif;
 }
 
+.Visit-button {
+  display: flex;
+  gap: 12px;
+}
+
 a {
   width: fit-content;
   cursor: pointer;
@@ -412,17 +417,17 @@ text {
   border-radius: 20px;
 }
 
-.course-inner{
+.course-inner {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-#Team-Members{
+#Team-Members {
   margin-top: 20px;
 }
-#Community-Managers{
-background-color: #b2e5f8;
+#Community-Managers {
+  background-color: #b2e5f8;
 }
 #Arrow-Id-Coding {
   display: flex;
@@ -1145,7 +1150,6 @@ span:nth-of-type(1) {
   padding: 20px 30px;
 }
 
-
 .Event-image {
   height: 40px;
   padding: 12px;
@@ -1399,7 +1403,7 @@ span {
     margin-left: 0px;
   }
 
-  text{
+  text {
     font-size: 18px;
   }
   .statistics {
@@ -1512,20 +1516,18 @@ span {
   }
 }
 
-
 @media only screen and (max-width: 500px) and (min-width: 200px) {
-
-  .Note{
-    margin: 0rem 2rem 2rem 2rem ;
+  .Note {
+    margin: 0rem 2rem 2rem 2rem;
     text-align: center;
     font-size: 14px;
-    padding:1rem;
+    padding: 1rem;
     background-color: rgb(154, 255, 255);
-    font-weight:700;
+    font-weight: 700;
     border-radius: 12px;
   }
-  
-  .LearningFolks{
+
+  .LearningFolks {
     color: blue;
   }
   .Temp {
@@ -1907,7 +1909,6 @@ span {
   .Navigation {
     transform: scale(1);
   }
-
 
   .Students {
     height: 60vh;
