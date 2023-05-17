@@ -7,7 +7,7 @@ body {
   background-color: #f0fefa;
 }
 .Listitem {
-  width: 80vw;
+  width: 84vw;
   gap: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -36,6 +36,10 @@ body {
 .Source-Icon_Like {
   height: 15px;
   width: 15px;
+}
+#Gmail-Section,
+#ChatGPT-Section {
+  margin-top: 20px;
 }
 
 .Link-Like {
@@ -84,7 +88,7 @@ body {
   font-size: 12px;
 }
 .Discript {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
 }
 .list-items-recourses {
