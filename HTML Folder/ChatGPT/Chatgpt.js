@@ -1,4 +1,5 @@
 const ChatGPT = [
+
   {
     url: "https://www.linkedin.com/posts/tulsisoni_most-effective-prompts-to-optimize-communication-activity-7060817530013052928-mUgt?utm_source=share&utm_medium=member_desktop",
     description: "Most Effective Prompts to Optimize Communication",
