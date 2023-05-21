@@ -138,12 +138,6 @@ Hamburger.addEventListener("click", function () {
   } else {
     SideMenu.classList.remove("show");
     SideMenu.style.display = "none";
-    if (firstClick && !SideMenu.classList.contains("show")) {
-      firstClick = false;
-      alert(
-        "Relationships and this side menu if this does work just reload and try again"
-      );
-    }
   }
 });
 
