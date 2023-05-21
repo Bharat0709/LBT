@@ -831,6 +831,10 @@ span:nth-of-type(1) {
   width: 90px;
 }
 
+#educated-robot{
+  height:108px ;
+  width:170px ;
+}
 .FeatureImage {
   margin-top: 20px;
 }

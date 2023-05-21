@@ -22,6 +22,12 @@ body {
   height: 25px;
 }
 
+#off-campus-note{
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  padding: 18px 12px;
+}
 .Source-Icon-URL,
 .link {
   height: 20px;
@@ -39,8 +45,9 @@ body {
   width: 15px;
 }
 #Gmail-Section,
-#ChatGPT-Section {
+#ChatGPT-Section, #Portfolio-Section {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .Link-Like {
@@ -63,7 +70,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
   margin: auto;
   justify-content: center;
 }
