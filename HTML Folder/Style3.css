@@ -50,6 +50,14 @@ body {
   margin-bottom: 20px;
 }
 
+#Note-Domains{
+  margin-top: 10px;
+  font-family: "inter", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
 .Link-Like {
   display: flex;
   gap: 30px;
