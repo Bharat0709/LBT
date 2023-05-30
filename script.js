@@ -1,5 +1,6 @@
 "use strict";
 
+
 // const MagicSearch = document.querySelector(".MagicSearch");
 const Answer = document.querySelector(".answer");
 const Reload = document.querySelector(".Reload");
@@ -26,11 +27,15 @@ const CollectionSection = document.querySelector("#Templates-Section");
 const ContestsSection = document.querySelector("#Events-Section");
 const CollabsSection = document.querySelector("#Resources-section");
 const OurTeam = document.querySelector("#OurTeam");
+const Subscribe = document.querySelector(".Subs");
+const Newsletter = document.querySelector(".Newsletter");
 console.log(OurTeam);
 const TeamsSection = document.querySelector("#Team-Members");
 console.log(TeamsSection);
 const ContactUsSection = document.querySelector("#Contactus-Section");
-
+Subscribe.addEventListener("click", function () {
+  Newsletter.value = "";
+});
 Collections.addEventListener("click", function () {
   CollectionSection.scrollIntoView({ behavior: "smooth" });
 });
@@ -124,11 +129,6 @@ window.onload = function () {
   }, 3000);
 };
 
-// Hamburger.addEventListener("click", function () {
-//   if (CheckBox.checked) {
-//   } else {
-//   }
-// });
 let firstClick = true;
 
 Hamburger.addEventListener("click", function () {
@@ -149,6 +149,8 @@ Hamburger.addEventListener("click", function () {
 //   SearchContainerFull.style.display = "flex";
 //   CheckBox.checked = false;
 // });
+
+
 
 const RenderURl = function (data) {
   const html = `
