@@ -1,6 +1,5 @@
 "use strict";
 
-
 // const MagicSearch = document.querySelector(".MagicSearch");
 const Answer = document.querySelector(".answer");
 const Reload = document.querySelector(".Reload");
@@ -65,10 +64,7 @@ const quotes = [
   "College: where dreams come true, but so do nightmares.",
   "I'm not just getting an education, I'm getting a caffeine addiction too.",
   "College: the place where everyone knows your name, but you can't remember theirs.",
-  "Life is short, but college is long.",
-  "I may be broke, but at least I'm getting an education.",
   "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-  "College is a marathon, not a sprint.",
   "I don't always study, but when I do, I make sure it's worth it.",
   "If at first you don't succeed, try again. And again. And again... until you pass.",
   "College: where every mistake is a learning opportunity.",
@@ -80,12 +76,10 @@ const quotes = [
   "The only way to do great work is to love what you do.",
   "The only limit to our realization of tomorrow will be our doubts of today.",
   "The best way to predict the future is to create it.",
-  "Believe you can and you're halfway there.",
   "Your only limit is the amount of doubt you have in yourself.",
   "Education is the passport to the future for tomorrow belongs to those who prepare for it today.",
   "Don't watch the clock; do what it does. Keep going.",
   "The future belongs to those who believe in the beauty of their dreams.",
-  "If you can dream it, you can achieve it.",
   "It does not matter how slowly you go as long as you do not stop.",
   "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.",
   "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
@@ -149,8 +143,6 @@ Hamburger.addEventListener("click", function () {
 //   SearchContainerFull.style.display = "flex";
 //   CheckBox.checked = false;
 // });
-
-
 
 const RenderURl = function (data) {
   const html = `
