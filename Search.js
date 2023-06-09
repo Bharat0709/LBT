@@ -5,6 +5,9 @@ const itemList = document.getElementById("itemList");
 const ComingSoon = document.querySelector(".ComingSoon");
 const ComingSoon1 = document.querySelector(".ComingSoon1");
 const ComingSoon2 = document.querySelector(".ComingSoon2");
+const ComingSoon3 = document.querySelector(".ComingSoon3");
+const ComingSoon4 = document.querySelector(".ComingSoon4");
+const ComingSoon5 = document.querySelector(".ComingSoon5");
 
 ComingSoon.addEventListener("click", function () {
   alert(`Coming Soon Stay Tuned!!`);
@@ -13,6 +16,15 @@ ComingSoon2.addEventListener("click", function () {
   alert(`Coming Soon Stay Tuned!!`);
 });
 ComingSoon1.addEventListener("click", function () {
+  alert(`Coming Soon Stay Tuned!!`);
+});
+ComingSoon3.addEventListener("click", function () {
+  alert(`Coming Soon Stay Tuned!!`);
+});
+ComingSoon4.addEventListener("click", function () {
+  alert(`Coming Soon Stay Tuned!!`);
+});
+ComingSoon5.addEventListener("click", function () {
   alert(`Coming Soon Stay Tuned!!`);
 });
 
