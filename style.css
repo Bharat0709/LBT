@@ -12,17 +12,14 @@ body {
 /* ADDED AFTER LAUNCH */
 
 #codigo{
-  background-color: #263238;
+  background-color: #160038;
   color: white;
 }
 
 #Registrations{
-  background-color: #93d2f9;
+  background-color: #c7f1f1;
 }
-
-#Registernow{
-margin: auto;
-}
+/* END  */
 .Visit-button {
   display: flex;
   gap: 12px;
