@@ -9,6 +9,20 @@ body {
   font-family: "Hind Siliguri", sans-serif;
 }
 
+/* ADDED AFTER LAUNCH */
+
+#codigo{
+  background-color: #263238;
+  color: white;
+}
+
+#Registrations{
+  background-color: #93d2f9;
+}
+
+#Registernow{
+margin: auto;
+}
 .Visit-button {
   display: flex;
   gap: 12px;
