@@ -1,5 +1,94 @@
 /* GENERAL TAGS */
 
+.contact {
+  padding: 50px 50px 0px 50px;
+  font-size: 32px;
+}
+
+.Contect-Us {
+  display: flex;
+  padding: 0px 20px 0px 20px;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+.Mobile-Number {
+  font-weight: bold;
+}
+.Number-Digits {
+  font-size: 14px;
+}
+.Contact-us-Left-Section {
+  width: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.College-Contacts {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 12px 16px;
+  background-color: #e2fbf5;
+  /* width: fit-content; */
+  border-radius: 12px;
+}
+
+.Contact-us-Right-Section {
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #e2fbf5;
+}
+
+.Name,
+.E-mail,
+.Message {
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+  margin: 12px;
+}
+.Name,
+.E-mail {
+  width: 20vw;
+}
+
+.Message {
+  width: 32vw;
+  height: 11vh;
+}
+
+.Bottom {
+  text-align: center;
+  padding: 16px;
+  font-weight: 400;
+  background-color: #231651;
+  color: white;
+}
+
+#Contact-Us-Submit {
+  margin: 20px 0px 10px 20px;
+}
+.Submit-Button {
+  padding: 6px 12px;
+  border: none;
+  background-color: #231651;
+  border-radius: 200px;
+  color: white;
+  margin-left: 10px;
+}
+
+.Submit-Button:hover {
+  cursor: pointer;
+}
+
+.SendMessage {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
 * {
   margin: 0px;
   padding: 0px;
@@ -11,23 +100,52 @@ body {
 
 /* ADDED AFTER LAUNCH */
 
-#codigo{
+#codigo {
   background-color: #070049;
   color: rgb(255, 255, 255);
 }
 
-#Registrations{
+#Registrations {
   background-color: #d5fffe;
 }
 
-.venue{
+.venue {
   color: blue;
 }
 
-#Polygon{
-  background-color:#ff0099;
+#Polygon {
+  background-color: #ff0099;
   border-radius: 200px;
 }
+
+.resourcescollection {
+  padding-top: 20px;
+}
+
+.ViewAll-Div {
+  align-items: centre;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.JOIN {
+  margin: auto;
+  display: flex;
+  align-self: center;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: rgb(0, 6, 71);
+  padding: 6px 14px;
+  margin-top: 12px;
+  color: white;
+  border-radius: 200px;
+}
+
+#ViewAll-Button {
+  margin-top: 20px;
+}
+
 /* END  */
 .Visit-button {
   display: flex;
@@ -119,6 +237,7 @@ a:hover {
 }
 
 #Contact-Us {
+  border-radius: 200px;
   padding: 6px 12px 6px 12px;
   border-radius: 6px;
   background-color: #263238;
@@ -335,6 +454,8 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 }
 #event-contact-apply {
   background-color: #ff0099;
+  border-radius: 200px;
+  padding: 8px 12px;
 }
 
 #Ambassador-Image {
@@ -369,16 +490,24 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 }
 
 .Community-CTA {
-  padding: 8px 12px 8px 12px;
-  border-radius: 6px;
+  border-radius: 200px;
+  padding: 8px 24px 8px 24px;
   background-color: #263238;
   color: white;
 }
 
+.Community-CTA:hover {
+  font-weight: 200;
+}
+
+#Discord-Button:hover {
+  font-weight: 200;
+}
+
 #Discord-Button {
   background-color: #e5ff00;
-  padding: 8px 12px 8px 12px;
-  border-radius: 6px;
+  border-radius: 200px;
+  padding: 8px 24px 8px 24px;
 }
 
 .Students {
@@ -469,6 +598,7 @@ text {
 
 #Team-Members {
   margin: 12px;
+  padding-top: 10px;
 }
 #Community-Managers {
   background-color: #b2e5f8;
@@ -538,7 +668,7 @@ text {
 }
 
 .Events {
-  margin: 30px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   background-color: #ffe0c6a8;
   padding: 20px 0px 0px 0px;
   display: flex;
@@ -652,12 +782,12 @@ span:nth-of-type(1) {
 }
 
 .Contactus {
-  margin: 20px 50px 50px 50px;
+  margin: 20px 50px 0px 50px;
   padding: 20px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 30px;
+  gap: 20px;
 }
 
 .Contact-us-right {
@@ -696,10 +826,10 @@ span:nth-of-type(1) {
 
 .join-community {
   background-color: #263238;
-  padding: 6px 12px 6px 12px;
-  border-radius: 6px;
+  padding: 6px 16px 6px 16px;
+  border-radius: 600px;
   color: white;
-  font-size: 14px;
+  font-size: 12px;
 }
 .rateus {
   margin-top: 20px;
@@ -820,6 +950,9 @@ span:nth-of-type(1) {
 }
 .contactuss {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
 }
 .Fest-wensites-Heading {
@@ -929,6 +1062,10 @@ span:nth-of-type(1) {
 }
 .Contest-register {
   background-color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 200px;
+  border: none;
+  font-weight: bold;
 }
 
 .ContestTail {
@@ -1098,13 +1235,13 @@ span:nth-of-type(1) {
   box-shadow: none;
 }
 .Promote {
-  padding: 8px 12px;
+  padding: 8px 16px;
   width: fit-content;
   border: none;
   letter-spacing: 0.4px;
   background-color: #ff0099;
   color: white;
-  border-radius: 6px;
+  border-radius: 600px;
   font-size: 14px;
 }
 
@@ -1165,6 +1302,8 @@ span:nth-of-type(1) {
 }
 #event-contact {
   background-color: #263238;
+  border-radius: 200px;
+  padding: 8px 12px;
 }
 
 #SurveySection {
@@ -1193,6 +1332,8 @@ span:nth-of-type(1) {
   font-size: 12px;
 }
 #Sell {
+  font-size: 11px;
+  padding: 8px 12px;
   background-color: #263238;
 }
 #Event-Management {
@@ -1211,10 +1352,11 @@ span:nth-of-type(1) {
   gap: 12px;
   justify-content: center;
 }
+
 .href {
   color: white;
   margin-top: 20px;
-
+  border-radius: 200px;
 }
 .templates {
   display: flex;
@@ -1222,7 +1364,7 @@ span:nth-of-type(1) {
   flex-wrap: wrap;
 }
 
-#hover-not{
+#hover-not {
   cursor: auto;
 }
 
@@ -1575,6 +1717,96 @@ span {
 }
 
 @media only screen and (max-width: 500px) and (min-width: 200px) {
+
+  /* #magicform-root {
+   display: none;
+  } */
+  .contact {
+    padding: 50px 50px 0px 50px;
+    font-size: 32px;
+  }
+
+  .Contect-Us {
+    display: flex;
+    padding: 0px 20px 10px 20px;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+  }
+  .Mobile-Number {
+    font-weight: bold;
+  }
+  .Number-Digits {
+    font-size: 14px;
+  }
+  .Contact-us-Left-Section {
+    width: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .College-Contacts {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 12px 16px;
+    background-color: #e2fbf5;
+    /* width: fit-content; */
+    border-radius: 12px;
+  }
+
+  .Contact-us-Right-Section {
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #e2fbf5;
+  }
+
+  .Name,
+  .E-mail,
+  .Message {
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    margin: 12px;
+  }
+  .Name,
+  .E-mail {
+    width: 40vw;
+  }
+
+  .Message {
+    width: 50vw;
+    height: 11vh;
+  }
+
+  .Bottom {
+    text-align: center;
+    padding: 16px;
+    font-weight: 400;
+    background-color: #231651;
+    color: white;
+  }
+
+  #Contact-Us-Submit {
+    margin: 20px 0px 10px 20px;
+  }
+  .Submit-Button {
+    padding: 6px 12px;
+    border: none;
+    background-color: #231651;
+    border-radius: 200px;
+    color: white;
+    align-self: center;
+    margin-left: 80px;
+  }
+
+  .SendMessage {
+    text-align: center;
+  }
+
   .Note {
     margin: 0rem 2rem 2rem 2rem;
     text-align: center;
@@ -1602,7 +1834,6 @@ span {
     margin-top: 10px;
   }
   .loading-animation {
-    
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -1653,6 +1884,8 @@ span {
 
   .Tagline {
     line-height: 40px;
+    font-size: 22px;
+    width: 280px;
   }
 
   .Below_tagline {

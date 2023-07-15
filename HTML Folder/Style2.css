@@ -14,12 +14,12 @@ body {
 }
 
 .ChooseTopic {
-  box-shadow: 2px 6px 6px 2px rgb(247, 238, 238);
+  box-shadow: 2px 6px 6px 2px rgb(245, 243, 243);
   background-color: white;
   padding: 20px;
   width: 300px;
   display: flex;
-  gap: 20px;
+  gap: 25px;
   justify-content: center;
   border-radius: 12px;
   flex-direction: column;
@@ -251,3 +251,8 @@ select {
   color: blue;
 }
 
+@media only screen and (max-width: 500px) and (min-width: 200px) {
+  #itemList{
+    padding: 25px;
+  }
+}

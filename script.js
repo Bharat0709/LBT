@@ -102,26 +102,26 @@ const quotes = [
   "I don't always study, but when I do, I prefer to do it the night before the exam.",
 ];
 
-function showQuote() {
-  const randomIndex = Math.floor(Math.random() * quotes.length);
-  const quoteText = quotes[randomIndex];
-  const quoteElement = document.getElementById("quote");
-  quoteElement.insertAdjacentHTML("afterend", `<p id="quote">${quoteText}</p>`);
-}
+// function showQuote() {
+//   const randomIndex = Math.floor(Math.random() * quotes.length);
+//   const quoteText = quotes[randomIndex];
+//   const quoteElement = document.getElementById("quote");
+//   quoteElement.insertAdjacentHTML("afterend", `<p id="quote">${quoteText}</p>`);
+// }
 
-window.onload = function () {
-  const loadingContainer = document.querySelector(".loading-container");
-  showQuote();
-  setTimeout(function () {
-    loadingContainer.style.opacity = 0;
-    setTimeout(function () {
-      loadingContainer.style.display = "none";
-      const landingPage = document.querySelector(".landing-page");
-      landingPage.style.opacity = 1;
-      sessionStorage.setItem("animationPlayed", true);
-    }, 2000);
-  }, 3000);
-};
+// window.onload = function () {
+//   const loadingContainer = document.querySelector(".loading-container");
+//   showQuote();
+//   setTimeout(function () {
+//     loadingContainer.style.opacity = 0;
+//     setTimeout(function () {
+//       loadingContainer.style.display = "none";
+//       const landingPage = document.querySelector(".landing-page");
+//       landingPage.style.opacity = 1;
+//       sessionStorage.setItem("animationPlayed", true);
+//     }, 2000);
+//   }, 3000);
+// };
 
 let firstClick = true;
 

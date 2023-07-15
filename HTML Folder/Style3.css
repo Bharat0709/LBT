@@ -51,12 +51,25 @@ body {
 }
 
 #Note-Domains{
-  margin-top: 10px;
+  width: fit-content;
+  margin: 10px auto ;
   font-family: "inter", sans-serif;
   font-size: 16px;
   line-height: 32px;
   font-weight: 400;
 }
+
+@media only screen and (max-width: 500px) and (min-width: 200px) {
+  #Note-Domains{
+    width: fit-content;
+    margin: 10px 20px 10px 20px ;
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+  }
+}
+
 
 .Link-Like {
   display: flex;
