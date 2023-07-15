@@ -22,6 +22,7 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
     <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="./HTML Folder/Collection/Collection.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="Anination.css  " />
   </head>
@@ -38,13 +39,57 @@
 
   gtag("config", "G-20B5ZG1Y6E");
 </script>
+<script
+type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+></script>
+<script type="text/javascript">
+(function () {
+  // https://dashboard.emailjs.com/admin/account
+  emailjs.init("A239UswrjaZz8l97Y");
+})();
+</script>
+<script type="text/javascript">
+window.onload = function () {
+  document
+    .getElementById("contact-form")
+      .addEventListener("submit", function (event) {
+      console.log('Submitting form...');
+      event.preventDefault();
+      // generate a five digit number for the contact_number variable
+      this.contact_number.value = (Math.random() * 100000) | 0;
+      // these IDs from the previous steps
+      emailjs.sendForm("service_e4hydm9", "template_3nsni0b", this).then(
+        function () {
+          alert("SUCCESS!");
+        },
+        function (error) {
+          alert("FAILED...", error);
+        }
+      );
+    });
+};
+</script>
   <body>
-    <div class="loading-container">
+    <!-- <div class="loading-container">
       <div class="loading-animation"></div>
       <div class="quote-container">
         <p id="quote"></p>
       </div>
-    </div>
+    </div> -->
+
+    
+      <div id="magicform-root" style="z-index: 9999;position: relative;"></div> 
+      <script>
+        (function (w, d, s, o, f, js, fjs) {
+            w["Simple-Widget"] = o; w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+            js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+            js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+        }(window, document, "script", "w1", 'https://magicform-widget-assets.s3.us-west-2.amazonaws.com/widget.js'));
+        w1("init", 
+{"popUpTimer":60000,"imageUrl":"Images/chatbot.png","widgetType":"bubble","chatHeight":520,"chatWidth":340,"placeholder":"What's on your mind?","title":"Welcome to Let's Bunk Today","subtitle":"Typically responds in 5 second","stackId":"stack_41027319-aeca-44cb-9bc9-ccd07e450cb6","userId":"e0c07d5a-4e6b-4bdb-8548-10de00aba0be","colors":{"main":"","userMessageBubble":"#000000"}}
+);
+      </script>
 
     <section class="landing-page">
       <section class="Hero-Section" id="Home">
@@ -135,13 +180,13 @@
               href="https://chat.whatsapp.com/EpgnHMCeNYx8vYi59oly9l"
               class="Community-CTA"
               id="Community"
-              >Join Students Community</a
+              >Join Community</a
             >
               <a
                 href="https://discord.gg/JdYAdbh99p"
                 class="Discord-CTA"
                 id="Discord-Button"
-                >Join Discord Server</a
+                >Join Discord</a
               >
             </div>
           </div>
@@ -158,9 +203,9 @@
       </section>
     </section>
 
-    <a href="#Home" class="href">
+    <!-- <a href="#Home" class="href">
       <img src="Images/arrowUp 1.png" alt="arrow" class="arrowUP"
-    /></a>
+    /></a> -->
     <img src="Images/arrowUp 1.png" alt="arrow" class="arrowUPFloating" />
 
     <section class="stats">
@@ -205,7 +250,11 @@
       </div>
     </section>
 
-    <section class="templates" id="Templates-Section">
+
+    <section class="resourcescollection" id="Templates-Section">
+    <h4 class="Heading">Our Collections</h4>
+    <section class="templates">
+
       <div class="Drafters Temp animate-up" id="Technology">
         <p class="buyandsell">
           800+ Tech Resources collection to ace in college & professional life
@@ -274,7 +323,7 @@
         </div>
       </div>
 
-      <div class="Drafters Temp" id="#SurveySection">
+      <!-- <div class="Drafters Temp" id="#SurveySection">
         <p class="buyandsell">
           Top Chat Gpt Prompts that'll help you to ace in Life
         </p>
@@ -320,9 +369,38 @@
           ><button id="Sell" class="Buy">View Websites</button></a
         >
         </div>
-      </div>
+      </div> -->
     </section>
-    <section class="Giveaway" id="Survey-Section">
+  </section>
+
+    <div class="ViewAll-Div">
+      <a
+        href="./HTML Folder/Collection/Collection.html"
+        class=""
+        ><button class="Promote" id="ViewAll-Button">View All</button></a
+      >
+    </div>
+
+    <section class="Fest-websites" id="Fest-Website-Section">
+      <div class="Drafters" id="Event-Management">
+        <h2 class="Fest-wensites-Heading">
+          Make Your Fest Unforgettable with Let's Bunk Today - Your Fest
+          Website Solution!
+        </h2>
+        <p class="buyandsell" id="Fest-sub-heading">
+          Bringing Your College Fest to Life with a Website That Shines
+        </p>
+        <img class="Event-image" src="Images/Fest.png" alt="Pg" />
+
+        <div class="buysellbuttons">
+          <button class="Buy" id="event-contact">
+            <a href="#Contactus-Section" class="href">Contact Us</a>
+          </button>
+        </div>
+      </div>
+    </section> 
+
+    <!-- <section class="Giveaway" id="Survey-Section">
       <div class="Drafters" id="SurveySection">
         <h2 class="">Upcoming Collections</h2>
         <p class="buyandsell">
@@ -331,102 +409,12 @@
         Top Chrome Extensions Collection
         </p>
       </div>
-    </section>
+    </section> -->
     
 
     <section class="sections" id="Events-Section">
       <h4 class="Heading">Contests & Events</h4>
 
-      <div class="Events" id="PastEvents">
-        <div class="Resources-Cards Event-Card">
-          <div class="Resource-Link" id="Contest-Section">
-            <div class="EventHeading ContestHead">
-              <p class="Resourcesheading">Builders Hub: BuildRL Powered by Flipkart X Polygon Delhi Guild Edition</p>
-            <p class="Members Free-paid Contest-tag">Past Event</p>
-                 <!-- <p class="Members Free-paid Contest-tag">2:30 PM Onwards </p> 
-              <p class="Members Free-paid Contest-tag">Venue: <a href="https://www.google.com/maps/place/TATA+1MG+HEALTHCARE+SOLUTIONS+PRIVATE+LIMITED/@28.4712711,77.0486534,17z/data=!3m1!4b1!4m6!3m5!1s0x390d19acb8da9557:0xb70307dcf8a7062d!8m2!3d28.4712711!4d77.0486534!16s%2Fg%2F11b6yxd2h7?hl=en-IN&entry=ttu" class="venue">Check here</a></p> -->
-            </div>
-            <p class="Resource-Brief ContestTail">
-              ​​​🚀 Get ready to join the ranks of web3 builders and create the decentralized future of tomorrow! 
-            </p>
-            <div class="ResourcesStat ContestTail ContestTail-2" id="Registrations">
-              <div class="candidates">
-            
-                <a href="" class="Registerlink" id="Registernow"
-                  ><button id="hover-not" class="ResourcesVisit-2 Contest-register">
-                   Held on 26th June,23
-                  </button></a
-                >
-                
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="Resources-Cards Event-Card" >
-          <div class="Resource-Link" id="Contest-Section">
-            <div class="EventHeading ContestHead">
-              <p class="Resourcesheading">Create your First App in just 2 hours with Codigo</p>
-              <p class="Members Free-paid Contest-tag">Past Event </p> 
-              <!-- <p class="Members Free-paid Contest-tag">06:00 PM Onwards</p>
-               <p class="Members Free-paid Contest-tag">Certificates for Participants</p> -->
-            </div>
-            <p class="Resource-Brief ContestTail">
-              Passionate about tech and want to build your own app in just 2 hours ⏰
-            </p>
-            <div class="ResourcesStat ContestTail ContestTail-2" id="Registrations">
-              <div class="candidates">
-            
-                <a href="https://chat.whatsapp.com/IOOVJ63AkNv3EFB1AThmco" class="Registerlink" id="Registernow"
-                  ><button id="hover-not" class="ResourcesVisit-2 Contest-register">
-                    Held on 18th June,23
-                  </button></a
-                >
-                
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="Resources-Cards Event-Card">
-          <div class="Resource-Link" id="Contest-Section">
-            <div class="EventHeading ContestHead">
-              <p class="Resourcesheading">Pyskill</p>
-              <p class="Members Free-paid Contest-tag">Past Event</p>
-            </div>
-            <p class="Resource-Brief ContestTail">
-              A webinar on Python is an online seminar that provides an
-              interactive platform for participants to learn and discuss various
-              aspects of the Python programming language.
-            </p>
-            <div class="ResourcesStat ContestTail ContestTail-2" id="Registrations">
-              <div class="details">
-                <button id="hover-not" class="ResourcesVisit-2 Contest-register">
-                  Held on 29<sup>th</sup> - 30<sup>th</sup> March,23
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="Resources-Cards Event-Card">
-          <div class="Resource-Link" id="Contest-Section">
-            <div class="EventHeading ContestHead">
-              <p class="Resourcesheading">Let's Grow Webinar</p>
-              <p class="Members Free-paid Contest-tag">Past Event</p>
-            </div>
-            <p class="Resource-Brief ContestTail">
-              Webinar on SIH (Smart India Hackathon) that is a nationwide
-              initiative that brings together technical students to solve
-              real-world problems.
-            </p>
-            <div class="ResourcesStat ContestTail ContestTail-2" id="Registrations">
-              <div class="details">
-                <button id="hover-not" class="ResourcesVisit-2 Contest-register">
-                  Held on 16<sup>th</sup> Dec,22
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       <div class="Events" id="Upcoming-Events">
         <div class="Resources-Cards Event-Card" id="codigo">
           <div class="Resource-Link" id="Contest-Section">
@@ -523,6 +511,97 @@
         </div>
 
       </div>
+      <div class="Events" id="PastEvents">
+        <div class="Resources-Cards Event-Card">
+          <div class="Resource-Link" id="Contest-Section">
+            <div class="EventHeading ContestHead">
+              <p class="Resourcesheading">Builders Hub: BuildRL Powered by Flipkart X Polygon Delhi Guild Edition</p>
+            <p class="Members Free-paid Contest-tag">Past Event</p>
+                 <!-- <p class="Members Free-paid Contest-tag">2:30 PM Onwards </p> 
+              <p class="Members Free-paid Contest-tag">Venue: <a href="https://www.google.com/maps/place/TATA+1MG+HEALTHCARE+SOLUTIONS+PRIVATE+LIMITED/@28.4712711,77.0486534,17z/data=!3m1!4b1!4m6!3m5!1s0x390d19acb8da9557:0xb70307dcf8a7062d!8m2!3d28.4712711!4d77.0486534!16s%2Fg%2F11b6yxd2h7?hl=en-IN&entry=ttu" class="venue">Check here</a></p> -->
+            </div>
+            <p class="Resource-Brief ContestTail">
+              ​​​🚀 Get ready to join the ranks of web3 builders and create the decentralized future of tomorrow! 
+            </p>
+            <div class="ResourcesStat ContestTail ContestTail-2" id="Registrations">
+              <div class="candidates">
+            
+                <a href="" class="Registerlink" id="Registernow"
+                  ><button id="hover-not" class="Contest-register">
+                   Held on 26th June,23
+                  </button></a
+                >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="Resources-Cards Event-Card" >
+          <div class="Resource-Link" id="Contest-Section">
+            <div class="EventHeading ContestHead">
+              <p class="Resourcesheading">Create your First App in just 2 hours with Codigo</p>
+              <p class="Members Free-paid Contest-tag">Past Event </p> 
+              <!-- <p class="Members Free-paid Contest-tag">06:00 PM Onwards</p>
+               <p class="Members Free-paid Contest-tag">Certificates for Participants</p> -->
+            </div>
+            <p class="Resource-Brief ContestTail">
+              Passionate about tech and want to build your own app in just 2 hours ⏰
+            </p>
+            <div class="ResourcesStat ContestTail ContestTail-2" id="Registrations">
+              <div class="candidates">
+            
+                <a href="https://chat.whatsapp.com/IOOVJ63AkNv3EFB1AThmco" class="Registerlink" id="Registernow"
+                  ><button id="hover-not" class="Contest-register">
+                    Held on 18th June,23
+                  </button></a
+                >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="Resources-Cards Event-Card">
+          <div class="Resource-Link" id="Contest-Section">
+            <div class="EventHeading ContestHead">
+              <p class="Resourcesheading">Pyskill</p>
+              <p class="Members Free-paid Contest-tag">Past Event</p>
+            </div>
+            <p class="Resource-Brief ContestTail">
+              A webinar on Python is an online seminar that provides an
+              interactive platform for participants to learn and discuss various
+              aspects of the Python programming language.
+            </p>
+            <div class="ResourcesStat ContestTail ContestTail-2" id="Registrations">
+              <div class="details">
+                <button id="hover-not" class="Contest-register">
+                  Held on 29<sup>th</sup> - 30<sup>th</sup> March,23
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="Resources-Cards Event-Card">
+          <div class="Resource-Link" id="Contest-Section">
+            <div class="EventHeading ContestHead">
+              <p class="Resourcesheading">Let's Grow Webinar</p>
+              <p class="Members Free-paid Contest-tag">Past Event</p>
+            </div>
+            <p class="Resource-Brief ContestTail">
+              Webinar on SIH (Smart India Hackathon) that is a nationwide
+              initiative that brings together technical students to solve
+              real-world problems.
+            </p>
+            <div class="ResourcesStat ContestTail ContestTail-2" id="Registrations">
+              <div class="details">
+                <button id="hover-not" class="Contest-register">
+                  Held on 16<sup>th</sup> Dec,22
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
       <div class="UnderEvent">
         <!-- <p class="viewall">View All</p> -->
@@ -565,8 +644,50 @@
       </div>
     </section> -->
 
+    
+    <section class="Giveaway" id="Cool">
+      <div class="Drafters" id="AmbassadorSection">
+        <img
+          class="PG-Image"
+          id="Ambassador-Image"
+          src="Images/Ambassador.png"
+          alt="CA"
+        />
+        <h2 class="GiveAway-Heading">
+          Let's Bunk Today Campus Ambassador Program
+        </h2>
+        <p class="buyandsell">Join Us, Learn and Grow</p>
+        <div class="buysellbuttons Ambassador-buttons">
+          <button class="Buy" id="event-contact">
+            <a
+              href="https://drive.google.com/file/d/1P8IgSZ9XbIpjhQ2RNC_4TlbcvDLcmVKd/view?usp=sharing"
+              class="href"
+              >Perks and Benefits</a
+            >
+          </button>
+
+          <button class="Buy" id="event-contact-apply">
+            <a
+              href="https://docs.google.com/forms/d/1g7mnP6m1-YkwpmxEFmcJyFeMc4tfgFSZpfcYO2LWLqE/edit"
+              class="href"
+              >Apply Now
+            </a>
+          </button>
+
+          <!-- <button class="Buy" id="event-contact">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSe8JFEU9PZOQzuMi15E44Fi9yymY_ZnbzY56O4zG0mUozd8QA/viewform"
+              class="href"
+              >View Leaderboard
+              </a
+            >
+          </button> -->
+        </div>
+      </div>
+    </section>
+
     <section class="CoursesHeading" id="Resources-section">
-      <h4 class="Heading">Paid Collaborations</h4>
+      <h4 class="Heading">IPU Assistance</h4>
 
       <section class="Courses">
         <!-- 
@@ -630,24 +751,7 @@
       </section>
     </section>
 
-    <!-- <section class="Fest-websites" id="Fest-Website-Section">
-      <div class="Drafters" id="Event-Management">
-        <h2 class="Fest-wensites-Heading">
-          Make Your Fest Unforgettable with Let's Bunk Today - Your Fest
-          Website Solution!
-        </h2>
-        <p class="buyandsell" id="Fest-sub-heading">
-          Bringing Your College Fest to Life with a Website That Shines
-        </p>
-        <img class="Event-image" src="Images/Fest.png" alt="Pg" />
 
-        <div class="buysellbuttons">
-          <button class="Buy" id="event-contact">
-            <a href="#Contactus-Section" class="href">Contact Us</a>
-          </button>
-        </div>
-      </div>
-    </section> -->
 
     <section class="CoursesHeading">
       <h4 class="Heading">Communities Collab</h4>
@@ -701,22 +805,6 @@
           </div>
         </div>
       </div>
-
-      <!-- <div class="Resources-Cards" id="Card-syllabus">
-        <div class="Resource-Link">
-          <p class="Resourcesheading">Let's Bunk Today X The Frontend Club</p>
-          <p class="Resource-Brief">Placement Opportunities for you all</p>
-          <div class="ResourcesStat">
-            <a
-              href="https://chat.whatsapp.com/Lm8GyQQVr3TDO36lrrM9VL"
-              class="ResourcesLinks"
-              ><button id="SyllabusXVisit" class="ResourcesVisit">
-                Join Announcements Group
-              </button></a
-            >
-          </div>
-        </div>
-      </div> -->
 
       <div class="Resources-Cards">
         <div class="Resource-Link">
@@ -794,55 +882,14 @@
       >
     </div>
 
-    <section class="Giveaway" id="Cool">
-      <div class="Drafters" id="AmbassadorSection">
-        <img
-          class="PG-Image"
-          id="Ambassador-Image"
-          src="Images/Ambassador.png"
-          alt="CA"
-        />
-        <h2 class="GiveAway-Heading">
-          Let's Bunk Today Campus Ambassador Program
-        </h2>
-        <p class="buyandsell">Join Us, Learn and Grow</p>
-        <div class="buysellbuttons Ambassador-buttons">
-          <button class="Buy" id="event-contact">
-            <a
-              href="https://drive.google.com/file/d/1P8IgSZ9XbIpjhQ2RNC_4TlbcvDLcmVKd/view?usp=sharing"
-              class="href"
-              >Perks and Benefits</a
-            >
-          </button>
-
-          <button class="Buy" id="event-contact-apply">
-            <a
-              href="https://docs.google.com/forms/d/1g7mnP6m1-YkwpmxEFmcJyFeMc4tfgFSZpfcYO2LWLqE/edit"
-              class="href"
-              >Apply Now
-            </a>
-          </button>
-
-          <!-- <button class="Buy" id="event-contact">
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSe8JFEU9PZOQzuMi15E44Fi9yymY_ZnbzY56O4zG0mUozd8QA/viewform"
-              class="href"
-              >View Leaderboard
-              </a
-            >
-          </button> -->
-        </div>
-      </div>
-    </section>
 
     <section class="sections" id="Contactus-Section">
       <h4 class="Heading">Contact Us</h4>
 
       <section class="Contactus">
-        <img id="Contact-Us-On" src="Images/Contact.png" alt="" />
-        <div class="Contact-us-right">
+         <div class="Contact-us-right">
           <p class="suggestion">
-            Any suggestions/Queries ?<br />
+            Any Suggestions/Queries ?<br />
             Reach us at <em><strong>(letsbunktoday@gmail.com)</strong></em>
           </p>
           <div class="Social-Links" id="Contactus-Social-Links">
@@ -856,11 +903,11 @@
               class="SocialslinksAnchor"
               ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
             /></a>
-            <!-- <a
+            <a
               href="https://twitter.com/lets_bunk_today?t=TogeSJOSLFg1iBbTgwP3Fg&s=09"
               class="SocialslinksAnchor"
               ><img class="Socials" src="Images/twitter.png" alt="Telegram"
-            /></a> -->
+            /></a> 
             <a
               href="https://discord.com/invite/xfMzjnfY"
               class="SocialslinksAnchor"
@@ -881,11 +928,33 @@
               </a>
             </button>
           </div>
-        </div>
+        </div> 
+        <!-- <img id="Contact-Us-On" src="Images/Contact.png" alt="" /> -->
+        <section class="Contect-Us">
+          <div class="Contact-us-Right-Section">
+            <h2 class="SendMessage">Send Message</h2>
+            <form id="contact-form">
+              <input type="hidden" name="contact_number" />
+              <div id="Label-Name">
+              <label>Name</label>
+              <input class="E-mail" type="text" name="user_name" placeholder="Name" />
+            </div>
+            <div id="Label-Email">
+              <label >Email</label>
+              <input class="E-mail" type="email" name="user_email" placeholder="Mail ID" />
+              </div>
+              <div id="Label-Message">
+              <label >Message</label>
+              <textarea class="Message" name="message" placeholder="Message"></textarea>
+            </div>
+              <input class="Submit-Button" type="submit" value="Send" />
+            </form>
+          </div>
+        </section>
       </section>
     </section>
-
-    <section class="Connect-with-team" id="Team-Members">
+    <section class="Dream-Team" id="Team-Members">
+    <section class="Connect-with-team">
       <p class="connect">Connect with team Let's Bunk Today</p>
       <div class="Team-Contact">
         <div class="Member">
@@ -978,6 +1047,7 @@
         </div>
       </div>
     </section>
+  </section>
 
     <section class="Giveaway" id="Survey-Section">
       <div class="Drafters" id="SurveySection">
@@ -1055,6 +1125,8 @@
         </div>
       </div>
     </section>
+
+
 
     <script src="script.js" async defer></script>
   </body>
