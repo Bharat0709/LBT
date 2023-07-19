@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel=" shortcut-icon" type="image/jpg" href="/Images/favicon.jpg" />
     <meta
       name="google-signin-client_id"
       content="277970221546-rid0l9idhm1lhbf219eo84i4edrdgdh8.apps.googleusercontent.com"
@@ -27,49 +28,49 @@
     <link rel="stylesheet" href="Anination.css  " />
   </head>
   <script
-  async
-  src="https://www.googletagmanager.com/gtag/js?id=G-20B5ZG1Y6E"
-></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag("js", new Date());
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-20B5ZG1Y6E"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-  gtag("config", "G-20B5ZG1Y6E");
-</script>
-<script
-type="text/javascript"
-src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
-></script>
-<script type="text/javascript">
-(function () {
-  // https://dashboard.emailjs.com/admin/account
-  emailjs.init("A239UswrjaZz8l97Y");
-})();
-</script>
-<script type="text/javascript">
-window.onload = function () {
-  document
-    .getElementById("contact-form")
-      .addEventListener("submit", function (event) {
-      console.log('Submitting form...');
-      event.preventDefault();
-      // generate a five digit number for the contact_number variable
-      this.contact_number.value = (Math.random() * 100000) | 0;
-      // these IDs from the previous steps
-      emailjs.sendForm("service_e4hydm9", "template_3nsni0b", this).then(
-        function () {
-          alert("SUCCESS!");
-        },
-        function (error) {
-          alert("FAILED...", error);
-        }
-      );
-    });
-};
-</script>
+    gtag("config", "G-20B5ZG1Y6E");
+  </script>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+  ></script>
+  <script type="text/javascript">
+    (function () {
+      // https://dashboard.emailjs.com/admin/account
+      emailjs.init("A239UswrjaZz8l97Y");
+    })();
+  </script>
+  <script type="text/javascript">
+    window.onload = function () {
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (event) {
+          console.log("Submitting form...");
+          event.preventDefault();
+          // generate a five digit number for the contact_number variable
+          this.contact_number.value = (Math.random() * 100000) | 0;
+          // these IDs from the previous steps
+          emailjs.sendForm("service_e4hydm9", "template_3nsni0b", this).then(
+            function () {
+              alert("SUCCESS!");
+            },
+            function (error) {
+              alert("FAILED...", error);
+            }
+          );
+        });
+    };
+  </script>
   <body>
     <!-- <div class="loading-container">
       <div class="loading-animation"></div>
@@ -78,18 +79,41 @@ window.onload = function () {
       </div>
     </div> -->
 
-    
-      <div id="magicform-root" style="z-index: 9999;position: relative;"></div> 
-      <script>
-        (function (w, d, s, o, f, js, fjs) {
-            w["Simple-Widget"] = o; w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
-            js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
-            js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
-        }(window, document, "script", "w1", 'https://magicform-widget-assets.s3.us-west-2.amazonaws.com/widget.js'));
-        w1("init", 
-{"popUpTimer":60000,"imageUrl":"Images/chatbot.png","widgetType":"bubble","chatHeight":520,"chatWidth":340,"placeholder":"What's on your mind?","title":"Welcome to Let's Bunk Today","subtitle":"Typically responds in 5 second","stackId":"stack_41027319-aeca-44cb-9bc9-ccd07e450cb6","userId":"e0c07d5a-4e6b-4bdb-8548-10de00aba0be","colors":{"main":"","userMessageBubble":"#000000"}}
-);
-      </script>
+    <div id="magicform-root" style="z-index: 9999; position: relative"></div>
+    <script>
+      (function (w, d, s, o, f, js, fjs) {
+        w["Simple-Widget"] = o;
+        w[o] =
+          w[o] ||
+          function () {
+            (w[o].q = w[o].q || []).push(arguments);
+          };
+        (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]);
+        js.id = o;
+        js.src = f;
+        js.async = 1;
+        fjs.parentNode.insertBefore(js, fjs);
+      })(
+        window,
+        document,
+        "script",
+        "w1",
+        "https://magicform-widget-assets.s3.us-west-2.amazonaws.com/widget.js"
+      );
+      w1("init", {
+        popUpTimer: 60000,
+        imageUrl: "Images/chatbot.png",
+        widgetType: "bubble",
+        chatHeight: 520,
+        chatWidth: 340,
+        placeholder: "What's on your mind?",
+        title: "Welcome to Let's Bunk Today",
+        subtitle: "Typically responds in 5 second",
+        stackId: "stack_41027319-aeca-44cb-9bc9-ccd07e450cb6",
+        userId: "e0c07d5a-4e6b-4bdb-8548-10de00aba0be",
+        colors: { main: "", userMessageBubble: "#000000" },
+      });
+    </script>
 
     <section class="landing-page">
       <section class="Hero-Section" id="Home">
@@ -172,16 +196,16 @@ window.onload = function () {
               college crush.
             </h1>
             <p class="Below_tagline">
-              Community of Enthusiast Engineering students of different colleges
-              in Delhi.
+              From Stress to Success: Empowering Placements with Our Complete
+              Resource Repository!
             </p>
             <div class="Cta">
               <a
-              href="https://chat.whatsapp.com/EpgnHMCeNYx8vYi59oly9l"
-              class="Community-CTA"
-              id="Community"
-              >Join Community</a
-            >
+                href="/HTML Folder/Collection/Collection.html"
+                class="Community-CTA"
+                id="Community"
+                >Free Resources</a
+              >
               <a
                 href="https://discord.gg/JdYAdbh99p"
                 class="Discord-CTA"
@@ -250,80 +274,81 @@ window.onload = function () {
       </div>
     </section>
 
-
     <section class="resourcescollection" id="Templates-Section">
-    <h4 class="Heading">Our Collections</h4>
-    <section class="templates">
-
-      <div class="Drafters Temp animate-up" id="Technology">
-        <p class="buyandsell">
-          800+ Tech Resources collection to ace in college & professional life
-        </p>
-        <img
-          id="educated-robot"
-          class="FeatureImage Image Tech"
-          src="Images/tech.png"
-          alt="Pg"
-        />
-        <div class="buysellbuttons">
-          <a href="HTML Folder/Domains.html" class="href"
-            ><button id="Sell" class="Buy">View Resources</button></a
-          >
+      <h4 class="Heading">Our Collections</h4>
+      <section class="templates">
+        <div class="Drafters Temp animate-up" id="Technology">
+          <p class="buyandsell">
+            800+ Tech Resources collection to ace in college & professional life
+          </p>
+          <img
+            id="educated-robot"
+            class="FeatureImage Image Tech"
+            src="Images/tech.png"
+            alt="Pg"
+          />
+          <div class="buysellbuttons">
+            <a href="HTML Folder/Domains.html" class="href"
+              ><button id="Sell" class="Buy">View Resources</button></a
+            >
+          </div>
         </div>
-      </div>
 
-      <div class="Drafters Temp" id="AmbassadorSection">
-        <p class="buyandsell">
-          100+ Unicorn Companies u can Apply for Jobs/Internships
-        </p>
-        <img
-          class="PG-Image FeatureImage"
-          src="Images/Unicorn 1.png"
-          alt="Pg"
-        />
-        <div class="buysellbuttons">
-          <a href="https://docs.google.com/spreadsheets/d/1HdZtj6Z7Gh_boh0qHa-3n-FkGWEgkZ7juN5P3veFRDY/edit#gid=0" class="href"
-          ><button id="Sell" class="Buy">View</button></a
-        >
+        <div class="Drafters Temp" id="AmbassadorSection">
+          <p class="buyandsell">
+            100+ Unicorn Companies u can Apply for Jobs/Internships
+          </p>
+          <img
+            class="PG-Image FeatureImage"
+            src="Images/Unicorn 1.png"
+            alt="Pg"
+          />
+          <div class="buysellbuttons">
+            <a
+              href="https://docs.google.com/spreadsheets/d/1HdZtj6Z7Gh_boh0qHa-3n-FkGWEgkZ7juN5P3veFRDY/edit#gid=0"
+              class="href"
+              ><button id="Sell" class="Buy">View</button></a
+            >
 
-            <a href="https://scribehow.com/shared/How_to_Find_and_Apply_for_an_Internship_using_this_spreadsheet_All_the_Best__OExYmSDzQLyxXi4d_YBHGA" class="href"
-            ><button id="Sell" class="Buy">How to Apply</button></a
-          >
-         
+            <a
+              href="https://scribehow.com/shared/How_to_Find_and_Apply_for_an_Internship_using_this_spreadsheet_All_the_Best__OExYmSDzQLyxXi4d_YBHGA"
+              class="href"
+              ><button id="Sell" class="Buy">How to Apply</button></a
+            >
+          </div>
         </div>
-      </div>
 
-      <div class="Drafters Temp" id="OffCampus">
-        <p class="buyandsell">60+ Companies which hire freshers Off-Campus</p>
-        <img
-          class="PG-Image FeatureImage"
-          src="Images/OffCampus.png"
-          alt="Pg"
-        />
-        <div class="buysellbuttons">
-          <a href="HTML Folder/OFFCampus/OffCampus.html" class="href"
-          ><button id="Sell" class="Buy">View</button></a
-        >
+        <div class="Drafters Temp" id="OffCampus">
+          <p class="buyandsell">60+ Companies which hire freshers Off-Campus</p>
+          <img
+            class="PG-Image FeatureImage"
+            src="Images/OffCampus.png"
+            alt="Pg"
+          />
+          <div class="buysellbuttons">
+            <a href="HTML Folder/OFFCampus/OffCampus.html" class="href"
+              ><button id="Sell" class="Buy">View</button></a
+            >
+          </div>
         </div>
-      </div>
 
-      <div class="Drafters Temp" id="GithubTemplate">
-        <p class="buyandsell">
-          Gmail Hacks u should know before applying for internships
-        </p>
-        <img
-          class="PG-Image FeatureImage"
-          src="Images/New Gmail.png"
-          alt="Pg"
-        />
-        <div class="buysellbuttons">
-          <a href="HTML Folder/Gmail/Gmail.html" class="href"
-          ><button id="Sell" class="Buy">View Hacks</button></a
-        >
+        <div class="Drafters Temp" id="GithubTemplate">
+          <p class="buyandsell">
+            Gmail Hacks u should know before applying for internships
+          </p>
+          <img
+            class="PG-Image FeatureImage"
+            src="Images/New Gmail.png"
+            alt="Pg"
+          />
+          <div class="buysellbuttons">
+            <a href="HTML Folder/Gmail/Gmail.html" class="href"
+              ><button id="Sell" class="Buy">View Hacks</button></a
+            >
+          </div>
         </div>
-      </div>
 
-      <!-- <div class="Drafters Temp" id="#SurveySection">
+        <!-- <div class="Drafters Temp" id="#SurveySection">
         <p class="buyandsell">
           Top Chat Gpt Prompts that'll help you to ace in Life
         </p>
@@ -370,13 +395,11 @@ window.onload = function () {
         >
         </div>
       </div> -->
+      </section>
     </section>
-  </section>
 
     <div class="ViewAll-Div">
-      <a
-        href="./HTML Folder/Collection/Collection.html"
-        class=""
+      <a href="./HTML Folder/Collection/Collection.html" class=""
         ><button class="Promote" id="ViewAll-Button">View All</button></a
       >
     </div>
@@ -384,8 +407,8 @@ window.onload = function () {
     <section class="Fest-websites" id="Fest-Website-Section">
       <div class="Drafters" id="Event-Management">
         <h2 class="Fest-wensites-Heading">
-          Make Your Fest Unforgettable with Let's Bunk Today - Your Fest
-          Website Solution!
+          Make Your Fest Unforgettable with Let's Bunk Today - Your Fest Website
+          Solution!
         </h2>
         <p class="buyandsell" id="Fest-sub-heading">
           Bringing Your College Fest to Life with a Website That Shines
@@ -398,7 +421,7 @@ window.onload = function () {
           </button>
         </div>
       </div>
-    </section> 
+    </section>
 
     <!-- <section class="Giveaway" id="Survey-Section">
       <div class="Drafters" id="SurveySection">
@@ -410,7 +433,6 @@ window.onload = function () {
         </p>
       </div>
     </section> -->
-    
 
     <section class="sections" id="Events-Section">
       <h4 class="Heading">Contests & Events</h4>
@@ -428,7 +450,7 @@ window.onload = function () {
               A collaborative competition that encourages designers and
               developers to fuse their talents
             </p>
-           <!--  <div class="sponsors ContestTail">
+            <!--  <div class="sponsors ContestTail">
               <p class="paisa">Sponsors</p>
               <div class="Logo-div">
                              <img src="images/XYZ.png" alt="Logo" class="sponsor-logo" />
@@ -509,53 +531,64 @@ window.onload = function () {
             </div>
           </div>
         </div>
-
       </div>
       <div class="Events" id="PastEvents">
         <div class="Resources-Cards Event-Card">
           <div class="Resource-Link" id="Contest-Section">
             <div class="EventHeading ContestHead">
-              <p class="Resourcesheading">Builders Hub: BuildRL Powered by Flipkart X Polygon Delhi Guild Edition</p>
-            <p class="Members Free-paid Contest-tag">Past Event</p>
-                 <!-- <p class="Members Free-paid Contest-tag">2:30 PM Onwards </p> 
+              <p class="Resourcesheading">
+                Builders Hub: BuildRL Powered by Flipkart X Polygon Delhi Guild
+                Edition
+              </p>
+              <p class="Members Free-paid Contest-tag">Past Event</p>
+              <!-- <p class="Members Free-paid Contest-tag">2:30 PM Onwards </p> 
               <p class="Members Free-paid Contest-tag">Venue: <a href="https://www.google.com/maps/place/TATA+1MG+HEALTHCARE+SOLUTIONS+PRIVATE+LIMITED/@28.4712711,77.0486534,17z/data=!3m1!4b1!4m6!3m5!1s0x390d19acb8da9557:0xb70307dcf8a7062d!8m2!3d28.4712711!4d77.0486534!16s%2Fg%2F11b6yxd2h7?hl=en-IN&entry=ttu" class="venue">Check here</a></p> -->
             </div>
             <p class="Resource-Brief ContestTail">
-              ​​​🚀 Get ready to join the ranks of web3 builders and create the decentralized future of tomorrow! 
+              ​​​🚀 Get ready to join the ranks of web3 builders and create the
+              decentralized future of tomorrow!
             </p>
-            <div class="ResourcesStat ContestTail ContestTail-2" id="Registrations">
+            <div
+              class="ResourcesStat ContestTail ContestTail-2"
+              id="Registrations"
+            >
               <div class="candidates">
-            
                 <a href="" class="Registerlink" id="Registernow"
                   ><button id="hover-not" class="Contest-register">
-                   Held on 26th June,23
+                    Held on 26th June,23
                   </button></a
                 >
-                
               </div>
             </div>
           </div>
         </div>
-        <div class="Resources-Cards Event-Card" >
+        <div class="Resources-Cards Event-Card">
           <div class="Resource-Link" id="Contest-Section">
             <div class="EventHeading ContestHead">
-              <p class="Resourcesheading">Create your First App in just 2 hours with Codigo</p>
-              <p class="Members Free-paid Contest-tag">Past Event </p> 
+              <p class="Resourcesheading">
+                Create your First App in just 2 hours with Codigo
+              </p>
+              <p class="Members Free-paid Contest-tag">Past Event</p>
               <!-- <p class="Members Free-paid Contest-tag">06:00 PM Onwards</p>
                <p class="Members Free-paid Contest-tag">Certificates for Participants</p> -->
             </div>
             <p class="Resource-Brief ContestTail">
-              Passionate about tech and want to build your own app in just 2 hours ⏰
+              Passionate about tech and want to build your own app in just 2
+              hours ⏰
             </p>
-            <div class="ResourcesStat ContestTail ContestTail-2" id="Registrations">
+            <div
+              class="ResourcesStat ContestTail ContestTail-2"
+              id="Registrations"
+            >
               <div class="candidates">
-            
-                <a href="https://chat.whatsapp.com/IOOVJ63AkNv3EFB1AThmco" class="Registerlink" id="Registernow"
+                <a
+                  href="https://chat.whatsapp.com/IOOVJ63AkNv3EFB1AThmco"
+                  class="Registerlink"
+                  id="Registernow"
                   ><button id="hover-not" class="Contest-register">
                     Held on 18th June,23
                   </button></a
                 >
-                
               </div>
             </div>
           </div>
@@ -571,7 +604,10 @@ window.onload = function () {
               interactive platform for participants to learn and discuss various
               aspects of the Python programming language.
             </p>
-            <div class="ResourcesStat ContestTail ContestTail-2" id="Registrations">
+            <div
+              class="ResourcesStat ContestTail ContestTail-2"
+              id="Registrations"
+            >
               <div class="details">
                 <button id="hover-not" class="Contest-register">
                   Held on 29<sup>th</sup> - 30<sup>th</sup> March,23
@@ -591,7 +627,10 @@ window.onload = function () {
               initiative that brings together technical students to solve
               real-world problems.
             </p>
-            <div class="ResourcesStat ContestTail ContestTail-2" id="Registrations">
+            <div
+              class="ResourcesStat ContestTail ContestTail-2"
+              id="Registrations"
+            >
               <div class="details">
                 <button id="hover-not" class="Contest-register">
                   Held on 16<sup>th</sup> Dec,22
@@ -602,7 +641,6 @@ window.onload = function () {
         </div>
       </div>
 
-
       <div class="UnderEvent">
         <!-- <p class="viewall">View All</p> -->
         <a
@@ -612,7 +650,7 @@ window.onload = function () {
         >
       </div>
     </section>
-<!-- 
+    <!-- 
     <section class="Giveaway" id="OFFCampus">
       <div class="Drafters">
         <img
@@ -644,7 +682,6 @@ window.onload = function () {
       </div>
     </section> -->
 
-    
     <section class="Giveaway" id="Cool">
       <div class="Drafters" id="AmbassadorSection">
         <img
@@ -726,8 +763,8 @@ window.onload = function () {
             </p>
             <div class="Visit-button">
               <a href="HTML Folder/Notes.html" class="Course-Anchor"
-              ><button class="Buy" id="Design-Course">View Notes</button></a
-            >
+                ><button class="Buy" id="Design-Course">View Notes</button></a
+              >
             </div>
           </div>
         </div>
@@ -738,20 +775,21 @@ window.onload = function () {
               Buy or Sell your Drafters at Ease (IPU Students Only)
             </p>
             <div class="Visit-button">
-              <a href="https://docs.google.com/forms/d/1ilGCIseptD9ORGeAv4Y_guJRjfS1atSN9s3zw_L04Dk/edit" class="Course-Anchor"
-              ><button class="Buy" id="Design-Course">Buy</button></a
-            >
-            <a href="https://docs.google.com/forms/u/1/d/1fSeIlTljdB1o51Mx6FWjl2_wU-pzUg4SqanfpyK11dI/edit?usp=forms_home&ths=true" class="Course-Anchor"
-            ><button class="Buy" id="Design-Course">Sell</button></a
-          >
-
+              <a
+                href="https://docs.google.com/forms/d/1ilGCIseptD9ORGeAv4Y_guJRjfS1atSN9s3zw_L04Dk/edit"
+                class="Course-Anchor"
+                ><button class="Buy" id="Design-Course">Buy</button></a
+              >
+              <a
+                href="https://docs.google.com/forms/u/1/d/1fSeIlTljdB1o51Mx6FWjl2_wU-pzUg4SqanfpyK11dI/edit?usp=forms_home&ths=true"
+                class="Course-Anchor"
+                ><button class="Buy" id="Design-Course">Sell</button></a
+              >
             </div>
           </div>
         </div>
       </section>
     </section>
-
-
 
     <section class="CoursesHeading">
       <h4 class="Heading">Communities Collab</h4>
@@ -882,12 +920,11 @@ window.onload = function () {
       >
     </div>
 
-
     <section class="sections" id="Contactus-Section">
       <h4 class="Heading">Contact Us</h4>
 
       <section class="Contactus">
-         <div class="Contact-us-right">
+        <div class="Contact-us-right">
           <p class="suggestion">
             Any Suggestions/Queries ?<br />
             Reach us at <em><strong>(letsbunktoday@gmail.com)</strong></em>
@@ -907,7 +944,7 @@ window.onload = function () {
               href="https://twitter.com/lets_bunk_today?t=TogeSJOSLFg1iBbTgwP3Fg&s=09"
               class="SocialslinksAnchor"
               ><img class="Socials" src="Images/twitter.png" alt="Telegram"
-            /></a> 
+            /></a>
             <a
               href="https://discord.com/invite/xfMzjnfY"
               class="SocialslinksAnchor"
@@ -928,7 +965,7 @@ window.onload = function () {
               </a>
             </button>
           </div>
-        </div> 
+        </div>
         <!-- <img id="Contact-Us-On" src="Images/Contact.png" alt="" /> -->
         <section class="Contect-Us">
           <div class="Contact-us-Right-Section">
@@ -936,17 +973,31 @@ window.onload = function () {
             <form id="contact-form">
               <input type="hidden" name="contact_number" />
               <div id="Label-Name">
-              <label>Name</label>
-              <input class="E-mail" type="text" name="user_name" placeholder="Name" />
-            </div>
-            <div id="Label-Email">
-              <label >Email</label>
-              <input class="E-mail" type="email" name="user_email" placeholder="Mail ID" />
+                <label>Name</label>
+                <input
+                  class="E-mail"
+                  type="text"
+                  name="user_name"
+                  placeholder="Name"
+                />
+              </div>
+              <div id="Label-Email">
+                <label>Email</label>
+                <input
+                  class="E-mail"
+                  type="email"
+                  name="user_email"
+                  placeholder="Mail ID"
+                />
               </div>
               <div id="Label-Message">
-              <label >Message</label>
-              <textarea class="Message" name="message" placeholder="Message"></textarea>
-            </div>
+                <label>Message</label>
+                <textarea
+                  class="Message"
+                  name="message"
+                  placeholder="Message"
+                ></textarea>
+              </div>
               <input class="Submit-Button" type="submit" value="Send" />
             </form>
           </div>
@@ -954,100 +1005,102 @@ window.onload = function () {
       </section>
     </section>
     <section class="Dream-Team" id="Team-Members">
-    <section class="Connect-with-team">
-      <p class="connect">Connect with team Let's Bunk Today</p>
-      <div class="Team-Contact">
-        <div class="Member">
-          <a href="https://www.linkedin.com/in/bharat-pahwa/" class="Team-link"
-            ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
-          /></a>
-          <p class="member-name">Bharat (Founder)</p>
-        </div>
-        <div class="Member">
-          <a
-            href="https://www.linkedin.com/in/utkarsh-garg-21821322a/"
-            class="Team-link"
-            ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
-          /></a>
-          <p class="member-name">Utkarsh</p>
-        </div>
+      <section class="Connect-with-team">
+        <p class="connect">Connect with team Let's Bunk Today</p>
+        <div class="Team-Contact">
+          <div class="Member">
+            <a
+              href="https://www.linkedin.com/in/bharat-pahwa/"
+              class="Team-link"
+              ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
+            /></a>
+            <p class="member-name">Bharat (Founder)</p>
+          </div>
+          <div class="Member">
+            <a
+              href="https://www.linkedin.com/in/utkarsh-garg-21821322a/"
+              class="Team-link"
+              ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
+            /></a>
+            <p class="member-name">Utkarsh</p>
+          </div>
 
-        <div class="Member">
-          <a
-            href="https://www.linkedin.com/in/unnati-dabas-56771722b/"
-            class="Team-link"
-            ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
-          /></a>
-          <p class="member-name">Unnati</p>
-        </div>
+          <div class="Member">
+            <a
+              href="https://www.linkedin.com/in/unnati-dabas-56771722b/"
+              class="Team-link"
+              ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
+            /></a>
+            <p class="member-name">Unnati</p>
+          </div>
 
-        <div class="Member">
-          <a
-            href="https://www.linkedin.com/in/ishika-aggarwal-057036251/"
-            class="Team-link"
-            ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
-          /></a>
-          <p class="member-name">Ishika</p>
-        </div>
+          <div class="Member">
+            <a
+              href="https://www.linkedin.com/in/ishika-aggarwal-057036251/"
+              class="Team-link"
+              ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
+            /></a>
+            <p class="member-name">Ishika</p>
+          </div>
 
-        <div class="Member">
-          <a href="https://www.linkedin.com/in/shswt/" class="Team-link"
-            ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
-          /></a>
-          <p class="member-name">Shashwat</p>
-        </div>
+          <div class="Member">
+            <a href="https://www.linkedin.com/in/shswt/" class="Team-link"
+              ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
+            /></a>
+            <p class="member-name">Shashwat</p>
+          </div>
 
-        <div class="Member">
-          <a
-            href="https://www.linkedin.com/in/mayank-sharma-757988220/"
-            class="Team-link"
-            ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
-          /></a>
-          <p class="member-name">Mayank</p>
-        </div>
+          <div class="Member">
+            <a
+              href="https://www.linkedin.com/in/mayank-sharma-757988220/"
+              class="Team-link"
+              ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
+            /></a>
+            <p class="member-name">Mayank</p>
+          </div>
 
-        <div class="Member">
-          <a
-            href="https://www.linkedin.com/in/aashwin-kumar-987a931ba/"
-            class="Team-link"
-            ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
-          /></a>
-          <p class="member-name">Aashwin</p>
+          <div class="Member">
+            <a
+              href="https://www.linkedin.com/in/aashwin-kumar-987a931ba/"
+              class="Team-link"
+              ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
+            /></a>
+            <p class="member-name">Aashwin</p>
+          </div>
         </div>
-      </div>
+      </section>
+
+      <section class="Connect-with-team" id="Community-Managers">
+        <p class="connect">Connect with Community Managers Let's Bunk Today</p>
+        <div class="Team-Contact">
+          <div class="Member">
+            <a
+              href="https://www.linkedin.com/in/rohan-gupta-84054b226/"
+              class="Team-link"
+              ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
+            /></a>
+            <p class="member-name">Rohan</p>
+          </div>
+          <div class="Member">
+            <a
+              href="https://www.linkedin.com/in/simran-arora-28125b258/"
+              class="Team-link"
+              ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
+            /></a>
+            <p class="member-name">Simran</p>
+          </div>
+
+          <div class="Member">
+            <a
+              href="https://www.linkedin.com/in/devesh-tuteja-a28b0b257"
+              class="Team-link"
+              ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
+            /></a>
+            <p class="member-name">Devesh</p>
+          </div>
+        </div>
+      </section>
     </section>
-
-    <section class="Connect-with-team" id="Community-Managers">
-      <p class="connect">Connect with Community Managers Let's Bunk Today</p>
-      <div class="Team-Contact">
-        <div class="Member">
-          <a
-            href="https://www.linkedin.com/in/rohan-gupta-84054b226/"
-            class="Team-link"
-            ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
-          /></a>
-          <p class="member-name">Rohan </p>
-        </div>
-        <div class="Member">
-          <a
-            href="https://www.linkedin.com/in/simran-arora-28125b258/"
-            class="Team-link"
-            ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
-          /></a>
-          <p class="member-name">Simran </p>
-        </div>
-
-        <div class="Member">
-          <a
-            href="https://www.linkedin.com/in/devesh-tuteja-a28b0b257"
-            class="Team-link"
-            ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
-          /></a>
-          <p class="member-name">Devesh</p>
-        </div>
-      </div>
-    </section>
-  </section>
 
     <section class="Giveaway" id="Survey-Section">
       <div class="Drafters" id="SurveySection">
@@ -1125,8 +1178,6 @@ window.onload = function () {
         </div>
       </div>
     </section>
-
-
 
     <script src="script.js" async defer></script>
   </body>
