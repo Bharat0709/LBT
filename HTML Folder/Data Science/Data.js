@@ -253,6 +253,7 @@ const InsertHtml = `
     <div class="Listitem">
       <div class="Source">
         <a
+        target=”_blank”
           href="$\{Url}"
           class="linked"
           ><img src="../../Images/URL.png" alt="" class="link"
