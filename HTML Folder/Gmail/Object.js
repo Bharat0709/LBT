@@ -177,6 +177,7 @@ GmailArray.forEach((link) => {
       <div class="Listitem">
         <div class="Source">
           <a
+          target=”_blank”
             href="${link.url}"
             class="linked"
             ><img src="../../Images/URL.png" alt="" class="link"
