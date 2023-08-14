@@ -90,12 +90,6 @@ const VideoTutorials = [
     Credits: "Lio Ttrieu",
   },
   {
-    Url: "https://www.classcentral.com/course/frontend-masters-complete-intro-to-react-v7-110382",
-    Cost: "paid",
-    Description: "Complete Intro to React, v7",
-    Credits: "Frontend Masters",
-  },
-  {
     Url: "https://lnkd.in/dDk7p2v7",
     Cost: "free",
     Description: "React JS Tutorials",
@@ -112,12 +106,6 @@ const VideoTutorials = [
     Cost: "free",
     Description: "Beginner's Tutorial for React JavaScript Library [2022]",
     Credits: "freeCodeCamp.org",
-  },
-  {
-    Url: "https://www.classcentral.com/course/youtube-full-modern-react-tutorial-45814",
-    Cost: "free",
-    Description: "Full Modern React Tutorial",
-    Credits: "Net Ninja",
   },
   {
     Url: "https://www.youtube.com/watch?v=Dorf8i6lCuk",
@@ -293,21 +281,18 @@ const InterviewExperience = [
 
 const InsertHtml = `
 <section class="Resources-list" >
-    <div class="Listitem">
-      <div class="Source">
-        <a
-        target=”_blank”
-          href="$\{Url}"
-          class="linked"
-          ><img src="../../Images/URL.png" alt="" class="link"
-        /></a>
-        <p class="Discript">$\{Description}</p>
-        <p class="free-paid" id="\${Cost}">\${Costp}</p>
-      </div>
-      <div class="Discription-of-list">
-        <p class="credits"> \${Credits}</p>
-      </div>
+<a target="_blank" href="$\{Url}" class="linked">
+  <div class="Listitem">
+    <div class="Source">
+      <img src="../../Images/URL.png" alt="" class="link" />
+      <p class="Discript">$\{Description}</p>
+      <p class="free-paid" id="\${Cost}">\${Costp}</p>
     </div>
+    <div class="Discription-of-list">
+      <p class="credits">$\{Credits}</p>
+    </div>
+  </div>
+</a>
 </section>
 `;
 

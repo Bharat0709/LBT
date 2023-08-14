@@ -146,6 +146,11 @@ body {
   margin-top: 20px;
 }
 
+.magicform-chat-icon-content{
+  height: 40px;
+  width: 40px;
+}
+
 /* END  */
 .Visit-button {
   display: flex;
@@ -273,7 +278,7 @@ a:hover {
   left: 95vw;
 }
 .Team-link {
-  margin-top: 8px;
+  margin-top: 0px;
 }
 
 .arrowUPFloating {
@@ -346,7 +351,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 2px 18px 2px 12px;
+  padding: 6px 6px 6px 12px;
   background-color: #dbf1f9;
   border-radius: 200px;
   width: fit-content;
@@ -356,7 +361,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 2px 18px 2px 12px;
+  padding: 6px 12px 6px 6px;
   background-color: #dbf9e1;
   border-radius: 200px;
   width: fit-content;
@@ -580,7 +585,7 @@ text {
   font-size: 24px;
   font-weight: 700;
   text-align: center;
-  padding: 12px 0px 24px 0px;
+  padding: 0px 0px 18px 0px;
 }
 
 .Connect-with-team {
@@ -1366,6 +1371,7 @@ span:nth-of-type(1) {
 
 #hover-not {
   cursor: auto;
+  border: .5px solid black;
 }
 
 /* .Books-image{
@@ -1721,6 +1727,8 @@ span {
   /* #magicform-root {
    display: none;
   } */
+
+
   .contact {
     padding: 50px 50px 0px 50px;
     font-size: 32px;
@@ -1883,7 +1891,7 @@ span {
   }
 
   .Tagline {
-    line-height: 34px;
+    line-height: 42px;
     font-size: 22px;
     width: 300px;
   }
