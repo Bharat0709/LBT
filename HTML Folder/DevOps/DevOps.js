@@ -188,12 +188,6 @@ const VideoTutorials = [
     Credits: "Rajesh Reddy Bejadi",
   },
   {
-    Url: "LINUX NOTES FOR DEVOPS",
-    Cost: "free",
-    Description: "LINUX NOTES FOR DEVOPS",
-    Credits: "Parmeshwar Gudadhe",
-  },
-  {
     Url: "https://www.javatpoint.com/devops",
     Cost: "free",
     Description: "DevOps Tutorial",
@@ -230,12 +224,6 @@ const QuestionSheet = [
     Cost: "free",
     Description: "Top 110+ DevOps Interview Questions and Answers",
     Credits: "Simplilearn",
-  },
-  {
-    Url: "Top DevOps interview Questions",
-    Cost: "free",
-    Description: "DevOps Interview Questions",
-    Credits: "Interview Bit",
   },
   {
     Url: "https://intellipaat.com/blog/interview-question/azure-devops-interview-questions/",
@@ -278,21 +266,18 @@ const QuestionSheet = [
 
 const InsertHtml = `
 <section class="Resources-list" >
-    <div class="Listitem">
-      <div class="Source">
-        <a
-        target=”_blank”
-          href="$\{Url}"
-          class="linked"
-          ><img src="../../Images/URL.png" alt="" class="link"
-        /></a>
-        <p class="Discript">$\{Description}</p>
-        <p class="free-paid" id="\${Cost}">\${Costp}</p>
-      </div>
-      <div class="Discription-of-list">
-        <p class="credits"> \${Credits}</p>
-      </div>
+<a target="_blank" href="$\{Url}" class="linked">
+  <div class="Listitem">
+    <div class="Source">
+      <img src="../../Images/URL.png" alt="" class="link" />
+      <p class="Discript">$\{Description}</p>
+      <p class="free-paid" id="\${Cost}">\${Costp}</p>
     </div>
+    <div class="Discription-of-list">
+      <p class="credits">$\{Credits}</p>
+    </div>
+  </div>
+</a>
 </section>
 `;
 

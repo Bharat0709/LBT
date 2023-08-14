@@ -175,22 +175,18 @@ const container = document.querySelector("#ChatGPT-Section");
 ChatGPT.forEach((link) => {
   const html = `
   <section class="Resources-list" >
-      <div class="Listitem">
-        <div class="Source">
-          <a
-            target=”_blank”
-            href="${link.url}"
-            class="linked"
-            ><img src="../../Images/URL.png" alt="" class="link"
-          /></a>
-          <p class="Discript">${link.description}</p>
-          <p class="free-paid" id="free">Free</p>
-        </div>
-        <div class="Discription-of-list">
-          <p class="credits">${link.credits}</p>
-        </div>
-      </div>
-      </section>
+  <a target="_blank" href="${link.url}" class="linked">
+  <div class="Listitem">
+    <div class="Source">
+      <img src="../../Images/URL.png" alt="" class="link" />
+      <p class="Discript">${link.description}</p>
+    </div>
+    <div class="Discription-of-list">
+      <p class="credits">${link.credits}</p>
+    </div>
+  </div>
+</a>
+</section>
   `;
   container.insertAdjacentHTML("beforeend", html);
 });

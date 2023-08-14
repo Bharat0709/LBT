@@ -32,12 +32,6 @@ const RoadmapsArray = [
     Credits: "Codevolution",
   },
   {
-    Url: "https://flaviocopes.com/javascript/a",
-    Cost: "free",
-    Description: "Roadmap to Learn JavaScript",
-    Credits: "Flavio Copes",
-  },
-  {
     Url: "https://medium.com/@sabirsafder/javascript-learning-roadmap-2023-the-ultimate-guide-f1bcebe24737",
     Cost: "free",
     Description: " JavaScript learning roadmap 2023 — The Ultimate Guide",
@@ -136,12 +130,6 @@ const VideoTutorials = [
     Description: "JavaScript Full Course (2023) - Beginner to Pro",
     Credits: "SuperSimpleDev",
   },
-  {
-    Url: "5 JavaScript Concepts You HAVE TO KNOW",
-    Cost: "free",
-    Description: "5 JavaScript Concepts You HAVE TO KNOW",
-    Credits: "James Q Quick",
-  },
 ];
 const Notes = [
   {
@@ -187,12 +175,6 @@ const Notes = [
     Credits: "Web Dev Simplified",
   },
 
-  {
-    Url: "Creating a Spotify Clone Using HTML, CSS & JavaScript",
-    Cost: "free",
-    Description: "Creating a Spotify Clone Using HTML, CSS & JavaScript",
-    Credits: "Code with Harry",
-  },
   {
     Url: "https://www.youtube.com/watch?v=sSLGP-_2gOI&list=PLu0W_9lII9aiQiOwthuSvinxoflmhRxM3&index=2",
     Cost: "free",

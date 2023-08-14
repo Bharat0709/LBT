@@ -3,12 +3,33 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Lets Bunk Today</title>
-    <meta name="description" content="" />
+    <title>Let's Bunk Today</title>
+    <meta
+      name="description"
+      content="Explore a wide range of placement-related resources all in one place at Let's Bunk Today. Find interview tips, resume templates, company reviews, and more to boost your career prospects."
+    />
+    <meta
+      property="og:title"
+      content="Let's Bunk Today | Complete Placement Resources"
+    />
+    <meta
+      property="og:description"
+      content="Explore a wide range of placement-related resources all in one place at Let's Bunk Today. Find interview tips, resume templates, company reviews, and more to boost your career prospects."
+    />
+    <meta property="og:url" content="https://www.letsbunktoday.live" />
+    <meta
+      property="og:image"
+      content="https://www.letsbunktoday.live/Images/favicon.jpg"
+    />
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="keywords"
+      content="placement, coding , build ,roadmaps , community , college , engineering , btech , interviews, resumes, career tips, bunk , collection"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel=" shortcut-icon" type="image/jpg" href="/Images/favicon.jpg" />
+    <link rel="icon" type="image/jpg" href="./Images/favicon.jpg" />
     <meta
       name="google-signin-client_id"
       content="277970221546-rid0l9idhm1lhbf219eo84i4edrdgdh8.apps.googleusercontent.com"
@@ -57,9 +78,7 @@
         .addEventListener("submit", function (event) {
           console.log("Submitting form...");
           event.preventDefault();
-          // generate a five digit number for the contact_number variable
           this.contact_number.value = (Math.random() * 100000) | 0;
-          // these IDs from the previous steps
           emailjs.sendForm("service_e4hydm9", "template_3nsni0b", this).then(
             function () {
               alert("SUCCESS!");
@@ -121,16 +140,14 @@
           <img
             class="Animated-logo"
             src="Images/Group 32.png"
-            alt="Logo"
+            alt="Let's-Bunk-Today-Logo"
             class="Logo"
           />
           <div class="Nav-items">
             <p class="nav-item" id="CollectionServices">Collections</p>
-
             <p class="nav-item" id="ContestEvents">Contests & Events</p>
             <p class="nav-item" id="Collaboration">Collaborations</p>
             <p class="nav-item" id="OurTeam">Our team</p>
-
             <p class="nav-item" id="Contact-Us">Contact Us</p>
             <label class="Hamburger" for="check">
               <input type="checkbox" id="check" />
@@ -219,7 +236,7 @@
             <img
               class="Students"
               src="Images/image 13.png"
-              alt="Stuudents"
+              alt="Students-Bunking-Lecture"
               class="src"
             />
           </div>
@@ -249,28 +266,40 @@
       </div>
 
       <div class="colleges">
-        <img src="Images/TechWeek.png" alt="" class="CollegeLogos-CP" />
-        <img src="Images/Eduhub Logo (2).png" alt="" class="CollegeLogos-CP" />
-        <img src="Images/Hack this fall.png" alt="" class="CollegeLogos-CP" />
-        <img src="Images/Codigo.png" alt="" class="CollegeLogos-CP" />
-        <img src="Images/Polygon.jpg" alt="" class="CollegeLogos-CP" />
+        <img
+          src="Images/TechWeek.png"
+          alt="Techweek NSUT"
+          class="CollegeLogos-CP"
+        />
+        <img
+          src="Images/Eduhub Logo (2).png"
+          alt="Eduhub"
+          class="CollegeLogos-CP"
+        />
+        <img
+          src="Images/Hack this fall.png"
+          alt="Hack this Fall"
+          class="CollegeLogos-CP"
+        />
+        <img src="Images/Codigo.png" alt="Codigo" class="CollegeLogos-CP" />
+        <img src="Images/Polygon.jpg" alt="Polygon" class="CollegeLogos-CP" />
         <img
           src="Images/H2S_Gradient_Logo.svg"
-          alt=""
+          alt="Hack-2-Skill"
           class="CollegeLogos-CP"
         />
       </div>
       <div class="colleges">
         <img
           src="Images/Bharati-Vidyapeeth-Logo.webp"
-          alt=""
+          alt="BVP"
           class="CollegeLogos"
         />
-        <img src="Images/msit.png" alt="" class="CollegeLogos" />
-        <img src="Images/images.png" alt="" class="CollegeLogos" />
-        <img src="Images/MAIT.webp" alt="" class="CollegeLogos" />
-        <img src="Images/download.png" alt="" class="CollegeLogos" />
-        <img src="Images/IGDTUW.jpg" alt="" class="CollegeLogos" />
+        <img src="Images/msit.png" alt="MSIT" class="CollegeLogos" />
+        <img src="Images/images.png" alt="IPU" class="CollegeLogos" />
+        <img src="Images/MAIT.webp" alt="MAIT" class="CollegeLogos" />
+        <img src="Images/download.png" alt="DTU" class="CollegeLogos" />
+        <img src="Images/IGDTUW.jpg" alt="IGDTUW" class="CollegeLogos" />
       </div>
     </section>
 
@@ -285,7 +314,7 @@
             id="educated-robot"
             class="FeatureImage Image Tech"
             src="Images/tech.png"
-            alt="Pg"
+            alt="Tech-Robot"
           />
           <div class="buysellbuttons">
             <a href="HTML Folder/Domains.html" class="href"
@@ -301,7 +330,7 @@
           <img
             class="PG-Image FeatureImage"
             src="Images/Unicorn 1.png"
-            alt="Pg"
+            alt="Unicorn"
           />
           <div class="buysellbuttons">
             <a
@@ -323,7 +352,7 @@
           <img
             class="PG-Image FeatureImage"
             src="Images/OffCampus.png"
-            alt="Pg"
+            alt="Degree"
           />
           <div class="buysellbuttons">
             <a href="HTML Folder/OFFCampus/OffCampus.html" class="href"
@@ -339,7 +368,7 @@
           <img
             class="PG-Image FeatureImage"
             src="Images/New Gmail.png"
-            alt="Pg"
+            alt="Gmail"
           />
           <div class="buysellbuttons">
             <a href="HTML Folder/Gmail/Gmail.html" class="href"
@@ -347,54 +376,6 @@
             >
           </div>
         </div>
-
-        <!-- <div class="Drafters Temp" id="#SurveySection">
-        <p class="buyandsell">
-          Top Chat Gpt Prompts that'll help you to ace in Life
-        </p>
-        <img class="PG-Image FeatureImage" src="Images/Chatgpt.png" alt="Pg" />
-        <div class="buysellbuttons">
-          <a href="HTML Folder/ChatGPT/Chatgpt.html" class="href"
-          ><button id="Sell" class="Buy">View Prompts</button></a
-        >
-        </div>
-      </div>
-      <div class="Drafters Temp animate-up" id="Resumetemplate">
-        <p class="buyandsell">Make your Resume in litreally just 10 minutes</p>
-        <img class="PG-Image FeatureImage" src="Images/resume.png" alt="Pg" />
-        <div class="buysellbuttons">
-          <a href="HTML Folder/Resume.html" class="href"
-          ><button id="Sell" class="Buy">View Websites</button></a
-        >
-        </div>
-      </div>
-      <div class="Drafters Temp" id="PortfolioTemplate">
-        <p class="buyandsell">Make your own Website in just 30 minutes</p>
-        <img
-          class="PG-Image FeatureImage"
-          src="Images/portfolio.png"
-          alt="Pg"
-        />
-        <div class="buysellbuttons">
-          <a href="HTML Folder/Portfolio/Portfolio.html" class="href"
-          ><button id="Sell" class="Buy">View Websites</button></a
-        >
-        </div>
-      </div>
-
-      <div class="Drafters Temp" id="LaptopsAssistance">
-        <p class="buyandsell">Give your Github Profile a new look in 5 mins</p>
-        <img
-          class="PG-Image FeatureImage"
-          src="Images/githubtemplate.png"
-          alt="Pg"
-        />
-        <div class="buysellbuttons">
-          <a href="https://gprm.itsvg.in/" class="href"
-          ><button id="Sell" class="Buy">View Websites</button></a
-        >
-        </div>
-      </div> -->
       </section>
     </section>
 
@@ -413,7 +394,7 @@
         <p class="buyandsell" id="Fest-sub-heading">
           Bringing Your College Fest to Life with a Website That Shines
         </p>
-        <img class="Event-image" src="Images/Fest.png" alt="Pg" />
+        <img class="Event-image" src="Images/Fest.png" alt="Fest" />
 
         <div class="buysellbuttons">
           <button class="Buy" id="event-contact">
@@ -422,17 +403,6 @@
         </div>
       </div>
     </section>
-
-    <!-- <section class="Giveaway" id="Survey-Section">
-      <div class="Drafters" id="SurveySection">
-        <h2 class="">Upcoming Collections</h2>
-        <p class="buyandsell">
-        AI Websites Collection <br>
-        Interview Prep. Websites Collection<br>
-        Top Chrome Extensions Collection
-        </p>
-      </div>
-    </section> -->
 
     <section class="sections" id="Events-Section">
       <h4 class="Heading">Contests & Events</h4>
@@ -688,7 +658,7 @@
           class="PG-Image"
           id="Ambassador-Image"
           src="Images/Ambassador.png"
-          alt="CA"
+          alt="Campus Ambassador"
         />
         <h2 class="GiveAway-Heading">
           Let's Bunk Today Campus Ambassador Program
@@ -756,20 +726,7 @@
         </div> -->
 
         <div class="LBTCourse">
-          <img class="PG-Image" src="Images/books.png" alt="Pg" />
-          <div class="course-inner">
-            <p class="buyandsell" id="Course-Para">
-              Notes for your sem exams (IPU Students Only)
-            </p>
-            <div class="Visit-button">
-              <a href="HTML Folder/Notes.html" class="Course-Anchor"
-                ><button class="Buy" id="Design-Course">View Notes</button></a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="LBTCourse">
-          <img class="PG-Image" src="Images/drafters.png" alt="Pg" />
+          <img class="PG-Image" src="Images/drafters.png" alt="Drafters" />
           <div class="course-inner">
             <p class="buyandsell" id="Course-Para">
               Buy or Sell your Drafters at Ease (IPU Students Only)
@@ -788,6 +745,21 @@
             </div>
           </div>
         </div>
+
+        <div class="LBTCourse">
+          <img class="PG-Image" src="Images/books.png" alt="Books" />
+          <div class="course-inner">
+            <p class="buyandsell" id="Course-Para">
+              Notes for your sem exams (IPU Students Only)
+            </p>
+            <div class="Visit-button">
+              <a href="HTML Folder/Notes.html" class="Course-Anchor"
+                ><button class="Buy" id="Design-Course">View Notes</button></a
+              >
+            </div>
+          </div>
+        </div>
+
       </section>
     </section>
 
@@ -808,20 +780,6 @@
               class="ResourcesLinks"
               ><button id="SyllabusXVisit" class="ResourcesVisit">
                 Join Announcements Group
-              </button></a
-            >
-          </div>
-        </div>
-      </div>
-
-      <div class="Resources-Cards" id="Card-syllabus">
-        <div class="Resource-Link">
-          <p class="Resourcesheading">Let's Bunk Today X Code for Community</p>
-          <p class="Resource-Brief">Coders Community Community.</p>
-          <div class="ResourcesStat">
-            <a href="https://twitter.com/codeforcomm" class="ResourcesLinks"
-              ><button id="SyllabusXVisit" class="ResourcesVisit">
-                Visit
               </button></a
             >
           </div>
@@ -943,7 +901,7 @@
             <a
               href="https://twitter.com/lets_bunk_today?t=TogeSJOSLFg1iBbTgwP3Fg&s=09"
               class="SocialslinksAnchor"
-              ><img class="Socials" src="Images/twitter.png" alt="Telegram"
+              ><img class="Socials" src="Images/twitter.png" alt="Twitter"
             /></a>
             <a
               href="https://discord.com/invite/xfMzjnfY"
@@ -1008,103 +966,87 @@
       <section class="Connect-with-team">
         <p class="connect">Connect with team Let's Bunk Today</p>
         <div class="Team-Contact">
-          <div class="Member">
+         
             <a
               href="https://www.linkedin.com/in/bharat-pahwa/"
               class="Team-link"
-              ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
-            /></a>
-            <p class="member-name">Bharat (Founder)</p>
-          </div>
-          <div class="Member">
+              > <div class="Member"><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
+            /> <p class="member-name">Bharat (Founder)</p>  </div></a>
             <a
               href="https://www.linkedin.com/in/utkarsh-garg-21821322a/"
               class="Team-link"
-              ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
-            /></a>
-            <p class="member-name">Utkarsh</p>
-          </div>
-
-          <div class="Member">
+              > <div class="Member"><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
+            /><p class="member-name">Utkarsh</p>   </div></a>
+            
             <a
               href="https://www.linkedin.com/in/unnati-dabas-56771722b/"
               class="Team-link"
-              ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
-            /></a>
-            <p class="member-name">Unnati</p>
-          </div>
+              >    <div class="Member"><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
+            /> <p class="member-name">Unnati</p>     </div></a>
 
-          <div class="Member">
             <a
               href="https://www.linkedin.com/in/ishika-aggarwal-057036251/"
               class="Team-link"
-              ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
-            /></a>
-            <p class="member-name">Ishika</p>
-          </div>
+              >  <div class="Member"><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
+            /> <p class="member-name">Ishika</p>    </div></a>
 
-          <div class="Member">
             <a href="https://www.linkedin.com/in/shswt/" class="Team-link"
-              ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
-            /></a>
-            <p class="member-name">Shashwat</p>
-          </div>
-
-          <div class="Member">
+              > <div class="Member"><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
+            /><p class="member-name">Shashwat</p>  </div></a>
+            
             <a
               href="https://www.linkedin.com/in/mayank-sharma-757988220/"
               class="Team-link"
-              ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
-            /></a>
-            <p class="member-name">Mayank</p>
-          </div>
+              ><div class="Member"><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
+            /> <p class="member-name">Mayank</p>     </div></a>
 
-          <div class="Member">
             <a
               href="https://www.linkedin.com/in/aashwin-kumar-987a931ba/"
               class="Team-link"
-              ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
-            /></a>
-            <p class="member-name">Aashwin</p>
-          </div>
+              ><div class="Member"><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
+            /><p class="member-name">Aashwin</p></div></a>
+            
         </div>
       </section>
 
       <section class="Connect-with-team" id="Community-Managers">
         <p class="connect">Connect with Community Managers Let's Bunk Today</p>
         <div class="Team-Contact">
-          <div class="Member">
             <a
               href="https://www.linkedin.com/in/rohan-gupta-84054b226/"
               class="Team-link"
-              ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
-            /></a>
-            <p class="member-name">Rohan</p>
-          </div>
-          <div class="Member">
+              ><div class="Member"><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
+            /><p class="member-name">Rohan</p></div></a>
+            
+          
+          
             <a
               href="https://www.linkedin.com/in/simran-arora-28125b258/"
               class="Team-link"
-              ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
-            /></a>
-            <p class="member-name">Simran</p>
-          </div>
+              ><div class="Member"><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
+              /><p class="member-name">Simran</p>  </div></a>
+              
+          
 
-          <div class="Member">
+          
             <a
               href="https://www.linkedin.com/in/devesh-tuteja-a28b0b257"
               class="Team-link"
-              ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
-            /></a>
-            <p class="member-name">Devesh</p>
-          </div>
+              ><div class="Member"> <img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
+                /> <p class="member-name">Devesh</p> </div></a>
+          
         </div>
       </section>
     </section>
 
-    <section class="Giveaway" id="Survey-Section">
+    <!-- <section class="Giveaway" id="Survey-Section">
       <div class="Drafters" id="SurveySection">
-        <img class="PG-Image" id="Survey" src="Images/Survey.png" alt="Pg" />
+        <img
+          class="PG-Image"
+          id="Survey"
+          src="Images/Survey.png"
+          alt="Survey"
+        />
         <h2 class="GiveAway-Heading">Let's Bunk Today Fun Survey Form</h2>
         <p class="buyandsell">
           Help us improve the engineering student experience! Share your
@@ -1127,11 +1069,11 @@
           </button>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="footer" id="Footer-Section">
       <div class="footerupper">
-        <img class="Footer-Logo" src="Images/Group 32.png" alt="Logo" />
+        <img class="Footer-Logo" src="Images/Group 32.png" alt="Footer-Logo" />
         <div class="Social-Links" id="Contactus-Social-Link">
           <a
             href="https://www.instagram.com/lets_bunk_today/?utm_source=qr"

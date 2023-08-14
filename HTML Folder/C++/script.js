@@ -70,12 +70,6 @@ const VideoTutorials = [
     Credits: "Coding Ninjas",
   },
   {
-    Url: "https://pwskills.com/course/Decode-DSA-with-C++?source=course_listing_page&utm_source=Google&utm_medium=CPC&utm_campaign=PW%20Skills%20Decode%20C++%20Search&utm_source=google&utm_medium=cpc&utm_campaign=pw_Skills_Decode_Search_15-03-23&gclid=CjwKCAjwov6hBhBsEiwAvrvN6FqB-PVbUP4vpqJMAW_badG6UCblR3aA2kR98_a8WEKlJOtTu-99BBoC_KcQAvD_BwE",
-    Description: "DSA in C++",
-    Cost: "paid",
-    Credits: "PW Skills",
-  },
-  {
     Url: "https://practice.geeksforgeeks.org/courses/dsa-self-paced?source=google&medium=cpc&device=c&keyword=data%20structures%20and%20algorithms%20online%20training&matchtype=b&campaignid=19932281970&adgroup=145142080462&gclid=CjwKCAjwov6hBhBsEiwAvrvN6AXWlYcn4gZWcN4PAuSECVjOwG-XTPe437AwW-LqcRjYedPkOfm6jRoCfDIQAvD_BwE",
     Description: "DSA in C++",
     Cost: "paid",
@@ -297,21 +291,18 @@ const InterviewExperience = [
 
 const InsertHtml = `
 <section class="Resources-list" >
-    <div class="Listitem">
-      <div class="Source">
-        <a
-          target=”_blank”
-          href="$\{Url}"
-          class="linked"
-          ><img src="../../Images/URL.png" alt="" class="link"
-        /></a>
-        <p class="Discript">$\{Description}</p>
-        <p class="free-paid" id="\${Cost}">\${Costp}</p>
-      </div>
-      <div class="Discription-of-list">
-        <p class="credits"> \${Credits}</p>
-      </div>
+<a target="_blank" href="$\{Url}" class="linked">
+  <div class="Listitem">
+    <div class="Source">
+      <img src="../../Images/URL.png" alt="" class="link" />
+      <p class="Discript">$\{Description}</p>
+      <p class="free-paid" id="\${Cost}">\${Costp}</p>
     </div>
+    <div class="Discription-of-list">
+      <p class="credits">$\{Credits}</p>
+    </div>
+  </div>
+</a>
 </section>
 `;
 
