@@ -42,6 +42,21 @@
   padding: 20px;
   background-color: #e2fbf5;
 }
+.banner {
+  background-color: #005eb8; /* Change the color as needed */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.banner p {
+  font-size: 16px;
+  line-height: 1.5;
+}
 
 .Name,
 .E-mail,
@@ -146,7 +161,7 @@ body {
   margin-top: 20px;
 }
 
-.magicform-chat-icon-content{
+.magicform-chat-icon-content {
   height: 40px;
   width: 40px;
 }
@@ -1371,7 +1386,7 @@ span:nth-of-type(1) {
 
 #hover-not {
   cursor: auto;
-  border: .5px solid black;
+  border: 0.5px solid black;
 }
 
 /* .Books-image{
@@ -1723,12 +1738,16 @@ span {
 }
 
 @media only screen and (max-width: 500px) and (min-width: 200px) {
-
   /* #magicform-root {
    display: none;
   } */
 
 
+  .banner p {
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 4px 6px;
+  }
   .contact {
     padding: 50px 50px 0px 50px;
     font-size: 32px;
