@@ -18,10 +18,25 @@ body {
   border-radius: 8px;
   justify-content: space-between;
 }
+
+.Listitem {
+  background-color: rgba(255, 255, 255, 0.259);
+}
 .Source-Icon {
   height: 25px;
 }
 
+
+.orange-row {
+  background-color: #ffb515;
+}
+.white-row {
+  background-color: rgb(255, 255, 255);
+}
+.green-row {
+  background-color: #00cd6a;
+  margin-bottom: 20px;
+}
 #off-campus-note{
   font-size: 14px;
   letter-spacing: 1px;
