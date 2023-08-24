@@ -239,7 +239,7 @@ const InterviewExperience = [
 const InsertHtml = `
 <section class="Resources-list" >
 <a target="_blank" href="$\{Url}" class="linked">
-  <div class="Listitem">
+  <div class="Listitem \${RowColor}">
     <div class="Source">
       <img src="../../Images/URL.png" alt="" class="link" />
       <p class="Discript">$\{Description}</p>
@@ -253,17 +253,26 @@ const InsertHtml = `
 </section>
 `;
 
-InterviewExperience.forEach((link) => {
+InterviewExperience.forEach((link, index) => {
+  let rowColorClass = '';
+  if (index % 3 === 0) {
+    rowColorClass = 'orange-row';
+  } else if (index % 3 === 1) {
+    rowColorClass = 'white-row';
+  } else {
+    rowColorClass = 'green-row';
+  }
   const html = InsertHtml;
   const Url = link.Url;
   const Description = link.Description;
   const Cost = link.Cost;
   const Credits = link.Credits;
   const Replaced = html
-    .replace(/\${Url}/g, Url)
-    .replace(/\${Description}/g, Description)
-    .replace(/\${Cost}/g, Cost)
-    .replace(/\${Costp}/g, Cost.charAt(0).toUpperCase() + Cost.slice(1))
-    .replace(/\${Credits}/g, Credits);
+  .replace(/\${Url}/g, Url)
+  .replace(/\${Description}/g, Description)
+  .replace(/\${Cost}/g, Cost)
+  .replace(/\${Costp}/g, Cost.charAt(0).toUpperCase() + Cost.slice(1))
+  .replace(/\${RowColor}/g, rowColorClass)
+  .replace(/\${Credits}/g, Credits);
   containerInterviewExperience.insertAdjacentHTML("beforeend", Replaced);
 });
