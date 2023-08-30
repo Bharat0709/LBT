@@ -169,6 +169,7 @@ body {
 /* END  */
 .Visit-button {
   display: flex;
+  flex-wrap: wrap;
   gap: 12px;
 }
 
@@ -1424,6 +1425,16 @@ span:nth-of-type(1) {
   gap: 30px;
 }
 
+#Status {
+  margin-left: 20px;
+  background-color: #cefdff;
+  color: black;
+}
+#Selll{
+  background-color: #e5ff00;
+  color: black;
+}
+
 #Design-Course {
   background-color: #e5ff00;
   color: black;
@@ -1741,7 +1752,6 @@ span {
   /* #magicform-root {
    display: none;
   } */
-
 
   .banner p {
     font-size: 12px;
