@@ -20,7 +20,7 @@ body {
 }
 
 .Listitem {
-  background-color: rgba(255, 255, 255, 0.259);
+  background-color: white;
 }
 .Source-Icon {
   height: 25px;
@@ -28,14 +28,13 @@ body {
 
 
 .orange-row {
-  background-color: #ffb515;
+  background-color:white;
 }
 .white-row {
   background-color: rgb(255, 255, 255);
 }
 .green-row {
-  background-color: #00cd6a;
-  margin-bottom: 20px;
+  background-color: white;
 }
 #off-campus-note{
   font-size: 14px;
