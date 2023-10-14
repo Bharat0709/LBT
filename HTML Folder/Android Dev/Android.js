@@ -6,16 +6,24 @@ const containerContentCreators = document.querySelector("#Content-Creators");
 const containerInterviewExperience = document.querySelector(
   "#Interview-Experinece"
 );
-  const RoadmapsArray = [{
-    Url:"www.google.com",
-    Cost:"Free",
-    Description:"Hello",
-    Credits:"Bharat Pahwa"
-  }];
-  const VideoTutorials = [{}];
-  const Notes = [{}];
-  const QuestionSheet = [{}];
-  const InterviewExperience = [{}];
+const RoadmapsArray = [
+  {
+    Url: "www.google.com",
+    Cost: "Free",
+    Description: "Hello",
+    Credits: "Bharat Pahwa",
+  },
+  {
+    Url: "",
+    Cost: "free",
+    Description: "",
+    Credits: "",
+  },
+];
+const VideoTutorials = [{}];
+const Notes = [{}];
+const QuestionSheet = [{}];
+const InterviewExperience = [{}];
 
 const InsertHtml = `
 <section class="Resources-list" >
