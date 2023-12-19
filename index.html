@@ -44,7 +44,8 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="./HTML Folder/Style2.css" />
+    <link rel="stylesheet" href="./HTML Folder/Style3.css" />
     <link rel="stylesheet" href="./HTML Folder/Collection/Collection.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="Anination.css  " />
@@ -110,500 +111,613 @@
   </head>
   <body>
     <div id="magicform-root" style="z-index: 9999; position: relative"></div>
+    <script>
+      (function (w, d, s, o, f, js, fjs) {
+        w["Simple-Widget"] = o;
+        w[o] =
+          w[o] ||
+          function () {
+            (w[o].q = w[o].q || []).push(arguments);
+          };
+        (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]);
+        js.id = o;
+        js.src = f;
+        js.async = 1;
+        fjs.parentNode.insertBefore(js, fjs);
+      })(
+        window,
+        document,
+        "script",
+        "w1",
+        "https://magicform-widget-assets.s3.us-west-2.amazonaws.com/widget.js"
+      );
+      w1("init", {
+        popUpTimer: 5000,
+        imageUrl: "Images/chatbot.png",
+        chatHeight: "max(431px,50vh)",
+        chatWidth: "371px",
+        placeholder: "What's on your mind?",
+        title: "Welcome to Let's Bunk Today Website",
+        subtitle: "I Typically respond in 5 second",
+        widgetType: "bubble",
+        targetElementId: "magicform-root",
+        stackId: "stack_41027319-aeca-44cb-9bc9-ccd07e450cb6",
+        userId: "e0c07d5a-4e6b-4bdb-8548-10de00aba0be",
+        colors: { main: "", userMessageBubble: "#000000" },
+      });
+    </script>
+    <section class="main">
+      <section class="landing-page">
+        <section class="Hero-Section" id="Home">
+          <section class="Navigation">
+            <img
+              class="Animated-logo"
+              src="Images/Group 32.png"
+              alt="Let's-Bunk-Today-Logo"
+              class="Logo"
+            />
+            <div class="Nav-items">
+              <p class="nav-item" id="CollectionServices">Collections</p>
+              <p class="nav-item" id="ContestEvents">Contests & Events</p>
+              <p class="nav-item" id="Collaboration">Collaborations</p>
+              <p class="nav-item" id="OurTeam">Our team</p>
+              <p class="nav-item" id="Contact-Us">Contact Us</p>
+              <label class="Hamburger" for="check">
+                <input type="checkbox" id="check" />
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+            </div>
+          </section>
 
-    <section class="landing-page">
-      <section class="Hero-Section" id="Home">
-        <section class="Navigation">
+          <section class="sidemenu">
+            <div class="sidemenulinks" id="SideMenuID">
+              <a class="SideMenuItem" href="#Templates-Section">Collections</a>
+              <a class="SideMenuItem" href="#Events-Section"
+                >Contest & Events</a
+              >
+              <a class="SideMenuItem" href="#Resources-section"
+                >Collaborations</a
+              >
+              <a class="SideMenuItem" href="#Team-Members">Our team</a>
+              <a class="SideMenuItem" href="#Contactus-Section">Contact Us</a>
+            </div>
+          </section>
+
+          <div class="Searches" id="MagicSearch">
+            <div class="search-container">
+              <input
+                type="text"
+                value=""
+                placeholder="AI Short Answers"
+                class="search-input"
+              />
+              <button class="search">Search</button>
+            </div>
+            <div class="search-container2">
+              <input
+                type="text"
+                value=""
+                placeholder="AI Image Genrator"
+                class="search-input2"
+              />
+              <button class="search2">Search</button>
+            </div>
+
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSc_YLn1dg1zKAuXMRAXFXqGXdGW3koyn9Gu5Bm0VcQSWTQR2w/viewform"
+              class="href"
+              ><button class="Promote" id="AI-Report">
+                Report an Issue
+              </button></a
+            >
+          </div>
+
+          <div class="answer">
+            <div id="str"></div>
+          </div>
+          <div class="caution-div" id="search-again">
+            <p class="caution">
+              !! Let AI complete it's answer before searching a new question !!
+            </p>
+            <button class="search">Search More Answers</button>
+          </div>
+          <button class="search" id="search-again2">Search More Images</button>
+
+          <section class="Hero">
+            <div class="Hero-Left-Section">
+              <h1 class="Tagline">
+                I hope college placement companies reject you less than your
+                college crush.
+              </h1>
+              <p class="Below_tagline">
+                From Stress to Success: Empowering Placements with Our Complete
+                Resource Repository!
+              </p>
+              <div class="Cta">
+                <a
+                  href="/HTML Folder/Collection/Collection.html"
+                  class="Community-CTA"
+                  id="Community"
+                  >Free Resources</a
+                >
+                <a
+                  href="https://chat.whatsapp.com/ERbwoQH9JqZG4l52KC8feU"
+                  class="Discord-CTA"
+                  id="Discord-Button"
+                  >Join Community</a
+                >
+              </div>
+            </div>
+
+            <div class="Hero-Right-Section">
+              <img
+                class="Students"
+                src="Images/image 13.png"
+                alt="Students-Bunking-Lecture"
+                class="src"
+              />
+            </div>
+          </section>
+        </section>
+      </section>
+
+      <img src="Images/arrowUp 1.png" alt="arrow" class="arrowUPFloating" />
+
+      <section class="stats">
+        <div class="statistics">
+          <p class="stat1" id="Community-partner">
+            Community Partners of <br />
+            10+ events
+          </p>
+          <p class="stat1">
+            Students from<br />
+            6+ Colleges
+          </p>
+          <p class="stat1" id="Member-stats">
+            Members <br />
+            <text>1000+</text>
+          </p>
+        </div>
+
+        <div class="colleges">
           <img
-            class="Animated-logo"
-            src="Images/Group 32.png"
-            alt="Let's-Bunk-Today-Logo"
-            class="Logo"
+            src="Images/TechWeek.png"
+            alt="Techweek NSUT"
+            class="CollegeLogos-CP"
           />
-          <div class="Nav-items">
-            <p class="nav-item" id="CollectionServices">Collections</p>
-            <p class="nav-item" id="ContestEvents">Contests & Events</p>
-            <p class="nav-item" id="Collaboration">Collaborations</p>
-            <p class="nav-item" id="OurTeam">Our team</p>
-            <p class="nav-item" id="Contact-Us">Contact Us</p>
-            <label class="Hamburger" for="check">
-              <input type="checkbox" id="check" />
-              <span></span>
-              <span></span>
-              <span></span>
-            </label>
-          </div>
+          <img
+            src="Images/Eduhub Logo (2).png"
+            alt="Eduhub"
+            class="CollegeLogos-CP"
+          />
+          <img
+            src="Images/Hack this fall.png"
+            alt="Hack this Fall"
+            class="CollegeLogos-CP"
+          />
+          <img src="Images/Codigo.png" alt="Codigo" class="CollegeLogos-CP" />
+          <img src="Images/Polygon.jpg" alt="Polygon" class="CollegeLogos-CP" />
+          <img
+            src="Images/H2S_Gradient_Logo.svg"
+            alt="Hack-2-Skill"
+            class="CollegeLogos-CP"
+          />
+        </div>
+        <div class="colleges">
+          <img
+            src="Images/Bharati-Vidyapeeth-Logo.webp"
+            alt="BVP"
+            class="CollegeLogos"
+          />
+          <img src="Images/msit.png" alt="MSIT" class="CollegeLogos" />
+          <img src="Images/images.png" alt="IPU" class="CollegeLogos" />
+          <img src="Images/MAIT.webp" alt="MAIT" class="CollegeLogos" />
+          <img src="Images/download.png" alt="DTU" class="CollegeLogos" />
+          <img src="Images/IGDTUW.jpg" alt="IGDTUW" class="CollegeLogos" />
+        </div>
+      </section>
+
+      <section class="resourcescollection" id="Templates-Section">
+        <h4 class="Heading">Our Collections</h4>
+        <section class="Choice" id="itemList-main">
+          <section class="ChooseTopic card-main">
+            <div class="Topic">
+              <div class="Resources_Head_Left">
+                <!-- <p class="Last_Updated">Last Updated: 2 days Ago</p> -->
+                <p class="Topic_Name">1000+ Tech Resources</p>
+              </div>
+              <img src="../../Images/tech.png" alt="" class="Resource-Image" />
+            </div>
+
+            <p class="Topic_Discription">
+              Explore a curated collection of 800+ tech resources, including
+              tutorials covering diverse technology topics
+            </p>
+            <div class="Visit_Views">
+              <a href="./HTML Folder/Domains.html" class="Visit_Resource"
+                ><button class="Visit_Button-main" id="my-button">
+                  Visit
+                </button></a
+              >
+            </div>
+          </section>
+
+          <section class="ChooseTopic card-main">
+            <div class="Topic">
+              <div class="Resources_Head_Left">
+                <!-- <p class="Last_Updated">Last Updated: 2 days Ago</p> -->
+                <p class="Topic_Name">Top Chrome Extensions</p>
+              </div>
+              <img
+                src="../../Images/Chrome.png"
+                alt=""
+                class="Resource-Image"
+              />
+            </div>
+
+            <p class="Topic_Discription">
+              Explore a compilation of top Chrome extensions to enhance
+              productivity, browsing experience
+            </p>
+            <div class="Visit_Views">
+              <a
+                href="./HTML Folder/Chrome Extensions/chrome.html"
+                class="Visit_Resource"
+                ><button class="Visit_Button-main">Visit</button></a
+              >
+            </div>
+          </section>
+          <section class="ChooseTopic card-main">
+            <div class="Topic">
+              <div class="Resources_Head_Left">
+                <!-- <p class="Last_Updated">Last Updated: 2 days Ago</p> -->
+                <p class="Topic_Name">Top VS Code Extensions</p>
+              </div>
+              <img
+                src="../../Images/file_type_vscode_icon_130084.png"
+                alt=""
+                class="Resource-Image"
+              />
+            </div>
+
+            <p class="Topic_Discription">
+              Explore a compilation of top VS extensions to enhance
+              productivity, coding experience
+            </p>
+            <div class="Visit_Views">
+              <a
+                href="./HTML Folder/VS Code Extensions/vscode.html"
+                class="Visit_Resource"
+                ><button class="Visit_Button-main">Visit</button></a
+              >
+            </div>
+          </section>
+
+          <section class="ChooseTopic card-main">
+            <div class="Topic">
+              <div class="Resources_Head_Left">
+                <!-- <p class="Last_Updated">Last Updated: 2 days Ago</p> -->
+                <p class="Topic_Name">Cold Mailing Hacks</p>
+              </div>
+              <img
+                src="../../Images/New Gmail.png"
+                alt=""
+                class="Resource-Image"
+              />
+            </div>
+
+            <p class="Topic_Discription">
+              Access a comprehensive collection of cold mailing hacks,
+              strategies, and tips for effective outreach.
+            </p>
+            <div class="Visit_Views">
+              <a href="./HTML Folder/Gmail/Gmail.html" class="Visit_Resource"
+                ><button class="Visit_Button-main">Visit</button></a
+              >
+              <!-- <p class="Views">3.6k Views</p> -->
+            </div>
+          </section>
+          <section class="ChooseTopic card-main">
+            <div class="Topic">
+              <div class="Resources_Head_Left">
+                <!-- <p class="Last_Updated">Last Updated: 2 days Ago</p> -->
+                <p class="Topic_Name">Top Chat Gpt Prompts</p>
+              </div>
+              <img
+                src="../../Images/Chatgpt.png"
+                alt=""
+                class="Resource-Image"
+              />
+            </div>
+
+            <p class="Topic_Discription">
+              Unlock a compilation of top ChatGPT prompts designed to generate
+              creative, informative, and engaging interactions
+            </p>
+            <div class="Visit_Views">
+              <a
+                href="./HTML Folder/ChatGPT/Chatgpt.html"
+                class="Visit_Resource"
+                ><button class="Visit_Button-main">Visit</button></a
+              >
+              <!-- <p class="Views">3.6k Views</p> -->
+            </div>
+          </section>
+          <section class="ChooseTopic card-main">
+            <div class="Topic">
+              <div class="Resources_Head_Left">
+                <!-- <p class="Last_Updated">Last Updated: 2 days Ago</p> -->
+                <p class="Topic_Name">Resume Building Websites</p>
+              </div>
+              <img
+                src="../../Images/resume.png"
+                alt="Resume"
+                class="Resource-Image"
+              />
+            </div>
+
+            <p class="Topic_Discription">
+              Explore a diverse assortment of resume builders, tools, and
+              resources to craft professional and tailored resumes
+            </p>
+            <div class="Visit_Views">
+              <a href="./HTML Folder/Resume.html" class="Visit_Resource"
+                ><button class="Visit_Button-main">Visit</button></a
+              >
+              <!-- <p class="Views">3.6k Views</p> -->
+            </div>
+          </section>
         </section>
 
-        <section class="sidemenu">
-          <div class="sidemenulinks" id="SideMenuID">
-            <a class="SideMenuItem" href="#Templates-Section">Collections</a>
-            <a class="SideMenuItem" href="#Events-Section">Contest & Events</a>
-            <a class="SideMenuItem" href="#Resources-section">Collaborations</a>
-            <a class="SideMenuItem" href="#Team-Members">Our team</a>
-            <a class="SideMenuItem" href="#Contactus-Section">Contact Us</a>
-          </div>
-        </section>
-
-        <div class="Searches" id="MagicSearch">
-          <div class="search-container">
-            <input
-              type="text"
-              value=""
-              placeholder="AI Short Answers"
-              class="search-input"
-            />
-            <button class="search">Search</button>
-          </div>
-          <div class="search-container2">
-            <input
-              type="text"
-              value=""
-              placeholder="AI Image Genrator"
-              class="search-input2"
-            />
-            <button class="search2">Search</button>
-          </div>
-
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSc_YLn1dg1zKAuXMRAXFXqGXdGW3koyn9Gu5Bm0VcQSWTQR2w/viewform"
-            class="href"
-            ><button class="Promote" id="AI-Report">Report an Issue</button></a
+        <div class="ViewAll-Div">
+          <a href="./HTML Folder/Collection/Collection.html" class=""
+            ><button class="Promote" id="ViewAll-Button">View All</button></a
           >
         </div>
-
-        <div class="answer">
-          <div id="str"></div>
-        </div>
-        <div class="caution-div" id="search-again">
-          <p class="caution">
-            !! Let AI complete it's answer before searching a new question !!
-          </p>
-          <button class="search">Search More Answers</button>
-        </div>
-        <button class="search" id="search-again2">Search More Images</button>
-
-        <section class="Hero">
-          <div class="Hero-Left-Section">
-            <h1 class="Tagline">
-              I hope college placement companies reject you less than your
-              college crush.
-            </h1>
-            <p class="Below_tagline">
-              From Stress to Success: Empowering Placements with Our Complete
-              Resource Repository!
-            </p>
-            <div class="Cta">
-              <a
-                href="/HTML Folder/Collection/Collection.html"
-                class="Community-CTA"
-                id="Community"
-                >Free Resources</a
-              >
-              <a
-                href="https://chat.whatsapp.com/ERbwoQH9JqZG4l52KC8feU"
-                class="Discord-CTA"
-                id="Discord-Button"
-                >Join Community</a
-              >
-            </div>
-          </div>
-
-          <div class="Hero-Right-Section">
-            <img
-              class="Students"
-              src="Images/image 13.png"
-              alt="Students-Bunking-Lecture"
-              class="src"
-            />
-          </div>
-        </section>
       </section>
-    </section>
 
-    <!-- <div class="banner">
-      <p>
-        A proud moment for every Indian. Heartiest congratulations to ISRO for
-        accomplishing such a monumental achievement.
-      </p>
-    </div> -->
-    <!-- <a href="#Home" class="href">
-      <img src="Images/arrowUp 1.png" alt="arrow" class="arrowUP"
-    /></a> -->
-    <img src="Images/arrowUp 1.png" alt="arrow" class="arrowUPFloating" />
-
-    <section class="stats">
-      <div class="statistics">
-        <p class="stat1" id="Community-partner">
-          Community Partners of <br />
-          10+ events
-        </p>
-        <p class="stat1">
-          Students from<br />
-          6+ Colleges
-        </p>
-        <p class="stat1" id="Member-stats">
-          Members <br />
-          <text>1000+</text>
-        </p>
-      </div>
-
-      <div class="colleges">
-        <img
-          src="Images/TechWeek.png"
-          alt="Techweek NSUT"
-          class="CollegeLogos-CP"
-        />
-        <img
-          src="Images/Eduhub Logo (2).png"
-          alt="Eduhub"
-          class="CollegeLogos-CP"
-        />
-        <img
-          src="Images/Hack this fall.png"
-          alt="Hack this Fall"
-          class="CollegeLogos-CP"
-        />
-        <img src="Images/Codigo.png" alt="Codigo" class="CollegeLogos-CP" />
-        <img src="Images/Polygon.jpg" alt="Polygon" class="CollegeLogos-CP" />
-        <img
-          src="Images/H2S_Gradient_Logo.svg"
-          alt="Hack-2-Skill"
-          class="CollegeLogos-CP"
-        />
-      </div>
-      <div class="colleges">
-        <img
-          src="Images/Bharati-Vidyapeeth-Logo.webp"
-          alt="BVP"
-          class="CollegeLogos"
-        />
-        <img src="Images/msit.png" alt="MSIT" class="CollegeLogos" />
-        <img src="Images/images.png" alt="IPU" class="CollegeLogos" />
-        <img src="Images/MAIT.webp" alt="MAIT" class="CollegeLogos" />
-        <img src="Images/download.png" alt="DTU" class="CollegeLogos" />
-        <img src="Images/IGDTUW.jpg" alt="IGDTUW" class="CollegeLogos" />
-      </div>
-    </section>
-
-    <section class="resourcescollection" id="Templates-Section">
-      <h4 class="Heading">Our Collections</h4>
-      <section class="templates">
-        <div class="Drafters Temp animate-up" id="Technology">
-          <p class="buyandsell">
-            800+ Tech Resources collection to ace in college & professional life
-          </p>
+      <section class="Giveaway" id="Cool">
+        <div class="Drafters" id="AmbassadorSection">
           <img
-            id="educated-robot"
-            class="FeatureImage Image Tech"
-            src="Images/tech.png"
-            alt="Tech-Robot"
+            class="PG-Image"
+            id="Ambassador-Image"
+            src="Images/Ambassador.png"
+            alt="Campus Ambassador"
           />
-          <div class="buysellbuttons">
-            <a href="HTML Folder/Domains.html" class="href"
-              ><button id="Sell" class="Buy">View Resources</button></a
-            >
-          </div>
-        </div>
+          <h2 class="GiveAway-Heading">
+            Let's Bunk Today Campus Ambassador Program
+          </h2>
+          <p class="buyandsell">Join Us, Learn and Grow</p>
+          <div class="buysellbuttons Ambassador-buttons">
+            <button class="Buy" id="event-contact">
+              <a
+                href="https://drive.google.com/file/d/1P8IgSZ9XbIpjhQ2RNC_4TlbcvDLcmVKd/view?usp=sharing"
+                class="href"
+                >Perks and Benefits</a
+              >
+            </button>
 
-        <div class="Drafters Temp" id="AmbassadorSection">
-          <p class="buyandsell">
-            100+ Unicorn Companies u can Apply for Jobs/Internships
-          </p>
-          <img
-            class="PG-Image FeatureImage"
-            src="Images/Unicorn 1.png"
-            alt="Unicorn"
-          />
-          <div class="buysellbuttons">
+            <button class="Buy" id="event-contact-apply">
+              <a
+                href="https://docs.google.com/forms/d/1g7mnP6m1-YkwpmxEFmcJyFeMc4tfgFSZpfcYO2LWLqE/edit"
+                class="href"
+                >Apply Now
+              </a>
+            </button>
+
+            <!-- <button class="Buy" id="event-contact">
             <a
-              href="https://docs.google.com/spreadsheets/d/1HdZtj6Z7Gh_boh0qHa-3n-FkGWEgkZ7juN5P3veFRDY/edit#gid=0"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSe8JFEU9PZOQzuMi15E44Fi9yymY_ZnbzY56O4zG0mUozd8QA/viewform"
               class="href"
-              ><button id="Sell" class="Buy">View</button></a
+              >View Leaderboard
+              </a
             >
-
-            <a
-              href="https://scribehow.com/shared/How_to_Find_and_Apply_for_an_Internship_using_this_spreadsheet_All_the_Best__OExYmSDzQLyxXi4d_YBHGA"
-              class="href"
-              ><button id="Sell" class="Buy">How to Apply</button></a
-            >
-          </div>
-        </div>
-
-        <div class="Drafters Temp" id="OffCampus">
-          <p class="buyandsell">60+ Companies which hire freshers Off-Campus</p>
-          <img
-            class="PG-Image FeatureImage"
-            src="Images/OffCampus.png"
-            alt="Degree"
-          />
-          <div class="buysellbuttons">
-            <a href="HTML Folder/OFFCampus/OffCampus.html" class="href"
-              ><button id="Sell" class="Buy">View</button></a
-            >
-          </div>
-        </div>
-
-        <div class="Drafters Temp" id="GithubTemplate">
-          <p class="buyandsell">
-            Gmail Hacks u should know before applying for internships
-          </p>
-          <img
-            class="PG-Image FeatureImage"
-            src="Images/New Gmail.png"
-            alt="Gmail"
-          />
-          <div class="buysellbuttons">
-            <a href="HTML Folder/Gmail/Gmail.html" class="href"
-              ><button id="Sell" class="Buy">View Hacks</button></a
-            >
+          </button> -->
           </div>
         </div>
       </section>
-    </section>
 
-    <div class="ViewAll-Div">
-      <a href="./HTML Folder/Collection/Collection.html" class=""
-        ><button class="Promote" id="ViewAll-Button">View All</button></a
-      >
-    </div>
+      <section class="sections" id="Events-Section">
+        <h4 class="Heading" id="Contests-Heading">Contests & Events</h4>
 
-    <!-- <section class="Fest-websites" id="Fest-Website-Section">
-      <div class="Drafters" id="Event-Management">
-        <h2 class="Fest-wensites-Heading">
-          Make Your Fest Unforgettable with Let's Bunk Today - Your Fest Website
-          Solution!
-        </h2>
-        <p class="buyandsell" id="Fest-sub-heading">
-          Bringing Your College Fest to Life with a Website That Shines
-        </p>
-        <img class="Event-image" src="Images/Fest.png" alt="Fest" />
+        <!-- <div class="Events" id="Upcoming-Events">
+          <div class="Resources-Cards Event-Card" id="codigo">
+            <div class="Resource-Link" id="Contest-Section">
+              <div class="EventHeading ContestHead">
+                <p class="Resourcesheading">DevSign</p>
+                <p class="Members Free-paid Contest-tag">Upcoming</p>
+                <p class="Members Free-paid Contest-tag">Free</p>
 
-        <div class="buysellbuttons">
-          <button class="Buy" id="event-contact">
-            <a href="#Contactus-Section" class="href">Contact Us</a>
-          </button>
-        </div>
-      </div>
-    </section> -->
-
-    <section class="sections" id="Events-Section">
-      <h4 class="Heading">Contests & Events</h4>
-
-      <div class="Events" id="Upcoming-Events">
-        <div class="Resources-Cards Event-Card" id="codigo">
-          <div class="Resource-Link" id="Contest-Section">
-            <div class="EventHeading ContestHead">
-              <p class="Resourcesheading">DevSign</p>
-              <p class="Members Free-paid Contest-tag">Upcoming</p>
-              <!-- <p class="Members Free-paid Contest-tag">Free</p> -->
-              <p class="Members Free-paid Contest-tag">Monthly Contest</p>
-            </div>
-            <p class="Resource-Brief ContestTail">
-              A collaborative competition that encourages designers and
-              developers to fuse their talents
-            </p>
-            <!--  <div class="sponsors ContestTail">
-              <p class="paisa">Sponsors</p>
-              <div class="Logo-div">
-                             <img src="images/XYZ.png" alt="Logo" class="sponsor-logo" />
               </div>
-            </div> -->
-            <div class="ResourcesStat ContestTail ContestTail-2">
-              <div class="details">
-                <a
-                  href="https://drive.google.com/file/d/1rNJ1h_Hgia3ijC6zOhSCGD5XpOIelCtD/view?usp=share_link"
-                  class="Registerlink"
-                  ><button class="ResourcesVisit-2 Contest-register">
-                    More Details
-                  </button></a
-                >
-                <!-- <a href="" class="Registerlink"
-                  ><button class="ResourcesVisit-2 Contest-register">
-                    Project Highlights
-                  </button></a
-                > -->
-              </div>
-              <div class="candidates">
-                <!-- <a href="" class="Registerlink"
-                  ><button class="ResourcesVisit-2" id="Register-To">
-                    Register
-                  </button></a
-                > -->
-                <p class="Members">Registrations Opening Soon..</p>
+              <p class="Resource-Brief ContestTail">
+                A collaborative competition that encourages designers and
+                developers to fuse their talents
+              </p>
+
+              <div class="ResourcesStat ContestTail ContestTail-2">
+                <div class="details">
+                  <a
+                    href="https://drive.google.com/file/d/1rNJ1h_Hgia3ijC6zOhSCGD5XpOIelCtD/view?usp=share_link"
+                    class="Registerlink"
+                    ><button class="ResourcesVisit-2 Contest-register">
+                      More Details
+                    </button></a
+                  >
+
+                </div>
+                <div class="candidates">
+                  <a href="" class="Registerlink"
+                    ><button class="ResourcesVisit-2" id="Register-To">
+                      Register
+                    </button></a
+                  >
+                  <p class="Members">Registrations Opening Soon..</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="Resources-Cards Event-Card" id="codigo">
-          <div class="Resource-Link" id="Contest-Section">
-            <div class="EventHeading ContestHead">
-              <p class="Resourcesheading">Idea Lab</p>
-              <p class="Members Free-paid Contest-tag">Upcoming</p>
-              <!-- <p class="Members Free-paid Contest-tag">Free</p> -->
-              <p class="Members Free-paid Contest-tag">Monthly Event</p>
-            </div>
-            <p class="Resource-Brief ContestTail">
-              The event on ideas and entrepreneurship is a gathering of
-              innovative thinkers and aspiring entrepreneurs.
-            </p>
-            <!-- <div class="sponsors ContestTail">
-              <p class="paisa">Sponsors</p>
-              <div class="Logo-div">
-                                 <img
-                  src="Images/Lumos-Labs-Logo.png"
-                  alt="Logo"
-                  class="sponsor-logo"
-                /> 
-              </div> 
-            </div> -->
-            <div class="ResourcesStat ContestTail ContestTail-2">
-              <div class="details">
-                <a
-                  href="https://drive.google.com/file/d/1tez-JtrcuqPWsTW-NPnDUC1_yZdKXYrK/view?usp=share_link"
-                  class="Registerlink"
-                  ><button class="ResourcesVisit-2 Contest-register">
-                    More Details
-                  </button></a
-                >
-                <!-- <a href="" class="Registerlink"
+          <div class="Resources-Cards Event-Card" id="codigo">
+            <div class="Resource-Link" id="Contest-Section">
+              <div class="EventHeading ContestHead">
+                <p class="Resourcesheading">Idea Lab</p>
+                <p class="Members Free-paid Contest-tag">Upcoming</p>
+                <p class="Members Free-paid Contest-tag">Free</p>
+                
+              </div>
+              <p class="Resource-Brief ContestTail">
+                The event on ideas and entrepreneurship is a gathering of
+                innovative thinkers and aspiring entrepreneurs.
+              </p>
+      
+              <div class="ResourcesStat ContestTail ContestTail-2">
+                <div class="details">
+                  <a
+                    href="https://drive.google.com/file/d/1tez-JtrcuqPWsTW-NPnDUC1_yZdKXYrK/view?usp=share_link"
+                    class="Registerlink"
+                    ><button class="ResourcesVisit-2 Contest-register">
+                      More Details
+                    </button></a
+                  >
+                 <a href="" class="Registerlink"
                   ><button class="ResourcesVisit-2 Contest-register">
                     Event Highlights
                   </button></a
-                > -->
-              </div>
-              <div class="candidates">
-                <!-- <a href="" class="Registerlink"
-                  ><button class="ResourcesVisit-2" id="Register-To">
-                    Register
-                  </button></a
-                > -->
-                <p class="Members">Registrations Opening Soon..</p>
+                >
+                </div>
+                <div class="candidates">
+                  <a href="" class="Registerlink"
+                    ><button class="ResourcesVisit-2" id="Register-To">
+                      Register
+                    </button></a
+                  >
+                  <p class="Members">Registrations Opening Soon..</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="Events" id="PastEvents">
-        <div class="Resources-Cards Event-Card">
-          <div class="Resource-Link" id="Contest-Section">
-            <div class="EventHeading ContestHead">
-              <p class="Resourcesheading">
-                Builders Hub: BuildRL Powered by Flipkart X Polygon Delhi Guild
-                Edition
-              </p>
-              <p class="Members Free-paid Contest-tag">Past Event</p>
-              <!-- <p class="Members Free-paid Contest-tag">2:30 PM Onwards </p> 
+        </div> -->
+        <div class="Events" id="PastEvents">
+          <div class="Resources-Cards Event-Card">
+            <div class="Resource-Link" id="Contest-Section">
+              <div class="EventHeading ContestHead">
+                <p class="Resourcesheading">
+                  Builders Hub: BuildRL Powered by Flipkart X Polygon Delhi
+                  Guild Edition
+                </p>
+                <p class="Members Free-paid Contest-tag">Past Event</p>
+                <!-- <p class="Members Free-paid Contest-tag">2:30 PM Onwards </p> 
               <p class="Members Free-paid Contest-tag">Venue: <a href="https://www.google.com/maps/place/TATA+1MG+HEALTHCARE+SOLUTIONS+PRIVATE+LIMITED/@28.4712711,77.0486534,17z/data=!3m1!4b1!4m6!3m5!1s0x390d19acb8da9557:0xb70307dcf8a7062d!8m2!3d28.4712711!4d77.0486534!16s%2Fg%2F11b6yxd2h7?hl=en-IN&entry=ttu" class="venue">Check here</a></p> -->
-            </div>
-            <p class="Resource-Brief ContestTail">
-              ​​​🚀 Get ready to join the ranks of web3 builders and create the
-              decentralized future of tomorrow!
-            </p>
-            <div
-              class="ResourcesStat ContestTail ContestTail-2"
-              id="Registrations"
-            >
-              <div class="candidates">
-                <a href="" class="Registerlink" id="Registernow"
-                  ><button id="hover-not" class="Contest-register">
-                    Held on 26th June,23
-                  </button></a
-                >
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="Resources-Cards Event-Card">
-          <div class="Resource-Link" id="Contest-Section">
-            <div class="EventHeading ContestHead">
-              <p class="Resourcesheading">
-                Create your First App in just 2 hours with Codigo
+              <p class="Resource-Brief ContestTail">
+                ​​​🚀 Get ready to join the ranks of web3 builders and create
+                the decentralized future of tomorrow!
               </p>
-              <p class="Members Free-paid Contest-tag">Past Event</p>
-              <!-- <p class="Members Free-paid Contest-tag">06:00 PM Onwards</p>
+              <div
+                class="ResourcesStat ContestTail ContestTail-2"
+                id="Registrations"
+              >
+                <div class="candidates">
+                  <a href="" class="Registerlink" id="Registernow"
+                    ><button id="hover-not" class="Contest-register">
+                      Held on 26th June,23
+                    </button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Resources-Cards Event-Card">
+            <div class="Resource-Link" id="Contest-Section">
+              <div class="EventHeading ContestHead">
+                <p class="Resourcesheading">
+                  Create your First App in just 2 hours with Codigo
+                </p>
+                <p class="Members Free-paid Contest-tag">Past Event</p>
+                <!-- <p class="Members Free-paid Contest-tag">06:00 PM Onwards</p>
                <p class="Members Free-paid Contest-tag">Certificates for Participants</p> -->
+              </div>
+              <p class="Resource-Brief ContestTail">
+                Passionate about tech and want to build your own app in just 2
+                hours ⏰
+              </p>
+              <div
+                class="ResourcesStat ContestTail ContestTail-2"
+                id="Registrations"
+              >
+                <div class="candidates">
+                  <a
+                    href="https://chat.whatsapp.com/IOOVJ63AkNv3EFB1AThmco"
+                    class="Registerlink"
+                    id="Registernow"
+                    ><button id="hover-not" class="Contest-register">
+                      Held on 18th June,23
+                    </button></a
+                  >
+                </div>
+              </div>
             </div>
-            <p class="Resource-Brief ContestTail">
-              Passionate about tech and want to build your own app in just 2
-              hours ⏰
-            </p>
-            <div
-              class="ResourcesStat ContestTail ContestTail-2"
-              id="Registrations"
-            >
-              <div class="candidates">
-                <a
-                  href="https://chat.whatsapp.com/IOOVJ63AkNv3EFB1AThmco"
-                  class="Registerlink"
-                  id="Registernow"
-                  ><button id="hover-not" class="Contest-register">
-                    Held on 18th June,23
-                  </button></a
-                >
+          </div>
+          <div class="Resources-Cards Event-Card">
+            <div class="Resource-Link" id="Contest-Section">
+              <div class="EventHeading ContestHead">
+                <p class="Resourcesheading">Pyskill</p>
+                <p class="Members Free-paid Contest-tag">Past Event</p>
+              </div>
+              <p class="Resource-Brief ContestTail">
+                A webinar on Python is an online seminar that provides an
+                interactive platform for participants to learn and discuss
+                various aspects of the Python programming language.
+              </p>
+              <div
+                class="ResourcesStat ContestTail ContestTail-2"
+                id="Registrations"
+              >
+                <div class="details">
+                  <button id="hover-not" class="Contest-register">
+                    Held on 29th - 30th March,23
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Resources-Cards Event-Card">
+            <div class="Resource-Link" id="Contest-Section">
+              <div class="EventHeading ContestHead">
+                <p class="Resourcesheading">Let's Grow Webinar</p>
+                <p class="Members Free-paid Contest-tag">Past Event</p>
+              </div>
+              <p class="Resource-Brief ContestTail">
+                Webinar on SIH (Smart India Hackathon) that is a nationwide
+                initiative that brings together technical students to solve
+                real-world problems.
+              </p>
+              <div
+                class="ResourcesStat ContestTail ContestTail-2"
+                id="Registrations"
+              >
+                <div class="details">
+                  <button id="hover-not" class="Contest-register">
+                    Held on 16th Dec,22
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="Resources-Cards Event-Card">
-          <div class="Resource-Link" id="Contest-Section">
-            <div class="EventHeading ContestHead">
-              <p class="Resourcesheading">Pyskill</p>
-              <p class="Members Free-paid Contest-tag">Past Event</p>
-            </div>
-            <p class="Resource-Brief ContestTail">
-              A webinar on Python is an online seminar that provides an
-              interactive platform for participants to learn and discuss various
-              aspects of the Python programming language.
-            </p>
-            <div
-              class="ResourcesStat ContestTail ContestTail-2"
-              id="Registrations"
-            >
-              <div class="details">
-                <button id="hover-not" class="Contest-register">
-                  Held on 29<sup>th</sup> - 30<sup>th</sup> March,23
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="Resources-Cards Event-Card">
-          <div class="Resource-Link" id="Contest-Section">
-            <div class="EventHeading ContestHead">
-              <p class="Resourcesheading">Let's Grow Webinar</p>
-              <p class="Members Free-paid Contest-tag">Past Event</p>
-            </div>
-            <p class="Resource-Brief ContestTail">
-              Webinar on SIH (Smart India Hackathon) that is a nationwide
-              initiative that brings together technical students to solve
-              real-world problems.
-            </p>
-            <div
-              class="ResourcesStat ContestTail ContestTail-2"
-              id="Registrations"
-            >
-              <div class="details">
-                <button id="hover-not" class="Contest-register">
-                  Held on 16<sup>th</sup> Dec,22
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="UnderEvent">
-        <!-- <p class="viewall">View All</p> -->
-        <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSc0LYyYoSVFelMkt84kSAI9rqxmiFhSI-yvj0QTqb-BsjkaMw/viewform"
-          class="promoteeventlink"
-          ><button class="Promote">Promote Your Event</button></a
-        >
-      </div>
-    </section>
-    <!-- 
+        <div class="UnderEvent">
+          <!-- <p class="viewall">View All</p> -->
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSc0LYyYoSVFelMkt84kSAI9rqxmiFhSI-yvj0QTqb-BsjkaMw/viewform"
+            class="promoteeventlink"
+            ><button class="Promote">Promote Your Event</button></a
+          >
+        </div>
+      </section>
+      <!-- 
     <section class="Giveaway" id="OFFCampus">
       <div class="Drafters">
         <img
@@ -635,421 +749,356 @@
       </div>
     </section> -->
 
-    <section class="Giveaway" id="Cool">
-      <div class="Drafters" id="AmbassadorSection">
-        <img
-          class="PG-Image"
-          id="Ambassador-Image"
-          src="Images/Ambassador.png"
-          alt="Campus Ambassador"
-        />
-        <h2 class="GiveAway-Heading">
-          Let's Bunk Today Campus Ambassador Program
-        </h2>
-        <p class="buyandsell">Join Us, Learn and Grow</p>
-        <div class="buysellbuttons Ambassador-buttons">
-          <button class="Buy" id="event-contact">
-            <a
-              href="https://drive.google.com/file/d/1P8IgSZ9XbIpjhQ2RNC_4TlbcvDLcmVKd/view?usp=sharing"
-              class="href"
-              >Perks and Benefits</a
-            >
-          </button>
+      <section class="CoursesHeading" id="Resources-section">
+        <h4 class="Heading">IPU Assistance</h4>
 
-          <button class="Buy" id="event-contact-apply">
-            <a
-              href="https://docs.google.com/forms/d/1g7mnP6m1-YkwpmxEFmcJyFeMc4tfgFSZpfcYO2LWLqE/edit"
-              class="href"
-              >Apply Now
-            </a>
-          </button>
-
-          <!-- <button class="Buy" id="event-contact">
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSe8JFEU9PZOQzuMi15E44Fi9yymY_ZnbzY56O4zG0mUozd8QA/viewform"
-              class="href"
-              >View Leaderboard
-              </a
-            >
-          </button> -->
-        </div>
-      </div>
-    </section>
-
-    <section class="CoursesHeading" id="Resources-section">
-      <h4 class="Heading">IPU Assistance</h4>
-
-      <section class="Courses">
-        <!-- 
-        <div class="LBTCourse">
-          <img class="PG-Image" src="Images/pg.png" alt="Pg" />
-          <div class="course-inner">
-            <p class="buyandsell" id="Course-Para">Book Your Pg at Affordable Prize</p>
-            <div class="Visit-button">
-              <button class="Buy" id="Design-Course">
-                <a href="" class="Course-Anchor">Book Now</a>
-              </button>
-              <p class="btn-shine" target="_blank"></p>
-            </div>
-          </div>
-        </div>
-
-        
-        <div class="LBTCourse">
-          <img class="PG-Image" src="Images/laptop.png" alt="Pg" />
-          <div class="course-inner">
-            <p class="buyandsell" id="Course-Para">Buy your first laptop at most affordable price</p>
-            <div class="Visit-button">
-              <button class="Buy" id="Design-Course">
-                <a href="" class="Course-Anchor">Buy Now</a>
-              </button>
-              <p class="btn-shine" target="_blank"></p>
-            </div>
-          </div>
-        </div> -->
-
-        <div class="LBTCourse">
-          <img class="PG-Image" src="Images/drafters.png" alt="Drafters" />
-          <div class="course-inner">
-            <p class="buyandsell" id="Course-Para">
-              Buy or Sell your Drafters at Ease (IPU Students Only)
-            </p>
-            <div class="Visit-button">
-              <a
-                href="https://docs.google.com/forms/d/1ilGCIseptD9ORGeAv4Y_guJRjfS1atSN9s3zw_L04Dk/edit"
-                class="Course-Anchor"
-                ><button class="Buy" id="Design-Course">Buy</button></a
-              >
-              <a
-                href="https://docs.google.com/forms/u/1/d/1fSeIlTljdB1o51Mx6FWjl2_wU-pzUg4SqanfpyK11dI/edit?usp=forms_home&ths=true"
-                class="Course-Anchor"
-                ><button class="Buy" id="Selll">Sell</button></a
-              >
-              <!-- <a
-                href="https://docs.google.com/spreadsheets/d/1Z9X9xuXpiXxVBYtzXkfSJkOxaTiOyI1IbaQU3oZyJ4o/edit#gid=0"
-                class="Course-Anchor"
-                ><button class="Buy" id="Status">Check Status</button></a
-              > -->
-            </div>
-          </div>
-        </div>
-
-        <div class="LBTCourse">
-          <img class="PG-Image" src="Images/books.png" alt="Books" />
-          <div class="course-inner">
-            <p class="buyandsell" id="Course-Para">
-              Notes for your sem exams (IPU Students Only)
-            </p>
-            <div class="Visit-button">
-              <a href="HTML Folder/Notes.html" class="Course-Anchor"
-                ><button class="Buy" id="Design-Course">View Notes</button></a
-              >
-            </div>
-          </div>
-        </div>
-      </section>
-    </section>
-
-    <section class="CoursesHeading">
-      <h4 class="Heading">Communities Collab</h4>
-    </section>
-
-    <section class="Resources-New" id="Collaborations-Section">
-      <div class="Resources-Cards" id="Card-syllabus">
-        <div class="Resource-Link">
-          <p class="Resourcesheading">Let's Bunk Today X Learning Folks</p>
-          <p class="Resource-Brief">
-            All the New Tech Domain Students Community.
-          </p>
-          <div class="ResourcesStat">
-            <a
-              href="https://chat.whatsapp.com/LnAZUWXNFcl6l4atl731Ce"
-              class="ResourcesLinks"
-              ><button id="SyllabusXVisit" class="ResourcesVisit">
-                Join Announcements Group
-              </button></a
-            >
-          </div>
-        </div>
-      </div>
-
-      <div class="Resources-Cards" id="Card-syllabus">
-        <div class="Resource-Link">
-          <p class="Resourcesheading">Let's Bunk Today X Placement Hub</p>
-          <p class="Resource-Brief">Placement Opportunities for you all</p>
-          <div class="ResourcesStat">
-            <a
-              href="https://chat.whatsapp.com/Lm8GyQQVr3TDO36lrrM9VL"
-              class="ResourcesLinks"
-              ><button id="SyllabusXVisit" class="ResourcesVisit">
-                Join Announcements Group
-              </button></a
-            >
-          </div>
-        </div>
-      </div>
-
-      <div class="Resources-Cards">
-        <div class="Resource-Link">
-          <p class="Resourcesheading">LBT's UI/UX + Development</p>
-          <p class="Resource-Brief">
-            This group is a community of Students who collaborate and exchange
-            ideas to enhance user experience and develop interfaces.
-          </p>
-          <div class="ResourcesStat">
-            <a
-              href="https://chat.whatsapp.com/EK8v0fi4djyEWUOaEBNk56"
-              class="ResourcesLinks"
-              ><button class="ResourcesVisit">Join Community</button></a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="Resources-Cards">
-        <div class="Resource-Link">
-          <p class="Resourcesheading">LBT's Creators Hub</p>
-          <p class="Resource-Brief">
-            This is a group of individuals who use their unique talents and
-            skills to express themselves.
-          </p>
-          <div class="ResourcesStat">
-            <a
-              href="https://chat.whatsapp.com/L4H2CuIS0L91MEZJiZLtK6"
-              class="ResourcesLinks"
-              ><button class="ResourcesVisit">Join Community</button></a
-            >
-          </div>
-        </div>
-      </div>
-
-      <div class="Resources-Cards">
-        <div class="Resource-Link">
-          <p class="Resourcesheading">LBT's Idea Lab</p>
-          <p class="Resource-Brief">
-            This is a community of like-minded individuals who come together to
-            share knowledge, resources, and support for each other.
-          </p>
-          <div class="ResourcesStat">
-            <a
-              href="https://chat.whatsapp.com/FZauDiOYvWUF86I1ZS0NY4"
-              class="ResourcesLinks"
-              ><button class="ResourcesVisit">Join Community</button></a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="Resources-Cards">
-        <div class="Resource-Link">
-          <p class="Resourcesheading">LBT's General Discussions</p>
-          <p class="Resource-Brief">
-            This is an open forum where individuals can engage in conversations
-            and exchange ideas on a wide range of topics.
-          </p>
-          <div class="ResourcesStat">
-            <a
-              href="https://chat.whatsapp.com/DBNh3qRbOvODOihvLtM7EL"
-              class="ResourcesLinks"
-              ><button class="ResourcesVisit">Join Community</button></a
-            >
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div class="UnderEvent" id="UnderCommunity">
-      <!-- <p class="viewall">View All</p> -->
-      <a
-        href="https://drive.google.com/file/d/1CvbMdsSlRx3GRh7qZdhRnZ8tbY7F1cn2/view?usp=sharing"
-        class="ResourcesLinks"
-        ><button class="Promote">Collab With Us</button></a
-      >
-    </div>
-
-    <section class="sections" id="Contactus-Section">
-      <h4 class="Heading">Contact Us</h4>
-
-      <section class="Contactus">
-        <div class="Contact-us-right">
-          <p class="suggestion">
-            Any Suggestions/Queries ?<br />
-            Reach us at <em><strong>(letsbunktoday@gmail.com)</strong></em>
-          </p>
-          <div class="Social-Links" id="Contactus-Social-Links">
-            <a
-              href="https://www.instagram.com/lets_bunk_today/?utm_source=qr"
-              class="SocialslinksAnchor"
-              ><img class="Socials" src="Images/instagram.png" alt="Instagram"
-            /></a>
-            <a
-              href="https://www.linkedin.com/company/let-s-bunk-today/"
-              class="SocialslinksAnchor"
-              ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
-            /></a>
-            <a
-              href="https://twitter.com/lets_bunk_today?t=TogeSJOSLFg1iBbTgwP3Fg&s=09"
-              class="SocialslinksAnchor"
-              ><img class="Socials" src="Images/twitter.png" alt="Twitter"
-            /></a>
-            <a
-              href="https://discord.com/invite/xfMzjnfY"
-              class="SocialslinksAnchor"
-              ><img class="Socials" src="Images/Discord.png" alt="Discord"
-            /></a>
-          </div>
-          <div class="contactuss">
-            <a
-              class="join-community"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSd24trx-dDGByVEwf21JCJ9Bju5u09yBPl0yKtnOvfQ_icm2w/viewform"
-              >Feeback Form</a
-            >
-            <button class="Buy" id="event-contact-apply">
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSc_YLn1dg1zKAuXMRAXFXqGXdGW3koyn9Gu5Bm0VcQSWTQR2w/viewform"
-                class="href"
-                >Report an Issue
-              </a>
+        <section class="Courses">
+          <!-- 
+      <div class="LBTCourse">
+        <img class="PG-Image" src="Images/pg.png" alt="Pg" />
+        <div class="course-inner">
+          <p class="buyandsell" id="Course-Para">Book Your Pg at Affordable Prize</p>
+          <div class="Visit-button">
+            <button class="Buy" id="Design-Course">
+              <a href="" class="Course-Anchor">Book Now</a>
             </button>
+            <p class="btn-shine" target="_blank"></p>
           </div>
         </div>
-        <!-- <img id="Contact-Us-On" src="Images/Contact.png" alt="" /> -->
-        <section class="Contect-Us">
-          <div class="Contact-us-Right-Section">
-            <h2 class="SendMessage">Send Message</h2>
-            <form id="contact-form">
-              <input type="hidden" name="contact_number" />
-              <div id="Label-Name">
-                <label>Name</label>
-                <input
-                  class="E-mail"
-                  type="text"
-                  name="user_name"
-                  placeholder="Name"
-                />
+      </div>
+
+      
+      <div class="LBTCourse">
+        <img class="PG-Image" src="Images/laptop.png" alt="Pg" />
+        <div class="course-inner">
+          <p class="buyandsell" id="Course-Para">Buy your first laptop at most affordable price</p>
+          <div class="Visit-button">
+            <button class="Buy" id="Design-Course">
+              <a href="" class="Course-Anchor">Buy Now</a>
+            </button>
+            <p class="btn-shine" target="_blank"></p>
+          </div>
+        </div>
+      </div> -->
+
+          <div class="LBTCourse">
+            <img class="PG-Image" src="Images/drafters.png" alt="Drafters" />
+            <div class="course-inner">
+              <p class="buyandsell" id="Course-Para">
+                Buy or Sell your Drafters at Ease (IPU Students Only)
+              </p>
+              <div class="Visit-button">
+                <a
+                  href="https://docs.google.com/forms/d/1ilGCIseptD9ORGeAv4Y_guJRjfS1atSN9s3zw_L04Dk/edit"
+                  class="Course-Anchor"
+                  ><button class="Buy" id="Design-Course">Buy</button></a
+                >
+                <a
+                  href="https://docs.google.com/forms/u/1/d/1fSeIlTljdB1o51Mx6FWjl2_wU-pzUg4SqanfpyK11dI/edit?usp=forms_home&ths=true"
+                  class="Course-Anchor"
+                  ><button class="Buy" id="Selll">Sell</button></a
+                >
+                <!-- <a
+              href="https://docs.google.com/spreadsheets/d/1Z9X9xuXpiXxVBYtzXkfSJkOxaTiOyI1IbaQU3oZyJ4o/edit#gid=0"
+              class="Course-Anchor"
+              ><button class="Buy" id="Status">Check Status</button></a
+            > -->
               </div>
-              <div id="Label-Email">
-                <label>Email</label>
-                <input
-                  class="E-mail"
-                  type="email"
-                  name="user_email"
-                  placeholder="Mail ID"
-                />
+            </div>
+          </div>
+
+          <div class="LBTCourse">
+            <img class="PG-Image" src="Images/books.png" alt="Books" />
+            <div class="course-inner">
+              <p class="buyandsell" id="Course-Para">
+                Notes for your sem exams (IPU Students Only)
+              </p>
+              <div class="Visit-button">
+                <a href="HTML Folder/Notes.html" class="Course-Anchor"
+                  ><button class="Buy" id="Design-Course">View Notes</button></a
+                >
               </div>
-              <div id="Label-Message">
-                <label>Message</label>
-                <textarea
-                  class="Message"
-                  name="message"
-                  placeholder="Message"
-                ></textarea>
-              </div>
-              <input class="Submit-Button" type="submit" value="Send" />
-            </form>
+            </div>
           </div>
         </section>
       </section>
-    </section>
-    <section class="Dream-Team" id="Team-Members">
-      <section class="Connect-with-team">
-        <p class="connect">Connect with team Let's Bunk Today</p>
-        <div class="Team-Contact">
-          <a href="https://www.linkedin.com/in/bharat-pahwa/" class="Team-link">
-            <div class="Member">
-              <img class="Socials" src="Images/linkedin.png" alt="LinkedIn" />
-              <p class="member-name">Bharat (Founder)</p>
-            </div></a
-          >
-          <a
-            href="https://www.linkedin.com/in/utkarsh-garg-21821322a/"
-            class="Team-link"
-          >
-            <div class="Member">
-              <img class="Socials" src="Images/linkedin.png" alt="LinkedIn" />
-              <p class="member-name">Utkarsh</p>
-            </div></a
-          >
 
-          <a
-            href="https://www.linkedin.com/in/unnati-dabas-56771722b/"
-            class="Team-link"
-          >
-            <div class="Member">
-              <img class="Socials" src="Images/linkedin.png" alt="LinkedIn" />
-              <p class="member-name">Unnati</p>
-            </div></a
-          >
 
-          <a
-            href="https://www.linkedin.com/in/ishika-aggarwal-057036251/"
-            class="Team-link"
-          >
-            <div class="Member">
-              <img class="Socials" src="Images/linkedin.png" alt="LinkedIn" />
-              <p class="member-name">Ishika</p>
-            </div></a
-          >
 
-          <a href="https://www.linkedin.com/in/shswt/" class="Team-link">
-            <div class="Member">
-              <img class="Socials" src="Images/linkedin.png" alt="LinkedIn" />
-              <p class="member-name">Shashwat</p>
-            </div></a
-          >
+      <section class="CoursesHeading">
+        <h4 class="Heading" id="Course-Heading">Community Groups</h4>
+      </section>
 
-          <a
-            href="https://www.linkedin.com/in/mayank-sharma-757988220/"
-            class="Team-link"
-            ><div class="Member">
-              <img class="Socials" src="Images/linkedin.png" alt="LinkedIn" />
-              <p class="member-name">Mayank</p>
-            </div></a
-          >
+      <section class="Resources-New" id="Collaborations-Section">
+        <div class="Resources-Cards">
+          <div class="Resource-Link">
+            <p class="Resourcesheading">LBT's UI/UX + Development</p>
+            <p class="Resource-Brief">
+              This group is a community of Students who collaborate and exchange
+              ideas to enhance user experience and develop interfaces.
+            </p>
+            <div class="ResourcesStat">
+              <a
+                href="https://chat.whatsapp.com/EK8v0fi4djyEWUOaEBNk56"
+                class="ResourcesLinks"
+                ><button class="ResourcesVisit">Join Community</button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="Resources-Cards">
+          <div class="Resource-Link">
+            <p class="Resourcesheading">LBT's Creators Hub</p>
+            <p class="Resource-Brief">
+              This is a group of individuals who use their unique talents and
+              skills to express themselves.
+            </p>
+            <div class="ResourcesStat">
+              <a
+                href="https://chat.whatsapp.com/L4H2CuIS0L91MEZJiZLtK6"
+                class="ResourcesLinks"
+                ><button class="ResourcesVisit">Join Community</button></a
+              >
+            </div>
+          </div>
+        </div>
 
-          <a
-            href="https://www.linkedin.com/in/aashwin-kumar-987a931ba/"
-            class="Team-link"
-            ><div class="Member">
-              <img class="Socials" src="Images/linkedin.png" alt="LinkedIn" />
-              <p class="member-name">Aashwin</p>
-            </div></a
-          >
+        <div class="Resources-Cards">
+          <div class="Resource-Link">
+            <p class="Resourcesheading">LBT's Idea Lab</p>
+            <p class="Resource-Brief">
+              This is a community of like-minded individuals who come together
+              to share knowledge, resources, and support for each other.
+            </p>
+            <div class="ResourcesStat">
+              <a
+                href="https://chat.whatsapp.com/FZauDiOYvWUF86I1ZS0NY4"
+                class="ResourcesLinks"
+                ><button class="ResourcesVisit">Join Community</button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="Resources-Cards">
+          <div class="Resource-Link">
+            <p class="Resourcesheading">LBT's General Discussions</p>
+            <p class="Resource-Brief">
+              This is an open forum where individuals can engage in
+              conversations and exchange ideas on a wide range of topics.
+            </p>
+            <div class="ResourcesStat">
+              <a
+                href="https://chat.whatsapp.com/DBNh3qRbOvODOihvLtM7EL"
+                class="ResourcesLinks"
+                ><button class="ResourcesVisit">Join Community</button></a
+              >
+            </div>
+          </div>
         </div>
       </section>
 
-      <section class="Connect-with-team" id="Community-Managers">
-        <p class="connect">Connect with Community Managers Let's Bunk Today</p>
-        <div class="Team-Contact">
-          <a
-            href="https://www.linkedin.com/in/rohan-gupta-84054b226/"
-            class="Team-link"
-            ><div class="Member">
-              <img class="Socials" src="Images/linkedin.png" alt="LinkedIn" />
-              <p class="member-name">Rohan</p>
-            </div></a
-          >
+      <div class="UnderEvent" id="UnderCommunity">
+        <!-- <p class="viewall">View All</p> -->
+        <a
+          href="https://drive.google.com/file/d/1CvbMdsSlRx3GRh7qZdhRnZ8tbY7F1cn2/view?usp=sharing"
+          class="ResourcesLinks"
+          ><button class="Promote">Collab With Us</button></a
+        >
+      </div>
 
-          <a
-            href="https://www.linkedin.com/in/simran-arora-28125b258/"
-            class="Team-link"
-            ><div class="Member">
-              <img class="Socials" src="Images/linkedin.png" alt="LinkedIn" />
-              <p class="member-name">Simran</p>
-            </div></a
-          >
+      <section class="sections" id="Contactus-Section">
+        <h4 class="Heading">Contact Us</h4>
 
-          <a
-            href="https://www.linkedin.com/in/devesh-tuteja-a28b0b257"
-            class="Team-link"
-            ><div class="Member">
-              <img class="Socials" src="Images/linkedin.png" alt="LinkedIn" />
-              <p class="member-name">Devesh</p>
-            </div></a
-          >
-        </div>
+        <section class="Contactus">
+          <div class="Contact-us-right">
+            <p class="suggestion">
+              Any Suggestions/Queries ?<br />
+              Reach us at <em><strong>(letsbunktoday@gmail.com)</strong></em>
+            </p>
+            <div class="Social-Links" id="Contactus-Social-Links">
+              <a
+                href="https://www.instagram.com/lets_bunk_today/?utm_source=qr"
+                class="SocialslinksAnchor"
+                ><img
+                  class="Socials"
+                  src="Images/instagram.png"
+                  alt="Instagram"
+              /></a>
+              <a
+                href="https://www.linkedin.com/company/let-s-bunk-today/"
+                class="SocialslinksAnchor"
+                ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
+              /></a>
+              <a
+                href="https://twitter.com/lets_bunk_today?t=TogeSJOSLFg1iBbTgwP3Fg&s=09"
+                class="SocialslinksAnchor"
+                ><img class="Socials" src="Images/twitter.png" alt="Twitter"
+              /></a>
+              <a
+                href="https://discord.com/invite/xfMzjnfY"
+                class="SocialslinksAnchor"
+                ><img class="Socials" src="Images/Discord.png" alt="Discord"
+              /></a>
+            </div>
+            <div class="contactuss">
+              <a
+                class="join-community"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSd24trx-dDGByVEwf21JCJ9Bju5u09yBPl0yKtnOvfQ_icm2w/viewform"
+                >Feeback Form</a
+              >
+              <button class="Buy" id="event-contact-apply">
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSc_YLn1dg1zKAuXMRAXFXqGXdGW3koyn9Gu5Bm0VcQSWTQR2w/viewform"
+                  class="href"
+                  >Report an Issue
+                </a>
+              </button>
+            </div>
+          </div>
+          <!-- <img id="Contact-Us-On" src="Images/Contact.png" alt="" /> -->
+          <section class="Contect-Us">
+            <div class="Contact-us-Right-Section">
+              <h2 class="SendMessage">Send Message</h2>
+              <form id="contact-form">
+                <input type="hidden" name="contact_number" />
+                <div id="Label-Name">
+                  <label>Name</label>
+                  <input
+                    class="E-mail"
+                    type="text"
+                    name="user_name"
+                    placeholder="Name"
+                  />
+                </div>
+                <div id="Label-Email">
+                  <label>Email</label>
+                  <input
+                    class="E-mail"
+                    type="email"
+                    name="user_email"
+                    placeholder="Mail ID"
+                  />
+                </div>
+                <div id="Label-Message">
+                  <label>Message</label>
+                  <textarea
+                    class="Message"
+                    name="message"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+                <input class="Submit-Button" type="submit" value="Send" />
+              </form>
+            </div>
+          </section>
+        </section>
       </section>
-    </section>
+      <section class="Dream-Team" id="Team-Members">
+        <section class="Connect-with-team">
+          <p class="connect">Connect with team Let's Bunk Today</p>
+          <div class="Team-Contact">
+            <a
+              href="https://www.linkedin.com/in/bharat-pahwa/"
+              class="Team-link"
+            >
+              <div class="Member">
+                <img class="Socials" src="Images/linkedin.png" alt="LinkedIn" />
+                <p class="member-name">Bharat (Founder)</p>
+              </div></a
+            >
+            <a
+              href="https://www.linkedin.com/in/utkarsh-garg-21821322a/"
+              class="Team-link"
+            >
+              <div class="Member">
+                <img class="Socials" src="Images/linkedin.png" alt="LinkedIn" />
+                <p class="member-name">Utkarsh</p>
+              </div></a
+            >
 
-    <!-- <section class="Giveaway" id="Survey-Section">
+            <a
+              href="https://www.linkedin.com/in/unnati-dabas-56771722b/"
+              class="Team-link"
+            >
+              <div class="Member">
+                <img class="Socials" src="Images/linkedin.png" alt="LinkedIn" />
+                <p class="member-name">Unnati</p>
+              </div></a
+            >
+
+            <a
+              href="https://www.linkedin.com/in/ishika-aggarwal-057036251/"
+              class="Team-link"
+            >
+              <div class="Member">
+                <img class="Socials" src="Images/linkedin.png" alt="LinkedIn" />
+                <p class="member-name">Ishika</p>
+              </div></a
+            >
+
+            <a href="https://www.linkedin.com/in/shswt/" class="Team-link">
+              <div class="Member">
+                <img class="Socials" src="Images/linkedin.png" alt="LinkedIn" />
+                <p class="member-name">Shashwat</p>
+              </div></a
+            >
+
+            <a
+              href="https://www.linkedin.com/in/mayank-sharma-757988220/"
+              class="Team-link"
+              ><div class="Member">
+                <img class="Socials" src="Images/linkedin.png" alt="LinkedIn" />
+                <p class="member-name">Mayank</p>
+              </div></a
+            >
+
+            <a
+              href="https://www.linkedin.com/in/aashwin-kumar-987a931ba/"
+              class="Team-link"
+              ><div class="Member">
+                <img class="Socials" src="Images/linkedin.png" alt="LinkedIn" />
+                <p class="member-name">Aashwin</p>
+              </div></a
+            >
+          </div>
+        </section>
+
+        <section class="Connect-with-team" id="Community-Managers">
+          <p class="connect">
+            Connect with Community Managers Let's Bunk Today
+          </p>
+          <div class="Team-Contact">
+            <a
+              href="https://www.linkedin.com/in/rohan-gupta-84054b226/"
+              class="Team-link"
+              ><div class="Member">
+                <img class="Socials" src="Images/linkedin.png" alt="LinkedIn" />
+                <p class="member-name">Rohan</p>
+              </div></a
+            >
+
+            <a
+              href="https://www.linkedin.com/in/simran-arora-28125b258/"
+              class="Team-link"
+              ><div class="Member">
+                <img class="Socials" src="Images/linkedin.png" alt="LinkedIn" />
+                <p class="member-name">Simran</p>
+              </div></a
+            >
+
+            <a
+              href="https://www.linkedin.com/in/devesh-tuteja-a28b0b257"
+              class="Team-link"
+              ><div class="Member">
+                <img class="Socials" src="Images/linkedin.png" alt="LinkedIn" />
+                <p class="member-name">Devesh</p>
+              </div></a
+            >
+          </div>
+        </section>
+      </section>
+
+      <!-- <section class="Giveaway" id="Survey-Section">
       <div class="Drafters" id="SurveySection">
         <img
           class="PG-Image"
@@ -1081,54 +1130,59 @@
       </div>
     </section> -->
 
-    <section class="footer" id="Footer-Section">
-      <div class="footerupper">
-        <img class="Footer-Logo" src="Images/Group 32.png" alt="Footer-Logo" />
-        <div class="Social-Links" id="Contactus-Social-Link">
-          <a
-            href="https://www.instagram.com/lets_bunk_today/?utm_source=qr"
-            class="SocialslinksAnchor"
-            ><img class="Socials" src="Images/instagram.png" alt="Instagram"
-          /></a>
-          <a
-            href="https://www.linkedin.com/company/let-s-bunk-today/"
-            class="SocialslinksAnchor"
-            ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
-          /></a>
-          <!-- <a
+      <section class="footer" id="Footer-Section">
+        <div class="footerupper">
+          <img
+            class="Footer-Logo"
+            src="Images/Group 32.png"
+            alt="Footer-Logo"
+          />
+          <div class="Social-Links" id="Contactus-Social-Link">
+            <a
+              href="https://www.instagram.com/lets_bunk_today/?utm_source=qr"
+              class="SocialslinksAnchor"
+              ><img class="Socials" src="Images/instagram.png" alt="Instagram"
+            /></a>
+            <a
+              href="https://www.linkedin.com/company/let-s-bunk-today/"
+              class="SocialslinksAnchor"
+              ><img class="Socials" src="Images/linkedin.png" alt="LinkedIn"
+            /></a>
+            <!-- <a
             href="https://twitter.com/lets_bunk_today?t=TogeSJOSLFg1iBbTgwP3Fg&s=09"
             class="SocialslinksAnchor"
             ><img class="Socials" src="Images/twitter.png" alt="Telegram"
           /></a> -->
-          <a href="https://discord.gg/JdYAdbh99p" class="SocialslinksAnchor"
-            ><img class="Socials" src="Images/Discord.png" alt="Discord"
-          /></a>
+            <a href="https://discord.gg/JdYAdbh99p" class="SocialslinksAnchor"
+              ><img class="Socials" src="Images/Discord.png" alt="Discord"
+            /></a>
+          </div>
         </div>
-      </div>
-      <div class="footer-lower">
-        <div class="footerlinks">
-          <a href="#Events-Section">Contest & Events</a>
-          <a href="#Resources-section">Collaborations</a>
-          <a href="#Contactus-Section">Contact Us</a>
-          <a
-            href="#Team-Members
+        <div class="footer-lower">
+          <div class="footerlinks">
+            <a href="#Events-Section">Contest & Events</a>
+            <a href="#Resources-section">Collaborations</a>
+            <a href="#Contactus-Section">Contact Us</a>
+            <a
+              href="#Team-Members
           "
-            >Our team</a
-          >
-          <p class="copyright">&#169; 2023 Let's Bunk Today</p>
-        </div>
+              >Our team</a
+            >
+            <p class="copyright">&#169; 2023 Let's Bunk Today</p>
+          </div>
 
-        <div class="New">
-          <p class="Subscribe">Stay Updated</p>
-          <p class="Subscribe">Subscribe to our monthly Newsletter</p>
-          <input
-            type="text"
-            class="Newsletter"
-            placeholder="Enter E-mail Address"
-          />
-          <button class="Subs">Subscribe</button>
+          <div class="New">
+            <p class="Subscribe">Stay Updated</p>
+            <p class="Subscribe">Subscribe to our monthly Newsletter</p>
+            <input
+              type="text"
+              class="Newsletter"
+              placeholder="Enter E-mail Address"
+            />
+            <button class="Subs">Subscribe</button>
+          </div>
         </div>
-      </div>
+      </section>
     </section>
 
     <script src="script.js" async defer></script>
